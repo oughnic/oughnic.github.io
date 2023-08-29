@@ -1,0 +1,245 @@
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+
+    <script src="https://unpkg.com/three"></script>
+    <script src="https://unpkg.com/three-spritetext"></script>
+
+    <script src="https://unpkg.com/3d-force-graph"></script>
+    <!--<script src="../../dist/3d-force-graph.js"></script>-->
+
+    <!-- The data describing the data model -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+       <style>
+             .ui-autocomplete {
+                 max-height: 400px;
+                 overflow-y: auto;
+                 /* prevent horizontal scrollbar */
+                 overflow-x: hidden;
+                 background-color: lightgrey;
+             }
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+
+<body>
+    
+
+    <header  id="hdr">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+            <div class="container" >
+                <a class="navbar-brand" asp-area="" href="index.html">Three dimensional view of a system of concepts for the continuity of care</a>
+                     
+                    <form class="d-flex">
+                        <div class="input-group">
+                            <input id="tags" type="search" class="form-control" placeholder="Pick a concept">
+                            <button class="btn btn-outline-secondary" type="button" id="doit">Go</button>
+                        </div>
+                    </form>
+                    
+              </div>
+        </nav>
+    </header>
+    <div>
+        <main role="main" class="d-flex flex-column flex-grow" >
+            <div id="3d-graph">
+            </div>
+        </main>
+    </div>
+    <footer class="border-top footer text-muted"  id="ftr">
+        <div class="container">
+            This model is currently in development.
+        </div>
+    </footer>
+    <script>
+
+        var nodes = [];
+        var links = [];
+        var contSysData = { nodes, links };
+        let gData = {
+            nodes: [],
+            links: []
+        };
+
+        // link parent/children
+        var nodesById; 
+
+        fetch('https://oughnic.github.io/3d-contsys.json')
+            .then(response => response.json())
+            .then(data => {
+                contSysData = data;
+                console.log(contSysData);
+                nodesById= Object.fromEntries(contSysData.nodes.map(node => [node.id, node]));
+                
+                contSysData.links.forEach(link => {
+                    nodesById[link.source].childLinks.push(link);
+                });
+
+
+                gData = getPrunedTree();
+                console.log(gData);
+
+                const Graph = ForceGraph3D()
+                    (document.getElementById('3d-graph'))
+                    .nodeAutoColorBy('group')
+                    .width(window.clientWidth).height(window.innerHeight - outerHeight(hdr) - outerHeight(ftr))
+                    .onNodeDragEnd(node => {
+                        node.fx = node.x;
+                        node.fy = node.y;
+                        node.fz = node.z;
+                    })
+                    .onNodeClick(node => {
+                        if (node.childLinks.length) {
+                            // node.collapsed = !node.collapsed; // toggle collapse state
+                            rootId = node.id;
+                            gData = getPrunedTree();
+                            Graph.graphData(gData);
+                        }
+                    })
+                    .onNodeRightClick(node => {
+                        rootId = node.id;
+                        gData.nodes = [];
+                        gData.links = [];
+                        gData = getPrunedTree();
+                        Graph.graphData(gData);
+                    })
+                    .linkOpacity(0.7)
+                    .linkWidth(1)
+                    .linkThreeObjectExtend(true)
+                    .linkThreeObject(link => {
+                        // extend link with text sprite
+                        const sprite = new SpriteText(`${link.label}`);
+                        sprite.color = 'white';
+                        sprite.textHeight = 2;
+                        return sprite;
+                    })
+                    .linkPositionUpdate((sprite, { start, end }) => {
+                        const middlePos = Object.assign(...['x', 'y', 'z'].map(c => ({
+                            [c]: start[c] + (end[c] - start[c]) / 3 // calc third point
+                        })));
+
+                        // Position sprite
+                        Object.assign(sprite.position, middlePos);
+                    })
+                    .nodeThreeObject(node => {
+                        const sprite = new SpriteText(node.label.split(" ").join("\n"));
+                        sprite.material.depthWrite = true;
+                        sprite.color = node.color;
+                        sprite.textHeight = 4;
+                        return sprite;
+                    })
+                    .graphData(gData);
+
+                // Spread nodes a little wider
+                Graph.d3Force('charge').strength(-120);
+
+            }); 
+        console.log(contSysData);
+
+        var availableTags = [];
+        contSysData.nodes.forEach(n => availableTags.push(n.id));
+        $("#tags").autocomplete({
+            source: availableTags
+        });
+        var rootId = 'health record';
+
+
+        // Setting the header and footer elements so that the canvas size can be calculated
+        var hdr = document.getElementById('hdr');
+        var ftr = document.getElementById('ftr');
+
+        // find out the full height of a document element
+        function outerHeight(element) {
+            const height = element.offsetHeight,
+                style = window.getComputedStyle(element)
+
+            return ['top', 'bottom']
+                .map(side => parseInt(style[`margin-$\{side}`]))
+                .reduce((total, side) => total + side, height)
+        }
+
+       
+
+        document.getElementById('doit').addEventListener("click", function (e) {
+            changeFocus(document.getElementById('tags').value);
+        });
+
+
+        // change focus of the diagram, resetting it and resetting the root concept
+        function changeFocus(root) {
+            rootId = root;
+            gData.nodes = [];
+            gData.links = [];
+            gData = getPrunedTree();
+            Graph.graphData(gData);
+        }
+
+        const getPrunedTree = () => {
+            const visibleNodes = [];
+            const visibleLinks = [];
+            (function traverseTree(node = nodesById[rootId]) {
+
+                visibleNodes.push(node);
+                // if (node.collapsed) return;
+
+                // Add the links
+                visibleLinks.push(...node.childLinks);
+
+                node.childLinks
+                    .map(link => ((typeof link.target) === 'object') ? link.target : nodesById[link.target]) // get child node
+                    .forEach(childNode => {
+                        var found = 0;
+                        visibleNodes.forEach(n => {
+                            if (n.id == childNode.id) found = 1;
+                        });  // End of forEach
+
+                        if (found == 0) {
+                            // Add the new concept to the list
+                            node.collapsed = false;
+                            visibleNodes.push(childNode);
+
+                        };
+                    });
+            })();  // End of traverseTree
+
+            let additionalConcepts = { nodes: visibleNodes, links: visibleLinks };
+
+            if (gData.nodes.length > 0) {
+
+                gData.nodes.forEach(item => {
+                    var found = 0;
+                    additionalConcepts.nodes.forEach(ac => {
+                        if (item.id == ac.id) found = 1;
+                    });
+                    if (found == 0) additionalConcepts.nodes.push(item);
+                });
+
+                gData.links.forEach(item => {
+                    additionalConcepts.links.push(item);
+                });
+
+            };
+
+            gData = additionalConcepts;
+            console.log(gData);
+
+            return additionalConcepts;
+
+        };
+
+
+
+        function updateHighlight() {
+            // trigger update of highlighted objects in scene
+            Graph
+                .nodeColor(Graph.nodeColor())
+                .linkWidth(Graph.linkWidth())
+                .linkDirectionalParticles(Graph.linkDirectionalParticles());
+        }</script>
+</body>
