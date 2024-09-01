@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Form_Design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="https://www.iso.org/19763/-3/2017">
+  <identifier>http://localhost/testform</identifier>
+  <name>Test Form updated</name>
+  <context>Extra text describing the context</context>
+  <describing_language>
+    <name>eng</name>
+  </describing_language>
+  <header>
+    <identifier>MyHeader</identifier>
+    <ordered>true</ordered>
+    <section_label>
+      <identifier />
+      <Text>My header</Text>
+      <LanguageCode>eng</LanguageCode>
+      <contained_text>
+        <text>My header</text>
+        <language>eng</language>
+      </contained_text>
+    </section_label>
+    <section_title_prompt>
+      <identifier />
+      <Text>Test Form Header</Text>
+      <LanguageCode>eng</LanguageCode>
+      <contained_text>
+        <text>Test Form Header</text>
+        <language>eng</language>
+      </contained_text>
+    </section_title_prompt>
+    <minimum_cardinality>0</minimum_cardinality>
+    <maximum_cardinality>1</maximum_cardinality>
+  </header>
+  <contained_element xsi:type="Section_Element">
+    <identifier>S2</identifier>
+    <ordered>true</ordered>
+    <section_label>
+      <identifier />
+      <Text>S2</Text>
+      <LanguageCode>eng</LanguageCode>
+      <contained_text>
+        <text>S2</text>
+        <language>eng</language>
+      </contained_text>
+    </section_label>
+    <section_title_prompt>
+      <identifier />
+      <Text>The second section of the form</Text>
+      <LanguageCode>eng</LanguageCode>
+      <contained_text>
+        <text>The second section of the form</text>
+        <language>eng</language>
+      </contained_text>
+    </section_title_prompt>
+    <section_instruction>
+      <identifier />
+      <Text>This is a set of instructions for the whole form, presented in the header</Text>
+      <contained_text>
+        <text>This is a set of instructions for the whole form, presented in the header</text>
+        <language>esp</language>
+      </contained_text>
+      <contained_text>
+        <text>It goes on two lines.</text>
+        <language>eng</language>
+      </contained_text>
+    </section_instruction>
+    <section_instruction>
+      <identifier />
+      <Text>This is more instruction</Text>
+      <contained_text>
+        <text>This is more instruction</text>
+        <language>eng</language>
+      </contained_text>
+    </section_instruction>
+    <minimum_cardinality>1</minimum_cardinality>
+    <maximum_cardinality>1</maximum_cardinality>
+    <contained_element xsi:type="question_element">
+      <identifier>Q1</identifier>
+      <style>typeahead</style>
+      <question_label>
+        <identifier />
+        <Text>Q1</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>Q1</text>
+          <language>eng</language>
+        </contained_text>
+      </question_label>
+      <question_title_prompt>
+        <identifier />
+        <Text>The first question</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>The first question</text>
+          <language>eng</language>
+        </contained_text>
+      </question_title_prompt>
+      <question_instruction>
+        <identifier />
+        <Text>Answer the question with a best guess</Text>
+        <contained_text>
+          <text>Answer the question with a best guess</text>
+          <language>eng</language>
+        </contained_text>
+      </question_instruction>
+      <minimum_cardinality>0</minimum_cardinality>
+      <maximum_cardinality>1</maximum_cardinality>
+      <response xsi:type="List_Response_Field">
+        <datatype>
+          <name>string</name>
+        </datatype>
+        <minimum_cardinality>1</minimum_cardinality>
+        <maximum_cardinality>1</maximum_cardinality>
+        <read_only>false</read_only>
+        <response_instruction>
+          <identifier />
+          <Text>Give an answer by selcting an item in the list</Text>
+          <contained_text>
+            <text>Give an answer by selcting an item in the list</text>
+            <language>eng</language>
+          </contained_text>
+        </response_instruction>
+        <ordered>false</ordered>
+        <extension_prompt>
+          <identifier />
+          <Text>Other</Text>
+          <contained_text>
+            <text>Other</text>
+            <language>eng</language>
+          </contained_text>
+        </extension_prompt>
+        <list_item>
+          <item_sequence_label>
+            <identifier />
+            <Text>1</Text>
+            <contained_text>
+              <text>1</text>
+              <language>eng</language>
+            </contained_text>
+          </item_sequence_label>
+          <valid_value>
+            <identifier />
+            <Text>Alpha</Text>
+            <contained_text>
+              <text>Alpha</text>
+            </contained_text>
+          </valid_value>
+          <value_meaning_prompt>
+            <identifier />
+            <Text>A label for the first value</Text>
+            <contained_text>
+              <text>A label for the first value</text>
+            </contained_text>
+          </value_meaning_prompt>
+          <default>false</default>
+        </list_item>
+        <list_item>
+          <item_sequence_label>
+            <identifier />
+            <Text>2</Text>
+            <contained_text>
+              <text>2</text>
+              <language>eng</language>
+            </contained_text>
+          </item_sequence_label>
+          <valid_value>
+            <identifier />
+            <Text>Beta</Text>
+            <contained_text>
+              <text>Beta</text>
+            </contained_text>
+          </valid_value>
+          <value_meaning_prompt>
+            <identifier />
+            <Text>A label for the Second value</Text>
+            <contained_text>
+              <text>A label for the Second value</text>
+            </contained_text>
+          </value_meaning_prompt>
+          <default>false</default>
+        </list_item>
+        <list_item>
+          <item_sequence_label>
+            <identifier />
+            <Text>3</Text>
+            <contained_text>
+              <text>3</text>
+              <language>eng</language>
+            </contained_text>
+          </item_sequence_label>
+          <valid_value>
+            <identifier />
+            <Text>Gamma</Text>
+            <contained_text>
+              <text>Gamma</text>
+            </contained_text>
+          </valid_value>
+          <value_meaning_prompt>
+            <identifier />
+            <Text>A label for the Third value</Text>
+            <contained_text>
+              <text>A label for the Third value</text>
+            </contained_text>
+          </value_meaning_prompt>
+          <default>false</default>
+        </list_item>
+      </response>
+    </contained_element>
+    <contained_element xsi:type="question_element">
+      <identifier>Q1</identifier>
+      <style>box</style>
+      <question_label>
+        <identifier />
+        <Text>Q1</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>Q1</text>
+          <language>eng</language>
+        </contained_text>
+      </question_label>
+      <question_title_prompt>
+        <identifier />
+        <Text>The first question again as a box style</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>The first question again as a box style</text>
+          <language>eng</language>
+        </contained_text>
+      </question_title_prompt>
+      <question_instruction>
+        <identifier />
+        <Text>Answer the question with a best guess</Text>
+        <contained_text>
+          <text>Answer the question with a best guess</text>
+          <language>eng</language>
+        </contained_text>
+      </question_instruction>
+      <minimum_cardinality>0</minimum_cardinality>
+      <maximum_cardinality>*</maximum_cardinality>
+      <response xsi:type="List_Response_Field">
+        <datatype>
+          <name>string</name>
+        </datatype>
+        <minimum_cardinality>1</minimum_cardinality>
+        <maximum_cardinality>1</maximum_cardinality>
+        <read_only>false</read_only>
+        <response_instruction>
+          <identifier />
+          <Text>Give an answer by selcting an item in the list</Text>
+          <contained_text>
+            <text>Give an answer by selcting an item in the list</text>
+            <language>eng</language>
+          </contained_text>
+        </response_instruction>
+        <ordered>false</ordered>
+        <extension_prompt>
+          <identifier />
+          <Text>Other</Text>
+          <contained_text>
+            <text>Other</text>
+            <language>eng</language>
+          </contained_text>
+        </extension_prompt>
+        <list_item>
+          <item_sequence_label>
+            <identifier />
+            <Text>1</Text>
+            <contained_text>
+              <text>1</text>
+              <language>eng</language>
+            </contained_text>
+          </item_sequence_label>
+          <valid_value>
+            <identifier />
+            <Text>Alpha</Text>
+            <contained_text>
+              <text>Alpha</text>
+            </contained_text>
+          </valid_value>
+          <value_meaning_prompt>
+            <identifier />
+            <Text>A label for the first value</Text>
+            <contained_text>
+              <text>A label for the first value</text>
+            </contained_text>
+          </value_meaning_prompt>
+          <default>false</default>
+        </list_item>
+        <list_item>
+          <item_sequence_label>
+            <identifier />
+            <Text>2</Text>
+            <contained_text>
+              <text>2</text>
+              <language>eng</language>
+            </contained_text>
+          </item_sequence_label>
+          <valid_value>
+            <identifier />
+            <Text>Beta</Text>
+            <contained_text>
+              <text>Beta</text>
+            </contained_text>
+          </valid_value>
+          <value_meaning_prompt>
+            <identifier />
+            <Text>A label for the Second value</Text>
+            <contained_text>
+              <text>A label for the Second value</text>
+            </contained_text>
+          </value_meaning_prompt>
+          <default>false</default>
+        </list_item>
+        <list_item>
+          <item_sequence_label>
+            <identifier />
+            <Text>3</Text>
+            <contained_text>
+              <text>3</text>
+              <language>eng</language>
+            </contained_text>
+          </item_sequence_label>
+          <valid_value>
+            <identifier />
+            <Text>Gamma</Text>
+            <contained_text>
+              <text>Gamma</text>
+            </contained_text>
+          </valid_value>
+          <value_meaning_prompt>
+            <identifier />
+            <Text>A label for the Third value</Text>
+            <contained_text>
+              <text>A label for the Third value</text>
+            </contained_text>
+          </value_meaning_prompt>
+          <default>false</default>
+        </list_item>
+      </response>
+    </contained_element>
+    <contained_element xsi:type="question_element">
+      <identifier>Q2</identifier>
+      <question_label>
+        <identifier />
+        <Text>Q2</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>Q2</text>
+          <language>eng</language>
+        </contained_text>
+      </question_label>
+      <question_title_prompt>
+        <identifier />
+        <Text>The second question</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>The second question</text>
+          <language>eng</language>
+        </contained_text>
+      </question_title_prompt>
+      <question_instruction>
+        <identifier />
+        <Text>Answer the question with a best guess</Text>
+        <contained_text>
+          <text>Answer the question with a best guess</text>
+          <language>eng</language>
+        </contained_text>
+      </question_instruction>
+      <minimum_cardinality>1</minimum_cardinality>
+      <maximum_cardinality>2</maximum_cardinality>
+      <response xsi:type="Text_Response_Field">
+        <unit_of_measure />
+        <datatype>
+          <name>string</name>
+        </datatype>
+        <minimum_cardinality>2</minimum_cardinality>
+        <maximum_cardinality>2</maximum_cardinality>
+        <read_only>false</read_only>
+        <maximum_character_quantity>100</maximum_character_quantity>
+        <response_instruction>
+          <identifier />
+          <Text>Give an answer</Text>
+          <contained_text>
+            <text>Give an answer</text>
+            <language>eng</language>
+          </contained_text>
+        </response_instruction>
+        <default_value>Hello world, how is it going</default_value>
+      </response>
+    </contained_element>
+    <contained_element xsi:type="question_element">
+      <identifier>Q3</identifier>
+      <question_label>
+        <identifier />
+        <Text>Q3</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>Q3</text>
+          <language>eng</language>
+        </contained_text>
+      </question_label>
+      <question_title_prompt>
+        <identifier />
+        <Text>The second question with an edit</Text>
+        <LanguageCode>eng</LanguageCode>
+        <contained_text>
+          <text>The second question with an edit</text>
+          <language>eng</language>
+        </contained_text>
+      </question_title_prompt>
+      <question_instruction>
+        <identifier />
+        <Text>Answer the question with a best guess</Text>
+        <contained_text>
+          <text>Answer the question with a best guess</text>
+          <language>eng</language>
+        </contained_text>
+      </question_instruction>
+      <minimum_cardinality>1</minimum_cardinality>
+      <maximum_cardinality>5</maximum_cardinality>
+      <response xsi:type="Text_Response_Field">
+        <unit_of_measure>Wonderessness</unit_of_measure>
+        <datatype>
+          <name>string</name>
+        </datatype>
+        <minimum_cardinality>0</minimum_cardinality>
+        <maximum_cardinality>1</maximum_cardinality>
+        <read_only>false</read_only>
+        <maximum_character_quantity>100</maximum_character_quantity>
+        <response_instruction>
+          <identifier />
+          <Text>Give an answer</Text>
+          <contained_text>
+            <text>Give an answer</text>
+            <language>eng</language>
+          </contained_text>
+        </response_instruction>
+        <default_value>Hello again world, how is it going</default_value>
+      </response>
+    </contained_element>
+  </contained_element>
+  <footer>
+    <identifier>Footer</identifier>
+    <ordered>false</ordered>
+    <section_label>
+      <Text>The footer</Text>
+      <LanguageCode>eng</LanguageCode>
+      <contained_text>
+        <text>The footer</text>
+        <language>eng</language>
+      </contained_text>
+    </section_label>
+    <section_title_prompt>
+      <Text>Title for the footer</Text>
+      <LanguageCode>eng</LanguageCode>
+      <contained_text>
+        <text>Title for the footer</text>
+        <language>eng</language>
+      </contained_text>
+    </section_title_prompt>
+    <minimum_cardinality>1</minimum_cardinality>
+    <maximum_cardinality>1</maximum_cardinality>
+  </footer>
+</Form_Design>
