@@ -5,8 +5,8 @@
         }
     </style>
 
-    <script src="https://unpkg.com/three"></script>
-    <script src="https://unpkg.com/three-spritetext"></script>
+    <!-- <script src="https://unpkg.com/three"></script> -->
+    <!-- <script src="//unpkg.com/three-spritetext"></script> -->
 
     <script src="https://unpkg.com/3d-force-graph"></script>
     <!--<script src="../../dist/3d-force-graph.js"></script>-->
@@ -5082,7 +5082,13 @@
             This model is currently in development.
         </div>
     </footer>
-    <script>
+    <script type="importmap">{ "imports": {
+        "three": "//unpkg.com/three/build/three.module.js",
+        "three/addons/": "//unpkg.com/three/examples/jsm/",
+        "three-spritetext": "//unpkg.com/three-spritetext/dist/three-spritetext.mjs"
+      }}</script>
+    <script type="module">
+        import SpriteText from "three-spritetext";
         const contSysData = JSON.parse(document.getElementById('3d-contsys').innerHTML);
         var rootId = 'health record';
 
