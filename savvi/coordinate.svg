@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 167" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of Coordinate</title><desc id="desc">Generated diagram of focal class Coordinate and related classes.</desc><g><!-- Association Coordinate Geographic Extent -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="503" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="58">Coordinate</tspan></text>
+</g>
+<g><!-- Geographic Extent -->
+<a xlink:href="./Geographic-Extent.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>To define a polygon of coordinates.</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="18">Geographic Extent</tspan></text>
+</g>
+<g><!-- Association Map Pin Residence -->
+<line x1="155" y1="122" x2="525" y2="122" stroke="black" stroke-width="2" /><text x="503" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="118">0..*</tspan></text>
+<text x="340" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="138">Map Pin</tspan></text>
+</g>
+<g><!-- Residence -->
+<a xlink:href="./Residence.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="98">Residence</tspan></text>
+</g>
+<g><!-- Focal Coordinate -->
+<a xlink:href="./Coordinate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="225" height="160" fill="white" stroke="black" stroke-width="2"><title>The absolute geographic location of a Location, expressed using the WGS84 datum.</title></rect></a><text x="637" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="637" y="18">Coordinate</tspan></text>
+<line x1="525" y1="31" x2="750" y2="31" stroke="black" stroke-width="1" /><text font-family="sans-serif" font-size="12" fill="black" text-anchor="start"><tspan x="532" y="44" text-anchor="start">Latitude : decimal</tspan><tspan x="743" y="44" text-anchor="end">[0..*]</tspan><tspan x="532" y="60" text-anchor="start">Longitude : decimal</tspan><tspan x="743" y="60" text-anchor="end">[0..*]</tspan></text></g>
+</svg>

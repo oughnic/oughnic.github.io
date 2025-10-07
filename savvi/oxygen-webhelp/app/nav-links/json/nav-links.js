@@ -1,0 +1,1 @@
+define({"title":"<span class=\"title\">SAVVI Logical Model<\/span>","topics":[{"title":"SAVVI Logical Model","href":"savvi-logical-model.html","attributes":{"data-id":"T2d2511a8-3a36-4c27-a61b-e4cb65f48bf5"},"menu":{"hasChildren":true},"tocID":"T2d2511a8-3a36-4c27-a61b-e4cb65f48bf5-d844e1686","next":"T2d2511a8-3a36-4c27-a61b-e4cb65f48bf5-d844e1686"}]});

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 87" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of Geographic Extent</title><desc id="desc">Generated diagram of focal class Geographic Extent and related classes.</desc><g><!-- Association Extent Place -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="503" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="58">Extent</tspan></text>
+</g>
+<g><!-- Place -->
+<a xlink:href="./Place.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>Can mean
+
+* a one-of polygon
+* a street
+* a neighbourhood
+* an existing statistical or administrative geography</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="18">Place</tspan></text>
+</g>
+<g><!-- Association Coordinate Coordinate -->
+<line x1="675" y1="42" x2="1045" y2="42" stroke="black" stroke-width="2" /><text x="1023" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="38">0..*</tspan></text>
+<text x="860" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="58">Coordinate</tspan></text>
+</g>
+<g><!-- Coordinate -->
+<a xlink:href="./Coordinate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The absolute geographic location of a Location, expressed using the WGS84 datum.</title></rect></a><text x="1120" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="18">Coordinate</tspan></text>
+</g>
+<g><!-- Focal Geographic Extent -->
+<a xlink:href="./Geographic-Extent.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="225" height="80" fill="white" stroke="black" stroke-width="2"><title>To define a polygon of coordinates.</title></rect></a><text x="637" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="637" y="18">Geographic Extent</tspan></text>
+</g>
+</svg>

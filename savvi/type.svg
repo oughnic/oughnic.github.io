@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 722" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of Type</title><desc id="desc">Generated diagram of focal class Type and related classes.</desc><g><!-- Association Type Action -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="503" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="58">Type</tspan></text>
+</g>
+<g><!-- Action -->
+<a xlink:href="./Action.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="18">Action</tspan></text>
+</g>
+<g><!-- Association Type Attribute -->
+<line x1="155" y1="122" x2="525" y2="122" stroke="black" stroke-width="2" /><text x="503" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="118">0..*</tspan></text>
+<text x="340" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="138">Type</tspan></text>
+</g>
+<g><!-- Attribute -->
+<a xlink:href="./Attribute.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="98">Attribute</tspan></text>
+</g>
+<g><!-- Association Type Characteristic -->
+<line x1="155" y1="202" x2="525" y2="202" stroke="black" stroke-width="2" /><text x="503" y="198" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="198">0..*</tspan></text>
+<text x="340" y="218" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="218">Type</tspan></text>
+</g>
+<g><!-- Characteristic -->
+<a xlink:href="./Characteristic.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="165" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>To describe a feature of a thing.</title></rect></a><text x="80" y="178" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="178">Characteristic</tspan></text>
+</g>
+<g><!-- Association Type Need -->
+<line x1="155" y1="282" x2="525" y2="282" stroke="black" stroke-width="2" /><text x="503" y="278" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="278">0..*</tspan></text>
+<text x="340" y="298" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="298">Type</tspan></text>
+</g>
+<g><!-- Need -->
+<a xlink:href="./Need.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="245" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="258" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="258">Need</tspan></text>
+</g>
+<g><!-- Association Type Outcome -->
+<line x1="155" y1="362" x2="525" y2="362" stroke="black" stroke-width="2" /><text x="503" y="358" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="358">0..*</tspan></text>
+<text x="340" y="378" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="378">Type</tspan></text>
+</g>
+<g><!-- Outcome -->
+<a xlink:href="./Outcome.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="325" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="338" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="338">Outcome</tspan></text>
+</g>
+<g><!-- Association Activity Type Plan -->
+<line x1="155" y1="442" x2="525" y2="442" stroke="black" stroke-width="2" /><text x="503" y="438" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="438">0..*</tspan></text>
+<text x="340" y="458" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="458">Activity Type</tspan></text>
+</g>
+<g><!-- Plan -->
+<a xlink:href="./Plan.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="405" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="418" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="418">Plan</tspan></text>
+</g>
+<g><!-- Association Type Service -->
+<line x1="155" y1="522" x2="525" y2="522" stroke="black" stroke-width="2" /><text x="503" y="518" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="518">0..*</tspan></text>
+<text x="340" y="538" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="538">Type</tspan></text>
+</g>
+<g><!-- Service -->
+<a xlink:href="./Service.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="485" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="498" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="498">Service</tspan></text>
+</g>
+<g><!-- Association Risk Category Vulnerability -->
+<line x1="155" y1="602" x2="525" y2="602" stroke="black" stroke-width="2" /><text x="503" y="598" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="598">0..*</tspan></text>
+<text x="340" y="618" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="618">Risk Category</tspan></text>
+</g>
+<g><!-- Association Type Vulnerability -->
+<line x1="155" y1="677" x2="525" y2="677" stroke="black" stroke-width="2" /><text x="503" y="673" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="673">0..*</tspan></text>
+<text x="340" y="693" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="693">Type</tspan></text>
+</g>
+<g><!-- Vulnerability -->
+<a xlink:href="./Vulnerability.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="565" width="150" height="150" fill="whitesmoke" stroke="black" stroke-width="2"><title></title></rect></a><text x="80" y="578" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="578">Vulnerability</tspan></text>
+</g>
+<g><!-- Focal Type -->
+<a xlink:href="./Type.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="225" height="715" fill="white" stroke="black" stroke-width="2"><title>To tag a thing with a type.</title></rect></a><text x="637" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="637" y="18">Type</tspan></text>
+<line x1="525" y1="31" x2="750" y2="31" stroke="black" stroke-width="1" /><text font-family="sans-serif" font-size="12" fill="black" text-anchor="start"><tspan x="532" y="44" text-anchor="start">Scheme : string</tspan><tspan x="743" y="44" text-anchor="end">[0..*]</tspan><tspan x="532" y="60" text-anchor="start">Term : string</tspan><tspan x="743" y="60" text-anchor="end">[0..*]</tspan><tspan x="532" y="76" text-anchor="start">URI : string</tspan><tspan x="743" y="76" text-anchor="end">[0..*]</tspan></text></g>
+</svg>
