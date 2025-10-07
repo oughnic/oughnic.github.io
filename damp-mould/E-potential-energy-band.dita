@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Epotential-energy-band'>
+  <title>potential_energy_band</title>
+  <shortdesc>The potential energy efficiency rating band (based on the energy efficiency rating)</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

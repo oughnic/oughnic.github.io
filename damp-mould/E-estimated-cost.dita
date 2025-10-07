@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eestimated-cost'>
+  <title>estimated_cost</title>
+  <shortdesc>Projected total expense of labor, material etc to complete the work.</shortdesc>
+  <body>
+    <p>Data Type: number</p>
+  </body>
+</topic>

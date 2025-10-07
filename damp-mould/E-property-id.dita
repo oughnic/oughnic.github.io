@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eproperty-id'>
+  <title>property_id</title>
+  <shortdesc>A unique reference for the Property (which may be a &apos;UPRN&apos;, or a land registration title number).</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

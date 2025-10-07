@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eissue-date'>
+  <title>issue_date</title>
+  <shortdesc>The date that this safety certificate was issued (i.e. the date of the investigation). This may before the Valid From date in situations where the regulation permits investigations to be carried out in advance of the anniversary of the preceeding investigation.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

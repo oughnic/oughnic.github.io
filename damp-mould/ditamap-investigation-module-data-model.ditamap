@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id='acbd95f4-1c3a-428a-8b1d-27d2255da028'>
+  <title>investigation Module Data Model</title>
+  <mapref href='internal-links-topics.ditamap' processing-role='resource-only' />
+  <topicref keyref='Minvestigation-module-data-model' toc='yes'>
+    <topicref navtitle='addresses Item' keyref='Taddresses-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eaddress-id' toc='no' />
+      <topicref keyref='Eaddress-line' toc='no' />
+      <topicref keyref='Ebuilding-name' toc='no' />
+      <topicref keyref='Ebuilding-number' toc='no' />
+      <topicref keyref='Ecity-name' toc='no' />
+      <topicref keyref='Ecountry' toc='no' />
+      <topicref keyref='Efloor' toc='no' />
+      <topicref keyref='Epost-code' toc='no' />
+      <topicref keyref='Estreet-name' toc='no' />
+      <topicref keyref='Eunit-id' toc='no' />
+      <topicref keyref='Euprn' toc='no' />
+    </topicref>
+    <topicref navtitle='alert_regarding_location' keyref='Talert-regarding-location' toc='yes' chunk="to-content">
+      <topicref keyref='Ealert-type' toc='no' />
+      <topicref keyref='Eattachment' toc='no' />
+      <topicref keyref='Ecomments' toc='no' />
+      <topicref keyref='Elocation-alert-id' toc='no' />
+    </topicref>
+    <topicref navtitle='alert_regarding_person' keyref='Talert-regarding-person' toc='yes' chunk="to-content">
+      <topicref keyref='Ealert-type-2' toc='no' />
+      <topicref keyref='Ecomments-2' toc='no' />
+      <topicref keyref='Eperson-alert-id' toc='no' />
+    </topicref>
+    <topicref navtitle='certifications Item' keyref='Tcertifications-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eattachment-url' toc='no' />
+      <topicref keyref='Ecertification-id' toc='no' />
+      <topicref keyref='Ecertification-type-id' toc='no' />
+      <topicref keyref='Eexpiry-date' toc='no' />
+      <topicref keyref='Eissued-by' toc='no' />
+      <topicref keyref='Eissue-date' toc='no' />
+      <topicref keyref='Estatus' toc='no' />
+      <topicref keyref='Eunit-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='certification_type_codes Item' keyref='Tcertification-type-codes-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecertification-type-id-2' toc='no' />
+      <topicref keyref='Ecode' toc='no' />
+    </topicref>
+    <topicref navtitle='construction_type_codes Item' keyref='Tconstruction-type-codes-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecode-2' toc='no' />
+      <topicref keyref='Econstruction-type-id' toc='no' />
+    </topicref>
+    <topicref navtitle='contractor_organisation' keyref='Tcontractor-organisation' toc='yes' chunk="to-content">
+      <topicref keyref='Econtractor-organisation-id' toc='no' />
+      <topicref keyref='Econtractor-portal' toc='no' />
+      <topicref keyref='Ename' toc='no' />
+      <topicref keyref='Esubcontractors' toc='no' />
+    </topicref>
+    <topicref navtitle='depends_on Object' keyref='Tdepends-on-object' toc='yes' chunk="to-content">
+      <topicref keyref='Edepends-on-work-element-id' toc='no' />
+      <topicref keyref='Etiming' toc='no' />
+      <topicref keyref='Etype' toc='no' />
+      <topicref keyref='Ework-element-id' toc='no' />
+    </topicref>
+    <topicref navtitle='energy_efficiency_band_codes Item' keyref='Tenergy-efficiency-band-codes-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eband-id' toc='no' />
+      <topicref keyref='Ecode-3' toc='no' />
+    </topicref>
+    <topicref navtitle='energy_performance_certifications Item' keyref='Tenergy-performance-certifications-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecertificate-number' toc='no' />
+      <topicref keyref='Eco2-per-year' toc='no' />
+      <topicref keyref='Ecurrent-energy-band' toc='no' />
+      <topicref keyref='Ecurrent-energy-rating' toc='no' />
+      <topicref keyref='Ecurrent-env-impact-band' toc='no' />
+      <topicref keyref='Ecurrent-env-impact-rating' toc='no' />
+      <topicref keyref='Eenergy-use-per-sqm-year' toc='no' />
+      <topicref keyref='Eepc-id' toc='no' />
+      <topicref keyref='Elighting-cost-year' toc='no' />
+      <topicref keyref='Epotential-energy-band' toc='no' />
+      <topicref keyref='Epotential-energy-rating' toc='no' />
+      <topicref keyref='Epotential-env-impact-band' toc='no' />
+      <topicref keyref='Epotential-env-impact-rating' toc='no' />
+      <topicref keyref='Erecommendation-summary' toc='no' />
+      <topicref keyref='Espace-heating-cost-year' toc='no' />
+      <topicref keyref='Etotal-energy-cost-year' toc='no' />
+      <topicref keyref='Eunit-id-3' toc='no' />
+      <topicref keyref='Ewater-heating-cost-year' toc='no' />
+    </topicref>
+    <topicref navtitle='escalation Item' keyref='Tescalation-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eaction-taken' toc='no' />
+      <topicref keyref='Ealternative-accommodation-details' toc='no' />
+      <topicref keyref='Ecompensation-amount' toc='no' />
+      <topicref keyref='Eescalated-to' toc='no' />
+      <topicref keyref='Eescalation-end-date' toc='no' />
+      <topicref keyref='Eescalation-id' toc='no' />
+      <topicref keyref='Eescalation-notes' toc='no' />
+      <topicref keyref='Eescalation-reason' toc='no' />
+      <topicref keyref='Eescalation-reference' toc='no' />
+      <topicref keyref='Eescalation-stage-id' toc='no' />
+      <topicref keyref='Eescalation-start-date' toc='no' />
+      <topicref keyref='Eescalation-type-id' toc='no' />
+      <topicref keyref='Einvestigation-id' toc='no' />
+      <topicref keyref='Etenant-acceptance' toc='no' />
+    </topicref>
+    <topicref navtitle='escalation_stage Item' keyref='Tescalation-stage-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eescalation-stage' toc='no' />
+      <topicref keyref='Eescalation-stage-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='escalation_status Item' keyref='Tescalation-status-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eescalation-status' toc='no' />
+      <topicref keyref='Eescalation-status-id' toc='no' />
+    </topicref>
+    <topicref navtitle='escalation_type Item' keyref='Tescalation-type-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eescalation-type' toc='no' />
+      <topicref keyref='Eescalation-type-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='glazing_layer_type_codes Item' keyref='Tglazing-layer-type-codes-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecode-4' toc='no' />
+      <topicref keyref='Eglazing-type-id' toc='no' />
+    </topicref>
+    <topicref navtitle='hazard_report Item' keyref='Thazard-report-item' toc='yes' chunk="to-content">
+      <topicref keyref='Edate-reported' toc='no' />
+      <topicref keyref='Edescription' toc='no' />
+      <topicref keyref='Eemergency-action-taken' toc='no' />
+      <topicref keyref='Efurther-work-due-date' toc='no' />
+      <topicref keyref='Efurther-work-required' toc='no' />
+      <topicref keyref='Ehazard-report-id' toc='no' />
+      <topicref keyref='Ehazard-report-reference' toc='no' />
+      <topicref keyref='Elocation-details' toc='no' />
+      <topicref keyref='Emade-safe-date' toc='no' />
+      <topicref keyref='Ephoto-evidence' toc='no' />
+      <topicref keyref='Ereported-by' toc='no' />
+      <topicref keyref='Ereport-status-id' toc='no' />
+      <topicref keyref='Etenancy-id' toc='no' />
+      <topicref keyref='Euprn-2' toc='no' />
+    </topicref>
+    <topicref navtitle='hazard_type Item' keyref='Thazard-type-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecategory' toc='no' />
+      <topicref keyref='Ehazard-type' toc='no' />
+      <topicref keyref='Ehazard-type-id' toc='no' />
+      <topicref keyref='Ehealth-risk-rating-id' toc='no' />
+    </topicref>
+    <topicref navtitle='health_risk_rating Item' keyref='Thealth-risk-rating-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ehealth-risk-rating' toc='no' />
+      <topicref keyref='Ehealth-risk-rating-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='heating_systems Item' keyref='Theating-systems-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eenergy-control' toc='no' />
+      <topicref keyref='Eheating-system-id' toc='no' />
+      <topicref keyref='Eheat-conversion-method' toc='no' />
+      <topicref keyref='Einstallation-date' toc='no' />
+      <topicref keyref='Eis-smart-system' toc='no' />
+      <topicref keyref='Elast-serviced-date' toc='no' />
+      <topicref keyref='Emanufacturer' toc='no' />
+      <topicref keyref='Emodel-number' toc='no' />
+      <topicref keyref='Enotes' toc='no' />
+      <topicref keyref='Eproperty-id' toc='no' />
+      <topicref keyref='Epurpose' toc='no' />
+    </topicref>
+    <topicref navtitle='investigation Item' keyref='Tinvestigation-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ehazard-confirmed' toc='no' />
+      <topicref keyref='Ehazard-report-id-2' toc='no' />
+      <topicref keyref='Einspector-name' toc='no' />
+      <topicref keyref='Einvestigation-completed-date' toc='no' />
+      <topicref keyref='Einvestigation-id-2' toc='no' />
+      <topicref keyref='Einvestigation-notes' toc='no' />
+      <topicref keyref='Einvestigation-reference' toc='no' />
+      <topicref keyref='Einvestigation-scheduled-date' toc='no' />
+      <topicref keyref='Einvestigation-type-id' toc='no' />
+      <topicref keyref='Enotification-sent-to-tenant' toc='no' />
+      <topicref keyref='Esla-breach-flag' toc='no' />
+      <topicref keyref='Etenancy-id-2' toc='no' />
+      <topicref keyref='Etrigger-source-id' toc='no' />
+      <topicref keyref='Euprn-3' toc='no' />
+    </topicref>
+    <topicref navtitle='investigation Module Data Model' keyref='Tinvestigation-module-data-model' toc='yes' chunk="to-content">
+      <topicref keyref='Eaddresses' toc='no' />
+      <topicref keyref='Ecertifications' toc='no' />
+      <topicref keyref='Ecertification-type-codes' toc='no' />
+      <topicref keyref='Econstruction-type-codes' toc='no' />
+      <topicref keyref='Eenergy-efficiency-band-codes' toc='no' />
+      <topicref keyref='Eenergy-performance-certifications' toc='no' />
+      <topicref keyref='Eescalation' toc='no' />
+      <topicref keyref='Eescalation-stage-2' toc='no' />
+      <topicref keyref='Eescalation-status-2' toc='no' />
+      <topicref keyref='Eescalation-type-2' toc='no' />
+      <topicref keyref='Eglazing-layer-type-codes' toc='no' />
+      <topicref keyref='Ehazard-report' toc='no' />
+      <topicref keyref='Ehazard-type-2' toc='no' />
+      <topicref keyref='Ehealth-risk-rating-2' toc='no' />
+      <topicref keyref='Eheating-systems' toc='no' />
+      <topicref keyref='Einvestigation' toc='no' />
+      <topicref keyref='Einvestigation-hazard' toc='no' />
+      <topicref keyref='Einvestigation-type' toc='no' />
+      <topicref keyref='Elocation-alert-type-codes' toc='no' />
+      <topicref keyref='Enotification' toc='no' />
+      <topicref keyref='Enotification-method' toc='no' />
+      <topicref keyref='Enotification-type' toc='no' />
+      <topicref keyref='Ephysical-characteristics' toc='no' />
+      <topicref keyref='Eproperties' toc='no' />
+      <topicref keyref='Ereport-status' toc='no' />
+      <topicref keyref='Eroof-insulation-type-codes' toc='no' />
+      <topicref keyref='Eseverity' toc='no' />
+      <topicref keyref='Esites' toc='no' />
+      <topicref keyref='Ethermal-transmittances' toc='no' />
+      <topicref keyref='Etrigger-source' toc='no' />
+      <topicref keyref='Eunits' toc='no' />
+      <topicref keyref='Ewall-insulation-type-codes' toc='no' />
+      <topicref keyref='Ework-order' toc='no' />
+    </topicref>
+    <topicref navtitle='investigation_hazard Item' keyref='Tinvestigation-hazard-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ehazard-report-id-3' toc='no' />
+      <topicref keyref='Ehazard-type-id-2' toc='no' />
+      <topicref keyref='Einvestigation-hazard-id' toc='no' />
+      <topicref keyref='Einvestigation-id-3' toc='no' />
+      <topicref keyref='Enotes-2' toc='no' />
+      <topicref keyref='Eseverity-id' toc='no' />
+    </topicref>
+    <topicref navtitle='investigation_status' keyref='Tinvestigation-status' toc='yes' chunk="to-content">
+      <topicref keyref='Ecode-5' toc='no' />
+      <topicref keyref='Edescription-2' toc='no' />
+      <topicref keyref='Einvestigation-status-id' toc='no' />
+    </topicref>
+    <topicref navtitle='investigation_status_history' keyref='Tinvestigation-status-history' toc='yes' chunk="to-content">
+      <topicref keyref='Ecomments-3' toc='no' />
+      <topicref keyref='Ecreated-date-time' toc='no' />
+      <topicref keyref='Eentered-date-time' toc='no' />
+      <topicref keyref='Eexited-date-time' toc='no' />
+      <topicref keyref='Einvestigation-id-4' toc='no' />
+      <topicref keyref='Einvestigation-status-history-id' toc='no' />
+      <topicref keyref='Einvestigation-status-id-2' toc='no' />
+      <topicref keyref='Ereason-code-id' toc='no' />
+      <topicref keyref='Eupdated-by' toc='no' />
+    </topicref>
+    <topicref navtitle='investigation_type Item' keyref='Tinvestigation-type-item' toc='yes' chunk="to-content">
+      <topicref keyref='Einvestigation-type-2' toc='no' />
+      <topicref keyref='Einvestigation-type-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='investigator' keyref='Tinvestigator' toc='yes' chunk="to-content">
+      <topicref keyref='Einvestigator-id' toc='no' />
+      <topicref keyref='Einvestigator-name' toc='no' />
+    </topicref>
+    <topicref navtitle='location_alert_type_codes Item' keyref='Tlocation-alert-type-codes-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ealert-type-id' toc='no' />
+      <topicref keyref='Ecode-6' toc='no' />
+    </topicref>
+    <topicref navtitle='notification Item' keyref='Tnotification-item' toc='yes' chunk="to-content">
+      <topicref keyref='Econtent-summary' toc='no' />
+      <topicref keyref='Edate-sent' toc='no' />
+      <topicref keyref='Eescalation-id-2' toc='no' />
+      <topicref keyref='Einvestigation-id-5' toc='no' />
+      <topicref keyref='Enotification-id' toc='no' />
+      <topicref keyref='Enotification-method-id' toc='no' />
+      <topicref keyref='Enotification-type-id' toc='no' />
+      <topicref keyref='Etenancy-id-3' toc='no' />
+      <topicref keyref='Ework-order-id' toc='no' />
+    </topicref>
+    <topicref navtitle='notification_method Item' keyref='Tnotification-method-item' toc='yes' chunk="to-content">
+      <topicref keyref='Enotification-method-2' toc='no' />
+      <topicref keyref='Enotification-method-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='notification_type Item' keyref='Tnotification-type-item' toc='yes' chunk="to-content">
+      <topicref keyref='Enotification-type-2' toc='no' />
+      <topicref keyref='Enotification-type-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='physical_characteristics Item' keyref='Tphysical-characteristics-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ebuilt-year' toc='no' />
+      <topicref keyref='Econstruction-type-id-2' toc='no' />
+      <topicref keyref='Elast-updated-date' toc='no' />
+      <topicref keyref='Ephysical-char-id' toc='no' />
+      <topicref keyref='Eproperty-id-2' toc='no' />
+      <topicref keyref='Eroof-insulation-type-id' toc='no' />
+      <topicref keyref='Eventilation-type' toc='no' />
+      <topicref keyref='Ewall-insulation-type-id' toc='no' />
+    </topicref>
+    <topicref navtitle='properties Item' keyref='Tproperties-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eproperty-id-3' toc='no' />
+      <topicref keyref='Eproperty-name' toc='no' />
+      <topicref keyref='Esite-id' toc='no' />
+    </topicref>
+    <topicref navtitle='rate_schedule_item' keyref='Trate-schedule-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecustom-code' toc='no' />
+      <topicref keyref='Ecustom-name' toc='no' />
+      <topicref keyref='Em3nhfsor-code' toc='no' />
+      <topicref keyref='Equantity' toc='no' />
+      <topicref keyref='Erate-schedule-item-id' toc='no' />
+    </topicref>
+    <topicref navtitle='report_status Item' keyref='Treport-status-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ereport-status-2' toc='no' />
+      <topicref keyref='Ereport-status-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='roof_insulation_type_codes Item' keyref='Troof-insulation-type-codes-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecode-7' toc='no' />
+      <topicref keyref='Einsulation-type-id' toc='no' />
+    </topicref>
+    <topicref navtitle='severity Item' keyref='Tseverity-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eseverity-2' toc='no' />
+      <topicref keyref='Eseverity-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='sites Item' keyref='Tsites-item' toc='yes' chunk="to-content">
+      <topicref keyref='Esite-id-2' toc='no' />
+      <topicref keyref='Esite-name' toc='no' />
+    </topicref>
+    <topicref navtitle='thermal_transmittances Item' keyref='Tthermal-transmittances-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eelement' toc='no' />
+      <topicref keyref='Emeasurement-date' toc='no' />
+      <topicref keyref='Enotes-3' toc='no' />
+      <topicref keyref='Ephysical-char-id-2' toc='no' />
+      <topicref keyref='Ethermal-trans-id' toc='no' />
+      <topicref keyref='Eu-value' toc='no' />
+    </topicref>
+    <topicref navtitle='trade_code Object' keyref='Ttrade-code-object' toc='yes' chunk="to-content">
+      <topicref keyref='Ecode-8' toc='no' />
+      <topicref keyref='Ecustom-code-2' toc='no' />
+      <topicref keyref='Ecustom-name-2' toc='no' />
+    </topicref>
+    <topicref navtitle='trigger_source Item' keyref='Ttrigger-source-item' toc='yes' chunk="to-content">
+      <topicref keyref='Etrigger-source-2' toc='no' />
+      <topicref keyref='Etrigger-source-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='units Item' keyref='Tunits-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ealert-type-id-2' toc='no' />
+      <topicref keyref='Elease' toc='no' />
+      <topicref keyref='Eproperty-id-4' toc='no' />
+      <topicref keyref='Eunit-id-4' toc='no' />
+    </topicref>
+    <topicref navtitle='wall_insulation_type_codes Item' keyref='Twall-insulation-type-codes-item' toc='yes' chunk="to-content">
+      <topicref keyref='Ecode-9' toc='no' />
+      <topicref keyref='Einsulation-type-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='work_class' keyref='Twork-class' toc='yes' chunk="to-content">
+      <topicref keyref='Ework-class-code' toc='no' />
+      <topicref keyref='Ework-class-description' toc='no' />
+      <topicref keyref='Ework-class-id' toc='no' />
+    </topicref>
+    <topicref navtitle='work_element' keyref='Twork-element' toc='yes' chunk="to-content">
+      <topicref keyref='Edepends-on' toc='no' />
+      <topicref keyref='Erate-schedule-item-id-2' toc='no' />
+      <topicref keyref='Eservice-charge-subject' toc='no' />
+      <topicref keyref='Etrade-code' toc='no' />
+      <topicref keyref='Ework-element-id-2' toc='no' />
+      <topicref keyref='Ework-order-id-2' toc='no' />
+    </topicref>
+    <topicref navtitle='work_order Item' keyref='Twork-order-item' toc='yes' chunk="to-content">
+      <topicref keyref='Eactual-completion-date-time' toc='no' />
+      <topicref keyref='Eactual-start-date-time' toc='no' />
+      <topicref keyref='Eaddress-id-2' toc='no' />
+      <topicref keyref='Econtractor-organisation-id-2' toc='no' />
+      <topicref keyref='Edate-raised' toc='no' />
+      <topicref keyref='Edate-reported-2' toc='no' />
+      <topicref keyref='Edescription-of-work' toc='no' />
+      <topicref keyref='Eescalation-id-3' toc='no' />
+      <topicref keyref='Eestimated-cost' toc='no' />
+      <topicref keyref='Eestimated-labour-hours' toc='no' />
+      <topicref keyref='Ehazard-report-id-4' toc='no' />
+      <topicref keyref='Einspection-id' toc='no' />
+      <topicref keyref='Ejob-status-update' toc='no' />
+      <topicref keyref='Elocation-alert-id-2' toc='no' />
+      <topicref keyref='Elocation-of-repair' toc='no' />
+      <topicref keyref='Eperson-alert-id-2' toc='no' />
+      <topicref keyref='Eplanned-finish-date' toc='no' />
+      <topicref keyref='Eplanned-start-date' toc='no' />
+      <topicref keyref='Erepair-sla-breach-flag' toc='no' />
+      <topicref keyref='Etenancy-id-4' toc='no' />
+      <topicref keyref='Etenant-id' toc='no' />
+      <topicref keyref='Ework-class-id-2' toc='no' />
+      <topicref keyref='Ework-element-id-3' toc='no' />
+      <topicref keyref='Ework-order-id-3' toc='no' />
+      <topicref keyref='Ework-priority-id' toc='no' />
+    </topicref>
+    <topicref navtitle='work_order_access_information' keyref='Twork-order-access-information' toc='yes' chunk="to-content">
+      <topicref keyref='Edescription-3' toc='no' />
+      <topicref keyref='Ekey-safe' toc='no' />
+      <topicref keyref='Ework-order-access-information-id' toc='no' />
+      <topicref keyref='Ework-order-id-4' toc='no' />
+    </topicref>
+    <topicref navtitle='work_order_complete' keyref='Twork-order-complete' toc='yes' chunk="to-content">
+      <topicref keyref='Ebill-of-material-item' toc='no' />
+      <topicref keyref='Ecompleted-work-elements' toc='no' />
+      <topicref keyref='Efollow-on-work' toc='no' />
+      <topicref keyref='Ejob-status-update-2' toc='no' />
+      <topicref keyref='Eoperatives-used' toc='no' />
+      <topicref keyref='Ework-order-complete-id' toc='no' />
+      <topicref keyref='Ework-order-id-5' toc='no' />
+    </topicref>
+    <topicref navtitle='work_order_status_history' keyref='Twork-order-status-history' toc='yes' chunk="to-content">
+      <topicref keyref='Ecomments-4' toc='no' />
+      <topicref keyref='Ecreated-date-time-2' toc='no' />
+      <topicref keyref='Eentered-date-time-2' toc='no' />
+      <topicref keyref='Eexited-date-time-2' toc='no' />
+      <topicref keyref='Ereason' toc='no' />
+      <topicref keyref='Ereason-code' toc='no' />
+      <topicref keyref='Estatus-code' toc='no' />
+      <topicref keyref='Eupdated-by-2' toc='no' />
+      <topicref keyref='Ework-order-id-6' toc='no' />
+      <topicref keyref='Ework-order-status-history-id' toc='no' />
+    </topicref>
+    <topicref navtitle='work_priority' keyref='Twork-priority' toc='yes' chunk="to-content">
+      <topicref keyref='Ecomments-5' toc='no' />
+      <topicref keyref='Eeffective-date-time' toc='no' />
+      <topicref keyref='Enumber-of-days' toc='no' />
+      <topicref keyref='Epriority-code' toc='no' />
+      <topicref keyref='Epriority-description' toc='no' />
+      <topicref keyref='Erequired-completion-date-time' toc='no' />
+      <topicref keyref='Erequired-start-date-time' toc='no' />
+      <topicref keyref='Ework-priority-id-2' toc='no' />
+    </topicref>
+  </topicref>
+</map>

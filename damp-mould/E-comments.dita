@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ecomments'>
+  <title>comments</title>
+  <shortdesc>Specific details related to this alert - for example what specifically to be aware of, sensible precautions to take, or what the specific restrictions are.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

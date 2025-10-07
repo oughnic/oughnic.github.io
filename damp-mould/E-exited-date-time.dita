@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eexited-date-time'>
+  <title>exited_date_time</title>
+  <shortdesc>Timestamp when the status was exited.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

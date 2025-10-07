@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ecode-3'>
+  <title>code</title>
+  <shortdesc>The energy rating band for a given unit within a property</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

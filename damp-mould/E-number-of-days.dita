@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Enumber-of-days'>
+  <title>number_of_days</title>
+  <shortdesc>Numeric value defining the expected maximum number of days for completion of the work order.</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

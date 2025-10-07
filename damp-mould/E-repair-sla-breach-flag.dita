@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Erepair-sla-breach-flag'>
+  <title>repair_sla_breach_flag</title>
+  <shortdesc>Flag indicating if the repair is a breach of the Service Level Agreement (SLA).</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

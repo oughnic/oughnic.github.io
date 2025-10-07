@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ekey-safe'>
+  <title>key_safe</title>
+  <shortdesc>Details of any keysafe location and access code that may be required to complete work.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

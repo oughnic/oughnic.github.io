@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Estreet-name'>
+  <title>street_name</title>
+  <shortdesc>Name of a street or thoroughfare</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

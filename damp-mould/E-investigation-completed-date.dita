@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Einvestigation-completed-date'>
+  <title>investigation_completed_date</title>
+  <shortdesc>Date investigation was completed.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

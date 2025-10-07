@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eexited-date-time-2'>
+  <title>exited_date_time</title>
+  <shortdesc>The time that this entry&apos;s status stopped applying, for example the work order moved to a new status.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

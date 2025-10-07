@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ebuilding-name'>
+  <title>building_name</title>
+  <shortdesc>The name of the building or house on a street of this address</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

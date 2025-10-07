@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Epost-code'>
+  <title>post_code</title>
+  <shortdesc>The identifier for one or more properties according to the postal service of that country; a group of letters and/or numbers added to the postal address to assist in the sorting of mail. E.g. UK postcode or US zip code</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

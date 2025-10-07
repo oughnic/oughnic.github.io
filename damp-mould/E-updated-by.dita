@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eupdated-by'>
+  <title>updated_by</title>
+  <shortdesc>User or system that updated the status.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

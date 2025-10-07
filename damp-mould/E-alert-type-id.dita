@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ealert-type-id'>
+  <title>alert_type_id</title>
+  <shortdesc>Unique identifier for the location alert type</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

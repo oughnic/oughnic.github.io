@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eescalation-type-id'>
+  <title>escalation_type_id</title>
+  <shortdesc>Type of escalation.</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

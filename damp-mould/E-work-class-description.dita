@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ework-class-description'>
+  <title>work_class_description</title>
+  <shortdesc>Text description of the Work Class Code.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

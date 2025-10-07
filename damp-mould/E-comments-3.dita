@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ecomments-3'>
+  <title>comments</title>
+  <shortdesc>Optional comments related to the status change.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

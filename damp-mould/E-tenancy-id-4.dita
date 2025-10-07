@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Etenancy-id-4'>
+  <title>tenancy_id</title>
+  <shortdesc>Identifier for the associated tenancy.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eu-value'>
+  <title>u_value</title>
+  <shortdesc>The U-value measured in watts per square metre-kelvin (W/m2K) of the given element.</shortdesc>
+  <body>
+    <p>Data Type: number</p>
+  </body>
+</topic>

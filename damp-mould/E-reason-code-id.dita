@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ereason-code-id'>
+  <title>reason_code_id</title>
+  <shortdesc>Foreign key referencing a reason code for the status change.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

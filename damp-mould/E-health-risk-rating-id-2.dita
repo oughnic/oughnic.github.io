@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ehealth-risk-rating-id-2'>
+  <title>health_risk_rating_id</title>
+  <shortdesc>ID of the health risk rating.</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ewall-insulation-type-id'>
+  <title>wall_insulation_type_id</title>
+  <shortdesc>Summary information about whether or not the main, principal or majority of the walls have a cavity and, if so, how it is filled.</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

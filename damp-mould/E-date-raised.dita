@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Edate-raised'>
+  <title>date_raised</title>
+  <shortdesc>The date and time this work order was raised, which may be earlier than an issued/approved date if it is being raised by a party without authority to approve.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

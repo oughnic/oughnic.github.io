@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ework-element-id-3'>
+  <title>work_element_id</title>
+  <shortdesc>Unique identifier for the work element.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

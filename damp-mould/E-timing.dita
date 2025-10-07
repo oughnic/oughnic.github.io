@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Etiming'>
+  <title>timing</title>
+  <shortdesc>Specifies the minimum time between the dependent item and the item it depends upon. For example, a plastered wall might require 7 days to dry out before it can be painted, or a referral may not be allowed until 3 months after a registration is made.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

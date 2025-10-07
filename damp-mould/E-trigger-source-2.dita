@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Etrigger-source-2'>
+  <title>trigger_source</title>
+  <shortdesc>Source that triggered the investigation.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

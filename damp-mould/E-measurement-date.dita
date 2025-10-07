@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Emeasurement-date'>
+  <title>measurement_date</title>
+  <shortdesc>The date when the U-value was measured.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

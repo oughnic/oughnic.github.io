@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eentered-date-time-2'>
+  <title>entered_date_time</title>
+  <shortdesc>The time that the work order entered this status.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

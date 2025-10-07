@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ecustom-name-2'>
+  <title>custom_name</title>
+  <shortdesc>Where a custom code is provided, the name of the trade may also be specified.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

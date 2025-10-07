@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Epotential-env-impact-rating'>
+  <title>potential_env_impact_rating</title>
+  <shortdesc>The potential environmental impact numerical rating, as calculated using the Standard Assessment Procedure (SAP)</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

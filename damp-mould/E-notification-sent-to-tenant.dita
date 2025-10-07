@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Enotification-sent-to-tenant'>
+  <title>notification_sent_to_tenant</title>
+  <shortdesc>Whether tenant was notified.</shortdesc>
+  <body>
+    <p>Data Type: boolean</p>
+  </body>
+</topic>

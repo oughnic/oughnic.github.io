@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ecreated-date-time'>
+  <title>created_date_time</title>
+  <shortdesc>Timestamp when this history record was created.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

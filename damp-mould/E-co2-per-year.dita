@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eco2-per-year'>
+  <title>co2_per_year</title>
+  <shortdesc>The tonnes of carbon dioxide currently produced by this property each year</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ecustom-code-2'>
+  <title>custom_code</title>
+  <shortdesc>In addition to the standard code, a custom code may also be included where more detail than is available in the standard codes is required.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

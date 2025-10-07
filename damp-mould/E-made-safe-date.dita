@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Emade-safe-date'>
+  <title>made_safe_date</title>
+  <shortdesc>Date hazard was made safe.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

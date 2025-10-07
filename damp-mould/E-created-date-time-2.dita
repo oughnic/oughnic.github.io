@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ecreated-date-time-2'>
+  <title>created_date_time</title>
+  <shortdesc>Date and time this entry was created. This may be after the status was technically entered if there was a delay between the status change taking place and it being recorded.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

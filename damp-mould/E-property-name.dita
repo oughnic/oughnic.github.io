@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eproperty-name'>
+  <title>property_name</title>
+  <shortdesc>This name this building is known as in the context. This may be the actual building name (which can also be provided in the Address entity) or it may be a name for this building in some other context.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>

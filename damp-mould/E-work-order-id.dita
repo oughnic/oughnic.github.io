@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Ework-order-id'>
+  <title>work_order_id</title>
+  <shortdesc>Reference to the work order.</shortdesc>
+  <body>
+    <p>Data Type: integer</p>
+  </body>
+</topic>

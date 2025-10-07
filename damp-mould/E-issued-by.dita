@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id='Eissued-by'>
+  <title>issued_by</title>
+  <shortdesc>The party (which may be the organization or a specific operative within the organization) who issued the certificate.</shortdesc>
+  <body>
+    <p>Data Type: string</p>
+  </body>
+</topic>
