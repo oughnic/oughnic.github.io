@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Epurpose'>
-  <title>purpose</title>
-  <shortdesc>Optionally specify what this fuel is used for. This can be space heating, water heating or some other purpose.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ecurrent-energy-rating'>
-  <title>current_energy_rating</title>
-  <shortdesc>The current energy efficiency numerical rating, as calculated using the Standard Assessment Procedure (SAP)</shortdesc>
-  <body>
-    <p>Data Type: integer</p>
-  </body>
-</topic>

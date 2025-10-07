@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eescalation-end-date'>
-  <title>escalation_end_date</title>
-  <shortdesc>End date of escalation (if any).</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ecity-name'>
-  <title>city_name</title>
-  <shortdesc>The name of the city, town or village of this address.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

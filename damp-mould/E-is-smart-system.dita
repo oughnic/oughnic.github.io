@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eis-smart-system'>
-  <title>is_smart_system</title>
-  <shortdesc>Does the system using the fuel have the ability to report current system state and some level of condition, usage and diagnostics?</shortdesc>
-  <body>
-    <p>Data Type: boolean</p>
-  </body>
-</topic>

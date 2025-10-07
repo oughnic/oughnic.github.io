@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eemergency-action-taken'>
-  <title>emergency_action_taken</title>
-  <shortdesc>Whether emergency action was taken.</shortdesc>
-  <body>
-    <p>Data Type: boolean</p>
-  </body>
-</topic>

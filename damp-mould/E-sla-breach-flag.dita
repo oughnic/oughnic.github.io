@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Esla-breach-flag'>
-  <title>sla_breach_flag</title>
-  <shortdesc>Whether the SLA was breached.</shortdesc>
-  <body>
-    <p>Data Type: boolean</p>
-  </body>
-</topic>

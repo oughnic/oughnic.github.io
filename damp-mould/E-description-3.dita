@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Edescription-3'>
-  <title>description</title>
-  <shortdesc>Narrative description of how to access the relevant parts of the site, property and/or unit.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ebill-of-material-item'>
-  <title>bill_of_material_item</title>
-  <shortdesc>The individual rate schedule items (including any custom items) that were use/consumed during the performance of this Work Order. Where Completed Work Elements are listed, the Bill Of Material Items should *not* duplicate the Rate Schedule Items in the Complete Work Elements. Rather, only Rate Schedule Items that are *not* already included in a Completed Work Element should be included here.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

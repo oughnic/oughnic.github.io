@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ewater-heating-cost-year'>
-  <title>water_heating_cost_year</title>
-  <shortdesc>The current cost of heating the water per year</shortdesc>
-  <body>
-    <p>Data Type: number</p>
-  </body>
-</topic>

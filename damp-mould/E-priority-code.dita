@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Epriority-code'>
-  <title>priority_code</title>
-  <shortdesc>Specific code describing the importance or urgency of the work request or work order.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

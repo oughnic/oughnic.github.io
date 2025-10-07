@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ecode-2'>
-  <title>code</title>
-  <shortdesc>The code representing the construction type for a specific property</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

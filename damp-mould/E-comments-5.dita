@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ecomments-5'>
-  <title>comments</title>
-  <shortdesc>Narrative, free-form text for comments associated with the priority assigned to a work order, which might explain specific variations to the standard time associated with this priority - for example the work order was not raised immediately when the customer reported the issue and therefore the time remaining to resolve the issue is reduced.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

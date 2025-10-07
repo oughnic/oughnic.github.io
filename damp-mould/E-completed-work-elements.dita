@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ecompleted-work-elements'>
-  <title>completed_work_elements</title>
-  <shortdesc>The work elements that were actually completed as part of this work order.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

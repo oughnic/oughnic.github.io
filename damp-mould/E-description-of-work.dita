@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Edescription-of-work'>
-  <title>description_of_work</title>
-  <shortdesc>A written or verbal account, representation, or explanation of the problem, incident or situation to be corrected or resolved. Description of work either from SOR standard coding or private code.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

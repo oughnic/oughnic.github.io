@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Epotential-env-impact-band'>
-  <title>potential_env_impact_band</title>
-  <shortdesc>The potential environmental impact rating band (based on the environmental impact rating)</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

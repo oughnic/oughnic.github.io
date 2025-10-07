@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eestimated-labour-hours'>
-  <title>estimated_labour_hours</title>
-  <shortdesc>Projected time in effort to complete the work, expressed in hours.</shortdesc>
-  <body>
-    <p>Data Type: number</p>
-  </body>
-</topic>

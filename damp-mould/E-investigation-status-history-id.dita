@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Einvestigation-status-history-id'>
-  <title>investigation_status_history_id</title>
-  <shortdesc>Primary key: Unique identifier for the investigation status history record.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

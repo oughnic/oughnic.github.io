@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eenergy-control'>
-  <title>energy_control</title>
-  <shortdesc>What methods are used to control the power consumed by the device using the fuel.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

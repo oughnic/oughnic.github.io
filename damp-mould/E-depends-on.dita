@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Edepends-on'>
-  <title>depends_on</title>
-  <shortdesc>Describes the relationship between work elements in a project, where one work element&apos;s execution is dependent on the completion or timing of another.</shortdesc>
-  <body>
-    <p>Data Type: depends_on Object reference</p>
-  </body>
-</topic>

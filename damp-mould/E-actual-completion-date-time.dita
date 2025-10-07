@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eactual-completion-date-time'>
-  <title>actual_completion_date_time</title>
-  <shortdesc>The date and time the work was actually completed.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

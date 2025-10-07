@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Elast-updated-date'>
-  <title>last_updated_date</title>
-  <shortdesc>The date when the physical characteristics were last updated.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

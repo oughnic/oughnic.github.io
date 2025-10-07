@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eattachment'>
-  <title>attachment</title>
-  <shortdesc>File attachment relating to this alert, for example a report or photograph.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

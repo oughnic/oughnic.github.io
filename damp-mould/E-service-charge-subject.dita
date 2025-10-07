@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eservice-charge-subject'>
-  <title>service_charge_subject</title>
-  <shortdesc>The classification of this work element according to the underlying service charge type that the associated costs will be attributed to (prior to any apportionment to tenants).</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

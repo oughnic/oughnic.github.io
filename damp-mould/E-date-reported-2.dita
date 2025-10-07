@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Edate-reported-2'>
-  <title>date_reported</title>
-  <shortdesc>The date and time the service request was made by the customer that gave rise to this work order, which may be earlier than the date raised if there was any delay between the customer report and issuing this work order (for example if there was a backlog processing emails).</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

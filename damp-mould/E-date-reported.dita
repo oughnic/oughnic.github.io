@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Edate-reported'>
-  <title>date_reported</title>
-  <shortdesc>Date the hazard was reported.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

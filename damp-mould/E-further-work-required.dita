@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Efurther-work-required'>
-  <title>further_work_required</title>
-  <shortdesc>Whether further work is required.</shortdesc>
-  <body>
-    <p>Data Type: boolean</p>
-  </body>
-</topic>

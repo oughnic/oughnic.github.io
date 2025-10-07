@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Enotification-method-2'>
-  <title>notification_method</title>
-  <shortdesc>Type of notification method.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

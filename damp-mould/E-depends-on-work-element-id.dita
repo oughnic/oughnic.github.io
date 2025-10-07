@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Edepends-on-work-element-id'>
-  <title>depends_on_work_element_id</title>
-  <shortdesc>Identifier for the work element that this one depends on.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

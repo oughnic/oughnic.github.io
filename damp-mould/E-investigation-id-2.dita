@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Einvestigation-id-2'>
-  <title>investigation_id</title>
-  <shortdesc>Unique identifier for the investigation.</shortdesc>
-  <body>
-    <p>Data Type: integer</p>
-  </body>
-</topic>

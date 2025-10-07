@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Estatus'>
-  <title>status</title>
-  <shortdesc>The status of the certification (e.g. valid, expired, pending)</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Etotal-energy-cost-year'>
-  <title>total_energy_cost_year</title>
-  <shortdesc>The energy use per year measured in kWh/sqm</shortdesc>
-  <body>
-    <p>Data Type: number</p>
-  </body>
-</topic>

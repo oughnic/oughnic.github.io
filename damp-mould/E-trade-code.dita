@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Etrade-code'>
-  <title>trade_code</title>
-  <shortdesc>The trade or trades that are required for a particular work element or that an operative is skilled in.</shortdesc>
-  <body>
-    <p>Data Type: trade_code Object reference</p>
-  </body>
-</topic>

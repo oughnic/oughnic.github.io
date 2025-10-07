@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ehazard-report-id-4'>
-  <title>hazard_report_id</title>
-  <shortdesc>Identifier for the related hazard report.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

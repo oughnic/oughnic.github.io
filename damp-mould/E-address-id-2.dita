@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eaddress-id-2'>
-  <title>address_id</title>
-  <shortdesc>Identifier of the address where the issue is reported.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

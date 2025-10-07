@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Eaddress-line'>
-  <title>address_line</title>
-  <shortdesc>Where the address cannot be separated into the explicit fields, use this as the generic &apos;address lines&apos; for the address</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>

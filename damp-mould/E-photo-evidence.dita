@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
-<topic id='Ephoto-evidence'>
-  <title>photo_evidence</title>
-  <shortdesc>URL or path to photo evidence.</shortdesc>
-  <body>
-    <p>Data Type: string</p>
-  </body>
-</topic>
