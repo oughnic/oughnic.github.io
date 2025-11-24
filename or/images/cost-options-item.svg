@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 247" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of cost_options Item</title><desc id="desc">Generated diagram of focal class cost_options Item and related classes.</desc><g><!-- Association cost_options Root -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="159" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="38">0..*</tspan></text>
+<text x="503" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="58">cost_options</tspan></text>
+</g>
+<g><!-- Root -->
+<a xlink:href="./root.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details about each organization delivering services. Each service should be linked to the organization responsible for its delivery. One organization may deliver many services.</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="18">Root</tspan></text>
+</g>
+<g><!-- Association cost_options service Object -->
+<line x1="155" y1="122" x2="525" y2="122" stroke="black" stroke-width="2" /><text x="159" y="118" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="118">0..*</tspan></text>
+<text x="503" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="118">0..*</tspan></text>
+<text x="340" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="138">cost_options</tspan></text>
+</g>
+<g><!-- service Object -->
+<a xlink:href="./service-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the services provided by organizations to a range of different groups.</title></rect></a><text x="80" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="98">service Object</tspan></text>
+</g>
+<g><!-- Association cost_options services Item -->
+<line x1="155" y1="202" x2="525" y2="202" stroke="black" stroke-width="2" /><text x="159" y="198" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="198">0..*</tspan></text>
+<text x="503" y="198" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="198">0..*</tspan></text>
+<text x="340" y="218" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="218">cost_options</tspan></text>
+</g>
+<g><!-- services Item -->
+<a xlink:href="./services-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="165" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the services provided by organizations to a range of different groups.</title></rect></a><text x="80" y="178" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="178">services Item</tspan></text>
+</g>
+<g><!-- Association attributes attributes Item -->
+<line x1="675" y1="42" x2="1045" y2="42" stroke="black" stroke-width="2" /><text x="679" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="38">0..*</tspan></text>
+<text x="1023" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="38">0..*</tspan></text>
+<text x="860" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="58">attributes</tspan></text>
+</g>
+<g><!-- attributes Item -->
+<a xlink:href="./attributes-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A link between a service and one or more classifications that describe the nature of the service provided.</title></rect></a><text x="1120" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="18">attributes Item</tspan></text>
+</g>
+<g><!-- Association metadata metadata Item -->
+<line x1="675" y1="122" x2="1045" y2="122" stroke="black" stroke-width="2" /><text x="679" y="118" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="118">0..*</tspan></text>
+<text x="1023" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="118">0..*</tspan></text>
+<text x="860" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="138">metadata</tspan></text>
+</g>
+<g><!-- metadata Item -->
+<a xlink:href="./metadata-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A record of the changes that have been made to the data in order to maintain provenance information.</title></rect></a><text x="1120" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="98">metadata Item</tspan></text>
+</g>
+<g><!-- Focal cost_options Item -->
+<a xlink:href="./cost_options-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="225" height="240" fill="white" stroke="black" stroke-width="2"><title>The costs of a service at certain points in time. This is an LGA Extension. This object provides a structured version of the text information contained in the &apos;fees&apos; field of the &apos;service&apos; object.</title></rect></a><text x="637" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="637" y="18">cost_options Item</tspan></text>
+<line x1="525" y1="31" x2="750" y2="31" stroke="black" stroke-width="1" /><text font-family="sans-serif" font-size="12" fill="black" text-anchor="start"><tspan x="532" y="44" text-anchor="start">amount : number</tspan><tspan x="743" y="44" text-anchor="end">[0..1]</tspan><tspan x="532" y="60" text-anchor="start">amount_description</tspan><tspan x="743" y="60" text-anchor="end">[0..1]</tspan><tspan x="532" y="76" text-anchor="start">: string</tspan><tspan x="532" y="92" text-anchor="start">currency : string</tspan><tspan x="743" y="92" text-anchor="end">[0..1]</tspan><tspan x="532" y="108" text-anchor="start">id : uuid</tspan><tspan x="532" y="124" text-anchor="start">option : string</tspan><tspan x="743" y="124" text-anchor="end">[0..1]</tspan><tspan x="532" y="140" text-anchor="start">service_id : uuid</tspan><tspan x="743" y="140" text-anchor="end">[0..1]</tspan><tspan x="532" y="156" text-anchor="start">valid_from : string</tspan><tspan x="743" y="156" text-anchor="end">[0..1]</tspan><tspan x="532" y="172" text-anchor="start">valid_to : string</tspan><tspan x="743" y="172" text-anchor="end">[0..1]</tspan></text></g>
+</svg>

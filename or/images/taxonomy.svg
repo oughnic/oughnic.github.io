@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 183" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of Taxonomy</title><desc id="desc">Generated diagram of focal class Taxonomy and related classes.</desc><g><!-- Association taxonomy_detail Taxonomy Term -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="159" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="38">0..*</tspan></text>
+<text x="503" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="38">0..1</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="58">taxonomy_detail</tspan></text>
+</g>
+<g><!-- Taxonomy Term -->
+<a xlink:href="./taxonomy-term.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>Each service can be categorized according to one or more taxonomy terms. The taxonomy_term object contains a list of taxonomy terms, their names, and, for hierarchical taxonomies, their structure.</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="18">Taxonomy Term</tspan></text>
+</g>
+<g><!-- Association metadata metadata Item -->
+<line x1="675" y1="42" x2="1045" y2="42" stroke="black" stroke-width="2" /><text x="679" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="38">0..*</tspan></text>
+<text x="1023" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="38">0..*</tspan></text>
+<text x="860" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="58">metadata</tspan></text>
+</g>
+<g><!-- metadata Item -->
+<a xlink:href="./metadata-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A record of the changes that have been made to the data in order to maintain provenance information.</title></rect></a><text x="1120" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="18">metadata Item</tspan></text>
+</g>
+<g><!-- Focal Taxonomy -->
+<a xlink:href="./taxonomy.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="225" height="176" fill="white" stroke="black" stroke-width="2"><title>Taxonomies from which taxonomy terms are taken</title></rect></a><text x="637" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="637" y="18">Taxonomy</tspan></text>
+<line x1="525" y1="31" x2="750" y2="31" stroke="black" stroke-width="1" /><text font-family="sans-serif" font-size="12" fill="black" text-anchor="start"><tspan x="532" y="44" text-anchor="start">description :</tspan><tspan x="532" y="60" text-anchor="start">string</tspan><tspan x="532" y="76" text-anchor="start">id : uuid</tspan><tspan x="532" y="92" text-anchor="start">name : string</tspan><tspan x="532" y="108" text-anchor="start">uri : uri</tspan><tspan x="743" y="108" text-anchor="end">[0..1]</tspan><tspan x="532" y="124" text-anchor="start">version : string</tspan><tspan x="743" y="124" text-anchor="end">[0..1]</tspan></text></g>
+</svg>

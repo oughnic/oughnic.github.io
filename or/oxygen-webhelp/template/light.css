@@ -1,0 +1,659 @@
+/*
+ * ==============================================
+ * Skin for oXygen generated WebHelp.
+ * ==============================================
+ */
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Fonts.
+ *  
+ */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/static/OpenSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/Open_Sans/static/OpenSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    background-color: #ffffff;
+}
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * PDF Page Layout and Margins
+ * 
+ * NOTE: The following CSS uses Paged Media properties (position: running, 
+ * content: element) which are valid for PDF rendering engines like Oxygen 
+ * PDF Chemistry, Prince XML, and Antenna House. Standard CSS validators may 
+ * flag these as errors, but they are correct for this use case.
+ * 
+ * BOOKMAP USERS: If using a bookmap, the cover page is auto-generated.
+ * The logo is controlled by the args.cover.logo.image parameter in the
+ * .opt file, and these styles apply to the generated cover.
+ * 
+ * DITAMAP USERS: For regular ditamaps, your DITA source must include 
+ * a front cover topic with:
+ *   <div outputclass="front-page"> or <div outputclass="front-cover">
+ *     <image class="logo" href="resources/iStandUK-Logo.png"/>
+ *   </div>
+ *  
+ */
+@media print {
+    /* Define page size and margins for front cover */
+    @page front-cover {
+        margin-top: 1in;
+        margin-bottom: 1in;
+        margin-left: 1.25in;
+        margin-right: 1in;
+        
+        /* CSS Paged Media: Reference the logo element captured below */
+        @top-left {
+            content: element(cover-logo);
+        }
+    }
+    
+    /* Bookmap-specific cover page */
+    @page cover {
+        margin-top: 1in;
+        margin-bottom: 1in;
+        margin-left: 1.25in;
+        margin-right: 1in;
+        
+        @top-left {
+            content: element(cover-logo);
+        }
+    }
+    
+    /* Define page layout for right (odd) pages */
+    @page :right {
+        margin-top: 1in;
+        margin-bottom: 1in;
+        margin-left: 1in;
+        margin-right: 1.25in;
+        
+        @bottom-right {
+            content: "Page " counter(page);
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 10pt;
+            color: #10069f;
+        }
+    }
+    
+    /* Define page layout for left (even) pages */
+    @page :left {
+        margin-top: 1in;
+        margin-bottom: 1in;
+        margin-left: 1.25in;
+        margin-right: 1in;
+        
+        @bottom-left {
+            content: "Page " counter(page);
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 10pt;
+            color: #10069f;
+        }
+    }
+    
+    /* Front matter pages (TOC, etc.) - Roman numerals */
+    @page frontmatter:left {
+        @bottom-left {
+            content: counter(page, lower-roman);
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 10pt;
+            color: #10069f;
+        }
+    }
+    
+    @page frontmatter:right {
+        @bottom-right {
+            content: counter(page, lower-roman);
+            font-family: 'Open Sans', Arial, sans-serif;
+            font-size: 10pt;
+            color: #10069f;
+        }
+    }
+    
+    /* Front cover page styling (for both bookmap and ditamap) */
+    .front-page,
+    .front-cover,
+    *[outputclass~="front-page"],
+    *[outputclass~="front-cover"],
+    .cover,
+    .bookmap-cover {
+        page: front-cover;
+        page-break-after: always;
+    }
+    
+    /* Logo positioning on front page 
+     * CSS Paged Media: position: running() captures this element 
+     * and places it in the @top-left page margin box 
+     * Supports multiple selectors for bookmap and ditamap approaches */
+    .front-page .logo,
+    .front-cover .logo,
+    .front-page img,
+    .front-cover img,
+    *[outputclass~="front-page"] .logo,
+    *[outputclass~="front-cover"] .logo,
+    *[outputclass~="front-page"] img.logo,
+    *[outputclass~="front-cover"] img.logo,
+    .cover .cover-logo,
+    .bookmap-cover img,
+    .cover img {
+        position: running(cover-logo);
+        display: block;
+        max-width: 200px;
+        margin-bottom: 2em;
+    }
+    
+    /* Bookmap cover title styling */
+    .cover .title,
+    .bookmap-cover h1,
+    .cover h1 {
+        color: #10069f;
+        font-size: 3em;
+        margin-top: 4em;
+        margin-bottom: 1em;
+        font-weight: bold;
+    }
+    
+    /* Front page title styling (for ditamap) */
+    .front-page h1,
+    .front-cover h1,
+    *[outputclass~="front-page"] h1,
+    *[outputclass~="front-cover"] h1 {
+        color: #10069f;
+        font-size: 2.5em;
+        margin-top: 3em;
+        margin-bottom: 1em;
+    }
+    
+    .front-page h2,
+    .front-cover h2,
+    *[outputclass~="front-page"] h2,
+    *[outputclass~="front-cover"] h2,
+    .cover h2,
+    .bookmap-cover h2 {
+        color: #43B02A;
+        font-size: 1.8em;
+        margin-bottom: 0.5em;
+    }
+    
+    .front-page p,
+    .front-cover p,
+    *[outputclass~="front-page"] p,
+    *[outputclass~="front-cover"] p,
+    .cover p,
+    .bookmap-cover p {
+        color: #000000;
+        font-size: 1.1em;
+        line-height: 1.7em;
+    }
+    
+    /* Chapter titles */
+    .chapter > .title,
+    .chapter .topictitle1 {
+        color: #10069f;
+        font-size: 2em;
+        page-break-before: always;
+        margin-top: 0;
+        padding-top: 2em;
+    }
+    
+    /* Ensure proper page breaks */
+    h1, h2, h3 {
+        page-break-after: avoid;
+    }
+    
+    /* Avoid breaking inside elements */
+    table, figure, .example {
+        page-break-inside: avoid;
+    }
+}
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Fight with bootstrap
+ *  
+ */
+.navbar-brand {
+    height: auto;
+}
+.navbar {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+}
+a,
+a:hover,
+a:visited {
+    color: navy;
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*  Nicholas */
+
+.topictitle1
+{
+    padding-top: 25px;
+    color: #43B02A;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Publication titles
+ *  
+ */
+.wh_publication_title > a {
+    font-size: 1.5em;
+}
+
+/* Logo styling for WebHelp output */
+.wh_logo,
+.wh_logo img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+/* Ensure logo is visible in header */
+.wh_header .wh_logo {
+    max-width: 200px;
+    margin: 1em 0;
+}
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Menu
+ *  
+ */
+.wh_top_menu {
+    font-size: 1.1em;
+    margin: .4em 0;
+    color: white;
+    background-color: #10069f;
+}
+
+/* The submenus */
+.wh_top_menu ul ul {
+    /*background-color: #f4f4f4;*/
+}
+.wh_top_menu ul li a,
+.wh_top_menu ul li a:focus,
+.wh_top_menu ul li a:hover,
+.wh_top_menu.activated-on-click ul li.active {
+    /*background-color: #f4f4f4;*/
+    color: white;
+}
+.wh_top_menu ul ul li a,
+.wh_top_menu ul ul li a:focus,
+.wh_top_menu ul ul li a:hover {
+    /* background: #e4e4e4;
+*/
+    color: #10069f;
+}
+.wh_top_menu ul ul li {
+    border-top-color: #10069f;
+}
+
+.wh_top_menu:not(.activated-on-click) ul:hover li,
+.wh_top_menu:not(.activated-on-click) ul li:hover {
+    /* WH-2521 Change the background color imediatelly when the current menu item (li) or other menu item is hovered. */
+    transition: none;
+}
+
+.wh_top_menu:not(.activated-on-click) ul li {
+    /* WH-2521 Delay the background color change on hover off. */
+    transition: background-color 0.2s 1s;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Link to the index.
+ * 
+ */
+.wh_indexterms_link a span {
+    display: none;
+}
+
+@media only screen and (max-width : 767px) {
+    .wh_indexterms_link a:before {
+        bottom: 0;
+    }
+}
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Breadcrumb
+ *  
+ */
+.wh_breadcrumb ol {
+    background-color: #10069f;
+}
+.wh_breadcrumb ol {
+    color: #fafafa;
+}
+.wh_breadcrumb ol a {
+    color: inherit;
+}
+.wh_breadcrumb ol .active {
+    color: white;
+}
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Tools and navigation
+ * 
+ */
+.wh_tools {
+    background-color: #10069f;
+    margin: 1em 0 2em;
+}
+
+.wh_print_link,
+.wh_navigation_links,
+.wh_navigation_links .navnext,
+.wh_navigation_links .navprev {
+}
+
+.wh_print_link button,
+.webhelp_expand_collapse_sections,
+.wh_hide_highlight,
+.oxy-icon-pdf-link,
+.wh_navigation_links a,
+.wh_navigation_links a:hover,
+.wh_navigation_links a:active,
+.wh_navigation_links a:visited,
+.wh_print_link a:before,
+.wh_navigation_links a:before,
+.wh_navigation_links a:hover:before,
+.wh_navigation_links a:active:before,
+.wh_navigation_links a:visited:before {
+    color: #347bb7;
+    text-decoration: none;
+}
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Tiles
+ * 
+ */
+.wh_tile {
+    border: solid;
+    border-radius: 0em;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-width: thin;
+}
+.wh_tile_shortdesc {
+    margin-top: 0.5em;
+    text-align: center;
+}
+.wh_tile_title {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+.wh_tile_title a {
+}
+.wh_tile_shortdesc {
+    text-align: center;
+}
+.wh_tile_text:after {
+    background: linear-gradient(to bottom, rgba(238, 238, 238, 0), rgba(238, 238, 238, 1) 50%);
+}
+@media only screen and (max-width : 767px) {
+    .wh_tile > div {
+        height: auto;
+    }
+}
+
+/* 
+You can style some of the tiles in a special way. 
+Example:
+.wh_tiles *[data-id='getting_started']{
+    background-color:gray;
+}
+*/
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Search area
+ * 
+ */
+.wh_search_input {
+    margin: 2em 0; /*
+    background: white;*/
+}
+.wh_welcome:not(:empty) {
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding: 0 0 .5em 0;
+    text-shadow: none;
+    color: #040480;
+}
+.wh_search_textfield {
+    border: solid 1px #CCC;
+    border-radius: 5px;
+    padding: 0 .5em;
+    font-size: 1.2em;
+    line-height: 2em;
+    height: auto;
+}
+.wh_search_button {
+    border: solid 1px #CCC;
+    border-radius: 0 5px 5px 0;
+    padding: 0.5em 1em;
+    background-color: #43B02A;
+}
+
+/* Search autocomplete */
+.ui-menu-item {
+    font-size: 1.4em;
+}
+
+.ui-menu-item .ui-state-active {
+    background-color: #10069f;
+}
+
+/* Search relative path */
+.searchresult li .relativePath a {
+    color: #006621;
+}
+
+/* Search autocomplete icons */
+.search-autocomplete-proposal-type-history a,
+.search-autocomplete-proposal-type-history a:hover,
+.search-autocomplete-proposal-type-history a:visited,
+.search-autocomplete-proposal-type-history a:active {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.8em;
+}
+.ui-state-active .search-autocomplete-proposal-type-history a,
+.ui-state-active .search-autocomplete-proposal-type-history a:hover,
+.ui-state-active .search-autocomplete-proposal-type-history a:visited,
+.ui-state-active .search-autocomplete-proposal-type-history a:active {
+    color: #fff;
+}
+
+/* Active search page */
+#wh-search-pagination > ul > li.active > a {
+    background-color: #10069f;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    border-color: #346ec5 !important;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Publication TOC
+ * 
+ */
+.wh_publication_toc {
+    border-radius: 3px;
+    background-color: #10069f;
+    padding: 1.5em 2em;
+    line-height: 2em;
+}
+.wh_publication_toc .active > .topicref a {
+    color: white;
+    font-weight: normal;
+}
+.wh_publication_toc div,
+.wh_publication_toc a,
+.wh_publication_toc a:visited,
+.wh_publication_toc a:hover {
+    color: #fafafa;
+}
+.wh_publication_toc a:hover {
+    text-decoration: underline;
+}
+.topictitle3 {
+    font-weight: 400
+}
+@media only screen and (max-width : 767px) {
+    .wh_publication_toc {
+        border-radius: 0;
+        padding: 1em 0.5em;
+        margin-top: 10px;
+    }
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Footer
+ * 
+ */
+.wh_footer {
+    text-align: center;
+    padding: 1em;
+}
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Topic content
+ * 
+ */
+
+.wh_topic_content,
+.wh_content_area {
+    color: black;
+    line-height: 1.7em;
+    background-color: #ffffff;
+}
+
+
+.wh_related_links,
+.wh_child_links,
+.wh_topic_content .related-links {
+    background-color: #eeeeee;
+    padding: 1.5em;
+    margin-top: 1.5em;
+}
+
+
+.related-links a,
+.related-links a:visited {
+    color: white;
+    padding-bottom: .3em;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Search results.
+ * 
+ */
+.searchresult {
+    list-style: none;
+}
+
+.searchresult li a {
+    color: #346ec5;
+}
+.searchresult .shortdesclink {
+    margin: .3em .5em 0 0;
+}
+.wh_search_expression {
+    font-weight: bold;
+}
+
+
+
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Index terms.
+ * 
+ */
+.wh_index_terms span.wh_first_letter {
+    color: #346ec5;
+}
+.wh_index_terms #indexList {
+    padding: 0;
+}
+
+
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Tree TOC for the main page.
+ * 
+ */
+.wh_main_page_toc {
+}

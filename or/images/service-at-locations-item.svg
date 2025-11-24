@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 567" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of service_at_locations Item</title><desc id="desc">Generated diagram of focal class service_at_locations Item and related classes.</desc><g><!-- Association service_at_locations Root -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="159" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="38">0..*</tspan></text>
+<text x="503" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="58">service_at_locations</tspan></text>
+</g>
+<g><!-- Root -->
+<a xlink:href="./root.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details about each organization delivering services. Each service should be linked to the organization responsible for its delivery. One organization may deliver many services.</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="18">Root</tspan></text>
+</g>
+<g><!-- Association service_at_locations services Item -->
+<line x1="155" y1="122" x2="525" y2="122" stroke="black" stroke-width="2" /><text x="159" y="118" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="118">0..*</tspan></text>
+<text x="503" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="118">0..*</tspan></text>
+<text x="340" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="138">service_at_locations</tspan></text>
+</g>
+<g><!-- services Item -->
+<a xlink:href="./services-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the services provided by organizations to a range of different groups.</title></rect></a><text x="80" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="98">services Item</tspan></text>
+</g>
+<g><!-- Association attributes attributes Item -->
+<line x1="675" y1="42" x2="1045" y2="42" stroke="black" stroke-width="2" /><text x="679" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="38">0..*</tspan></text>
+<text x="1023" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="38">0..*</tspan></text>
+<text x="860" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="58">attributes</tspan></text>
+</g>
+<g><!-- attributes Item -->
+<a xlink:href="./attributes-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A link between a service and one or more classifications that describe the nature of the service provided.</title></rect></a><text x="1120" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="18">attributes Item</tspan></text>
+</g>
+<g><!-- Association contacts contacts Item -->
+<line x1="675" y1="122" x2="1045" y2="122" stroke="black" stroke-width="2" /><text x="679" y="118" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="118">0..*</tspan></text>
+<text x="1023" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="118">0..*</tspan></text>
+<text x="860" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="138">contacts</tspan></text>
+</g>
+<g><!-- contacts Item -->
+<a xlink:href="./contacts-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the named contacts for services and organizations.</title></rect></a><text x="1120" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="98">contacts Item</tspan></text>
+</g>
+<g><!-- Association location Location -->
+<line x1="675" y1="202" x2="1045" y2="202" stroke="black" stroke-width="2" /><text x="679" y="198" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="198">0..*</tspan></text>
+<text x="1023" y="198" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="198">0..1</tspan></text>
+<text x="860" y="218" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="218">location</tspan></text>
+</g>
+<g><!-- Location -->
+<a xlink:href="./location.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="165" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the locations where organizations operate. Locations may be virtual, and one organization may have many locations.</title></rect></a><text x="1120" y="178" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="178">Location</tspan></text>
+</g>
+<g><!-- Association metadata metadata Item -->
+<line x1="675" y1="282" x2="1045" y2="282" stroke="black" stroke-width="2" /><text x="679" y="278" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="278">0..*</tspan></text>
+<text x="1023" y="278" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="278">0..*</tspan></text>
+<text x="860" y="298" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="298">metadata</tspan></text>
+</g>
+<g><!-- metadata Item -->
+<a xlink:href="./metadata-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="245" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A record of the changes that have been made to the data in order to maintain provenance information.</title></rect></a><text x="1120" y="258" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="258">metadata Item</tspan></text>
+</g>
+<g><!-- Association phones phones Item -->
+<line x1="675" y1="362" x2="1045" y2="362" stroke="black" stroke-width="2" /><text x="679" y="358" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="358">0..*</tspan></text>
+<text x="1023" y="358" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="358">0..*</tspan></text>
+<text x="860" y="378" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="378">phones</tspan></text>
+</g>
+<g><!-- phones Item -->
+<a xlink:href="./phones-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="325" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the telephone numbers used to contact organizations, services, and locations.</title></rect></a><text x="1120" y="338" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="338">phones Item</tspan></text>
+</g>
+<g><!-- Association schedules schedules Item -->
+<line x1="675" y1="442" x2="1045" y2="442" stroke="black" stroke-width="2" /><text x="679" y="438" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="438">0..*</tspan></text>
+<text x="1023" y="438" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="438">0..*</tspan></text>
+<text x="860" y="458" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="458">schedules</tspan></text>
+</g>
+<g><!-- schedules Item -->
+<a xlink:href="./schedules-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="405" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of when a service or location is open. Entries are RFC 5545 RRULES.</title></rect></a><text x="1120" y="418" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="418">schedules Item</tspan></text>
+</g>
+<g><!-- Association service_areas service_areas Item -->
+<line x1="675" y1="522" x2="1045" y2="522" stroke="black" stroke-width="2" /><text x="679" y="518" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="518">0..*</tspan></text>
+<text x="1023" y="518" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="518">0..*</tspan></text>
+<text x="860" y="538" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="538">service_areas</tspan></text>
+</g>
+<g><!-- service_areas Item -->
+<a xlink:href="./service_areas-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="485" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the geographic area for which a service is available.</title></rect></a><text x="1120" y="498" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="498">service_areas Item</tspan></text>
+</g>
+<g><!-- Focal service_at_locations Item -->
+<a xlink:href="./service_at_locations-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="225" height="560" fill="white" stroke="black" stroke-width="2"><title>A link between a service and a specific location.</title></rect></a><text x="637" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="637" y="18">service_at_locations Item</tspan></text>
+<line x1="525" y1="31" x2="750" y2="31" stroke="black" stroke-width="1" /><text font-family="sans-serif" font-size="12" fill="black" text-anchor="start"><tspan x="532" y="44" text-anchor="start">description :</tspan><tspan x="743" y="44" text-anchor="end">[0..1]</tspan><tspan x="532" y="60" text-anchor="start">string</tspan><tspan x="532" y="76" text-anchor="start">id : uuid</tspan><tspan x="532" y="92" text-anchor="start">location_id : uuid</tspan><tspan x="743" y="92" text-anchor="end">[0..1]</tspan><tspan x="532" y="108" text-anchor="start">service_id : uuid</tspan><tspan x="743" y="108" text-anchor="end">[0..1]</tspan></text></g>
+</svg>

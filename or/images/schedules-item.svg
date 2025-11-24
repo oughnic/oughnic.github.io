@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 535" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of schedules Item</title><desc id="desc">Generated diagram of focal class schedules Item and related classes.</desc><g><!-- Association schedules Location -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="159" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="38">0..*</tspan></text>
+<text x="503" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="58">schedules</tspan></text>
+</g>
+<g><!-- Location -->
+<a xlink:href="./location.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the locations where organizations operate. Locations may be virtual, and one organization may have many locations.</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="18">Location</tspan></text>
+</g>
+<g><!-- Association schedules locations Item -->
+<line x1="155" y1="122" x2="525" y2="122" stroke="black" stroke-width="2" /><text x="159" y="118" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="118">0..*</tspan></text>
+<text x="503" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="118">0..*</tspan></text>
+<text x="340" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="138">schedules</tspan></text>
+</g>
+<g><!-- locations Item -->
+<a xlink:href="./locations-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The locations where organizations operate. Locations may be virtual, and one organization may have many locations.</title></rect></a><text x="80" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="98">locations Item</tspan></text>
+</g>
+<g><!-- Association schedules Root -->
+<line x1="155" y1="202" x2="525" y2="202" stroke="black" stroke-width="2" /><text x="159" y="198" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="198">0..*</tspan></text>
+<text x="503" y="198" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="198">0..*</tspan></text>
+<text x="340" y="218" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="218">schedules</tspan></text>
+</g>
+<g><!-- Root -->
+<a xlink:href="./root.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="165" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details about each organization delivering services. Each service should be linked to the organization responsible for its delivery. One organization may deliver many services.</title></rect></a><text x="80" y="178" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="178">Root</tspan></text>
+</g>
+<g><!-- Association schedules service Object -->
+<line x1="155" y1="282" x2="525" y2="282" stroke="black" stroke-width="2" /><text x="159" y="278" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="278">0..*</tspan></text>
+<text x="503" y="278" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="278">0..*</tspan></text>
+<text x="340" y="298" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="298">schedules</tspan></text>
+</g>
+<g><!-- service Object -->
+<a xlink:href="./service-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="245" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the services provided by organizations to a range of different groups.</title></rect></a><text x="80" y="258" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="258">service Object</tspan></text>
+</g>
+<g><!-- Association schedules service_at_locations Item -->
+<line x1="155" y1="362" x2="525" y2="362" stroke="black" stroke-width="2" /><text x="159" y="358" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="358">0..*</tspan></text>
+<text x="503" y="358" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="358">0..*</tspan></text>
+<text x="340" y="378" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="378">schedules</tspan></text>
+</g>
+<g><!-- service_at_locations Item -->
+<a xlink:href="./service_at_locations-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="325" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A link between a service and a specific location.</title></rect></a><text x="80" y="338" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="338"></tspan><tspan x="80" y="354">service_at_locations</tspan><tspan x="80" y="370">Item</tspan></text>
+</g>
+<g><!-- Association schedules services Item -->
+<line x1="155" y1="442" x2="525" y2="442" stroke="black" stroke-width="2" /><text x="159" y="438" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="159" y="438">0..*</tspan></text>
+<text x="503" y="438" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="503" y="438">0..*</tspan></text>
+<text x="340" y="458" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="340" y="458">schedules</tspan></text>
+</g>
+<g><!-- services Item -->
+<a xlink:href="./services-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="405" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>The details of the services provided by organizations to a range of different groups.</title></rect></a><text x="80" y="418" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="80" y="418">services Item</tspan></text>
+</g>
+<g><!-- Association attributes attributes Item -->
+<line x1="675" y1="42" x2="1045" y2="42" stroke="black" stroke-width="2" /><text x="679" y="38" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="38">0..*</tspan></text>
+<text x="1023" y="38" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="38">0..*</tspan></text>
+<text x="860" y="58" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="58">attributes</tspan></text>
+</g>
+<g><!-- attributes Item -->
+<a xlink:href="./attributes-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A link between a service and one or more classifications that describe the nature of the service provided.</title></rect></a><text x="1120" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="18">attributes Item</tspan></text>
+</g>
+<g><!-- Association metadata metadata Item -->
+<line x1="675" y1="122" x2="1045" y2="122" stroke="black" stroke-width="2" /><text x="679" y="118" text-anchor="start" font-family="sans-serif" font-size="12" fill="black"><tspan x="679" y="118">0..*</tspan></text>
+<text x="1023" y="118" text-anchor="end" font-family="sans-serif" font-size="12" fill="black"><tspan x="1023" y="118">0..*</tspan></text>
+<text x="860" y="138" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="860" y="138">metadata</tspan></text>
+</g>
+<g><!-- metadata Item -->
+<a xlink:href="./metadata-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>A record of the changes that have been made to the data in order to maintain provenance information.</title></rect></a><text x="1120" y="98" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="1120" y="98">metadata Item</tspan></text>
+</g>
+<g><!-- Focal schedules Item -->
+<a xlink:href="./schedules-item.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="225" height="528" fill="white" stroke="black" stroke-width="2"><title>The details of when a service or location is open. Entries are RFC 5545 RRULES.</title></rect></a><text x="637" y="18" text-anchor="middle" font-family="sans-serif" font-size="12" fill="black"><tspan x="637" y="18">schedules Item</tspan></text>
+<line x1="525" y1="31" x2="750" y2="31" stroke="black" stroke-width="1" /><text font-family="sans-serif" font-size="12" fill="black" text-anchor="start"><tspan x="532" y="44" text-anchor="start">attending_type :</tspan><tspan x="743" y="44" text-anchor="end">[0..1]</tspan><tspan x="532" y="60" text-anchor="start">string</tspan><tspan x="532" y="76" text-anchor="start">byday : string</tspan><tspan x="743" y="76" text-anchor="end">[0..1]</tspan><tspan x="532" y="92" text-anchor="start">bymonthday : string</tspan><tspan x="743" y="92" text-anchor="end">[0..1]</tspan><tspan x="532" y="108" text-anchor="start">byweekno : string</tspan><tspan x="743" y="108" text-anchor="end">[0..1]</tspan><tspan x="532" y="124" text-anchor="start">byyearday : string</tspan><tspan x="743" y="124" text-anchor="end">[0..1]</tspan><tspan x="532" y="140" text-anchor="start">closes_at : string</tspan><tspan x="743" y="140" text-anchor="end">[0..1]</tspan><tspan x="532" y="156" text-anchor="start">count : number</tspan><tspan x="743" y="156" text-anchor="end">[0..1]</tspan><tspan x="532" y="172" text-anchor="start">description :</tspan><tspan x="743" y="172" text-anchor="end">[0..1]</tspan><tspan x="532" y="188" text-anchor="start">string</tspan><tspan x="532" y="204" text-anchor="start">dtstart : string</tspan><tspan x="743" y="204" text-anchor="end">[0..1]</tspan><tspan x="532" y="220" text-anchor="start">freq : freq</tspan><tspan x="743" y="220" text-anchor="end">[0..1]</tspan><tspan x="532" y="236" text-anchor="start">enumeration</tspan><tspan x="532" y="252" text-anchor="start">id : uuid</tspan><tspan x="532" y="268" text-anchor="start">interval : number</tspan><tspan x="743" y="268" text-anchor="end">[0..1]</tspan><tspan x="532" y="284" text-anchor="start">location_id : uuid</tspan><tspan x="743" y="284" text-anchor="end">[0..1]</tspan><tspan x="532" y="300" text-anchor="start">notes : string</tspan><tspan x="743" y="300" text-anchor="end">[0..1]</tspan><tspan x="532" y="316" text-anchor="start">opens_at : string</tspan><tspan x="743" y="316" text-anchor="end">[0..1]</tspan><tspan x="532" y="332" text-anchor="start">schedule_link : uri</tspan><tspan x="743" y="332" text-anchor="end">[0..1]</tspan><tspan x="532" y="348" text-anchor="start">service_at_location_id</tspan><tspan x="743" y="348" text-anchor="end">[0..1]</tspan><tspan x="532" y="364" text-anchor="start">: uuid</tspan><tspan x="532" y="380" text-anchor="start">service_id : uuid</tspan><tspan x="743" y="380" text-anchor="end">[0..1]</tspan><tspan x="532" y="396" text-anchor="start">timezone : number</tspan><tspan x="743" y="396" text-anchor="end">[0..1]</tspan><tspan x="532" y="412" text-anchor="start">until : string</tspan><tspan x="743" y="412" text-anchor="end">[0..1]</tspan><tspan x="532" y="428" text-anchor="start">valid_from : string</tspan><tspan x="743" y="428" text-anchor="end">[0..1]</tspan><tspan x="532" y="444" text-anchor="start">valid_to : string</tspan><tspan x="743" y="444" text-anchor="end">[0..1]</tspan><tspan x="532" y="460" text-anchor="start">wkst : wkst</tspan><tspan x="743" y="460" text-anchor="end">[0..1]</tspan><tspan x="532" y="476" text-anchor="start">enumeration</tspan></text></g>
+</svg>
