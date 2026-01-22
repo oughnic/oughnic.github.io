@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="Tae409271-b6e7-46c1-978b-fdecace449a5"
+               path="class/contsys-fdis.html"/>
+   <appContext helpID="T95c4fd99-6150-4fe9-883c-bd5a776d52ee"
+               path="class/adverse-event.html"/>
+   <appContext helpID="Enegatively-influences"
+               path="class/adverse-event.html#Enegatively-influences"/>
+   <appContext helpID="Erequires" path="class/adverse-event.html#Erequires"/>
+   <appContext helpID="Tdc07fff5-a43b-4864-b6e0-09c653fe0385"
+               path="class/adverse-event-management.html"/>
+   <appContext helpID="T06300b73-ca9c-4c6c-9262-0b70ec5540db"
+               path="class/appointment.html"/>
+   <appContext helpID="T6d5a1377-99ce-47c8-84b8-354f8070a17a"
+               path="class/authorization-by-law.html"/>
+   <appContext helpID="T8aed48e3-6485-4e8f-8193-ba313c3230d2"
+               path="class/automated-care.html"/>
+   <appContext helpID="Einitiated-during"
+               path="class/automated-care.html#Einitiated-during"/>
+   <appContext helpID="Eresults-in" path="class/automated-care.html#Eresults-in"/>
+   <appContext helpID="Ereviewed-during"
+               path="class/automated-care.html#Ereviewed-during"/>
+   <appContext helpID="Eterminated-during"
+               path="class/automated-care.html#Eterminated-during"/>
+   <appContext helpID="T5aeac937-b067-4148-9343-9c70d46b9fcb"
+               path="class/automatic-medical-device.html"/>
+   <appContext helpID="Edelivers" path="class/automatic-medical-device.html#Edelivers"/>
+   <appContext helpID="T4bbe3244-f911-49df-8e05-9a9d8bd3f3c3" path="class/care.html"/>
+   <appContext helpID="T9db96600-9f5a-4eed-b7e0-a2fa180bdd9d"
+               path="class/care-activity.html"/>
+   <appContext helpID="Ecare" path="class/care-activity.html#Ecare"/>
+   <appContext helpID="Ecare-activity" path="class/care-activity.html#Ecare-activity"/>
+   <appContext helpID="Ecare-process" path="class/care-activity.html#Ecare-process"/>
+   <appContext helpID="Efor" path="class/care-activity.html#Efor"/>
+   <appContext helpID="Eperformed-at" path="class/care-activity.html#Eperformed-at"/>
+   <appContext helpID="Eperformed-during"
+               path="class/care-activity.html#Eperformed-during"/>
+   <appContext helpID="Erecorded-in" path="class/care-activity.html#Erecorded-in"/>
+   <appContext helpID="Erequires-2" path="class/care-activity.html#Erequires-2"/>
+   <appContext helpID="Etargets" path="class/care-activity.html#Etargets"/>
+   <appContext helpID="Tf7c3ea77-77bc-403e-a234-d8853f947f40"
+               path="class/care-activity-bundle.html"/>
+   <appContext helpID="Ecare-activity-2"
+               path="class/care-activity-bundle.html#Ecare-activity-2"/>
+   <appContext helpID="Eincludes" path="class/care-activity-bundle.html#Eincludes"/>
+   <appContext helpID="Te946367a-cbe7-492e-9759-f2eed680dae4"
+               path="class/care-activity-delay.html"/>
+   <appContext helpID="Tfd2c26ed-422f-41e1-aab0-0192d550e443"
+               path="class/care-activity-management.html"/>
+   <appContext helpID="Emanages" path="class/care-activity-management.html#Emanages"/>
+   <appContext helpID="Tbd9ee1b7-b197-4027-92eb-8294df1bd262"
+               path="class/care-activity-mandate.html"/>
+   <appContext helpID="T1a01bcf8-b6ca-4a2b-ac68-116da890b10a"
+               path="class/care-activity-period.html"/>
+   <appContext helpID="Emandated-period-of-care"
+               path="class/care-activity-period.html#Emandated-period-of-care"/>
+   <appContext helpID="Etakes-place-during"
+               path="class/care-activity-period.html#Etakes-place-during"/>
+   <appContext helpID="Tb40f06bf-cff4-4b6a-a07e-422c6929e50a"
+               path="class/care-actor.html"/>
+   <appContext helpID="Eapplies" path="class/care-actor.html#Eapplies"/>
+   <appContext helpID="Eassigns" path="class/care-actor.html#Eassigns"/>
+   <appContext helpID="Ecustodian-for" path="class/care-actor.html#Ecustodian-for"/>
+   <appContext helpID="Edefines" path="class/care-actor.html#Edefines"/>
+   <appContext helpID="Edescribes" path="class/care-actor.html#Edescribes"/>
+   <appContext helpID="Eexpresses" path="class/care-actor.html#Eexpresses"/>
+   <appContext helpID="Ehas-observed" path="class/care-actor.html#Ehas-observed"/>
+   <appContext helpID="Eidentifies" path="class/care-actor.html#Eidentifies"/>
+   <appContext helpID="Einvolved-in" path="class/care-actor.html#Einvolved-in"/>
+   <appContext helpID="Emakes-decisions-assisted-by"
+               path="class/care-actor.html#Emakes-decisions-assisted-by"/>
+   <appContext helpID="Eobserved-by" path="class/care-actor.html#Eobserved-by"/>
+   <appContext helpID="Eobserves" path="class/care-actor.html#Eobserves"/>
+   <appContext helpID="Eperforms" path="class/care-actor.html#Eperforms"/>
+   <appContext helpID="Eprovides" path="class/care-actor.html#Eprovides"/>
+   <appContext helpID="Ereceives" path="class/care-actor.html#Ereceives"/>
+   <appContext helpID="Eresponsible-for" path="class/care-actor.html#Eresponsible-for"/>
+   <appContext helpID="Esends-out" path="class/care-actor.html#Esends-out"/>
+   <appContext helpID="Tf50df97b-3fa9-418e-88f3-270e059738fc"
+               path="class/care-appointment.html"/>
+   <appContext helpID="Eappointment-for"
+               path="class/care-appointment.html#Eappointment-for"/>
+   <appContext helpID="Escheduled-in" path="class/care-appointment.html#Escheduled-in"/>
+   <appContext helpID="T09eb0a5d-e7e0-4888-8f2b-815bf3217441"
+               path="class/care-assessment.html"/>
+   <appContext helpID="Eforms-opinion-about"
+               path="class/care-assessment.html#Eforms-opinion-about"/>
+   <appContext helpID="Td6ae6276-42a1-4858-bb4d-ea1759e2a1d8"
+               path="class/care-commitment.html"/>
+   <appContext helpID="Erelates-to-the-provision-of"
+               path="class/care-commitment.html#Erelates-to-the-provision-of"/>
+   <appContext helpID="T1453dfd5-bac0-48ba-a3d7-02c0a4b47b50"
+               path="class/care-communication.html"/>
+   <appContext helpID="Etakes-place-between"
+               path="class/care-communication.html#Etakes-place-between"/>
+   <appContext helpID="T067b6a61-761f-4227-97fe-0b83a4088b6d"
+               path="class/care-contact.html"/>
+   <appContext helpID="Etakes-place-during-2"
+               path="class/care-contact.html#Etakes-place-during-2"/>
+   <appContext helpID="T7ad6ad2a-5670-48ad-9d7f-837f5b175cef"
+               path="class/care-data.html"/>
+   <appContext helpID="Tc00fde7b-fd40-4b8a-9a33-c68501ac2e97"
+               path="class/care-documenting.html"/>
+   <appContext helpID="Emaintains" path="class/care-documenting.html#Emaintains"/>
+   <appContext helpID="T820f67b6-f718-4c09-a097-6d16be2a5b16"
+               path="class/care-employment.html"/>
+   <appContext helpID="Emandates" path="class/care-employment.html#Emandates"/>
+   <appContext helpID="T8c73e77f-5318-4136-b648-3a6164c96458"
+               path="class/care-evaluation.html"/>
+   <appContext helpID="Eevaluates-aspects-of"
+               path="class/care-evaluation.html#Eevaluates-aspects-of"/>
+   <appContext helpID="T2c026a2e-4093-4a99-bf3b-3c9a9738e57c"
+               path="class/care-funds.html"/>
+   <appContext helpID="Efunding" path="class/care-funds.html#Efunding"/>
+   <appContext helpID="Ta53c08a8-4a9a-4556-b734-f4e42e53a98c"
+               path="class/care-goal.html"/>
+   <appContext helpID="Econtributes-to-achievement-of"
+               path="class/care-goal.html#Econtributes-to-achievement-of"/>
+   <appContext helpID="T665a81e6-8241-4d63-84e0-bbfb1001c51d"
+               path="class/care-guideline.html"/>
+   <appContext helpID="Ecentred-on" path="class/care-guideline.html#Ecentred-on"/>
+   <appContext helpID="T0e8398d8-c793-4a48-9d0b-6f62f67e1dc4"
+               path="class/care-information.html"/>
+   <appContext helpID="Td5a711a8-d0e7-4684-875f-cceb05ecefef"
+               path="class/care-information-for-import.html"/>
+   <appContext helpID="Eimported-into"
+               path="class/care-information-for-import.html#Eimported-into"/>
+   <appContext helpID="T7f93f2e8-34ed-41cf-9c6f-6140356b6621"
+               path="class/care-information-request.html"/>
+   <appContext helpID="Etopic-for"
+               path="class/care-information-request.html#Etopic-for"/>
+   <appContext helpID="Td0b62045-00cd-4d13-b27f-36963ea9d6c2"
+               path="class/care-investigation.html"/>
+   <appContext helpID="Eclarifies" path="class/care-investigation.html#Eclarifies"/>
+   <appContext helpID="Ereveals" path="class/care-investigation.html#Ereveals"/>
+   <appContext helpID="Ereveals-health-condition"
+               path="class/care-investigation.html#Ereveals-health-condition"/>
+   <appContext helpID="Td124a289-7465-4e25-8672-fec02119fb9d"
+               path="class/care-mandate.html"/>
+   <appContext helpID="Eassigned-to" path="class/care-mandate.html#Eassigned-to"/>
+   <appContext helpID="Econcerns" path="class/care-mandate.html#Econcerns"/>
+   <appContext helpID="Ederives-from" path="class/care-mandate.html#Ederives-from"/>
+   <appContext helpID="Eimplies-access-to"
+               path="class/care-mandate.html#Eimplies-access-to"/>
+   <appContext helpID="Erecorded-in-2" path="class/care-mandate.html#Erecorded-in-2"/>
+   <appContext helpID="Eregulates" path="class/care-mandate.html#Eregulates"/>
+   <appContext helpID="Erequires-3" path="class/care-mandate.html#Erequires-3"/>
+   <appContext helpID="Erequires-care-commitment"
+               path="class/care-mandate.html#Erequires-care-commitment"/>
+   <appContext helpID="Tb9488049-fb10-46ff-9eb9-bd6ad482ec76"
+               path="class/care-needs-assessment.html"/>
+   <appContext helpID="Edetermines"
+               path="class/care-needs-assessment.html#Edetermines"/>
+   <appContext helpID="Einforms" path="class/care-needs-assessment.html#Einforms"/>
+   <appContext helpID="Tae58349c-941a-420a-a880-7162fb4e90b9"
+               path="class/care-organization.html"/>
+   <appContext helpID="Eadopts" path="class/care-organization.html#Eadopts"/>
+   <appContext helpID="Egives" path="class/care-organization.html#Egives"/>
+   <appContext helpID="T2c3fed77-736b-402c-9d7f-f085cd3d0174"
+               path="class/care-pathway.html"/>
+   <appContext helpID="Eaddresses" path="class/care-pathway.html#Eaddresses"/>
+   <appContext helpID="Einforms-2" path="class/care-pathway.html#Einforms-2"/>
+   <appContext helpID="Erefers-to" path="class/care-pathway.html#Erefers-to"/>
+   <appContext helpID="Te1853a99-c0c0-4810-801a-e5f38238b077"
+               path="class/care-performer.html"/>
+   <appContext helpID="Edelivers-2" path="class/care-performer.html#Edelivers-2"/>
+   <appContext helpID="T1b6e3a68-57fe-452b-918b-041a204b3399"
+               path="class/care-period-mandate.html"/>
+   <appContext helpID="Eauthorizes" path="class/care-period-mandate.html#Eauthorizes"/>
+   <appContext helpID="Ecommissions"
+               path="class/care-period-mandate.html#Ecommissions"/>
+   <appContext helpID="T06aff740-4b76-407d-b907-2a2378203748"
+               path="class/care-personnel.html"/>
+   <appContext helpID="Eparticipates-in"
+               path="class/care-personnel.html#Eparticipates-in"/>
+   <appContext helpID="Eplays" path="class/care-personnel.html#Eplays"/>
+   <appContext helpID="T3a36d00e-d3f4-499b-b1f6-11b461697c1d"
+               path="class/care-plan.html"/>
+   <appContext helpID="Eaddresses-2" path="class/care-plan.html#Eaddresses-2"/>
+   <appContext helpID="Ebased-upon" path="class/care-plan.html#Ebased-upon"/>
+   <appContext helpID="Ecare-activities-bundle"
+               path="class/care-plan.html#Ecare-activities-bundle"/>
+   <appContext helpID="Ecomplies-with" path="class/care-plan.html#Ecomplies-with"/>
+   <appContext helpID="Econforms-to" path="class/care-plan.html#Econforms-to"/>
+   <appContext helpID="Eimplements" path="class/care-plan.html#Eimplements"/>
+   <appContext helpID="Erecorded-in-3" path="class/care-plan.html#Erecorded-in-3"/>
+   <appContext helpID="Eresult-of" path="class/care-plan.html#Eresult-of"/>
+   <appContext helpID="Etargets-2" path="class/care-plan.html#Etargets-2"/>
+   <appContext helpID="Td7644066-60da-4da8-9035-58238dd23ee0"
+               path="class/care-planning.html"/>
+   <appContext helpID="Ebased-upon-2" path="class/care-planning.html#Ebased-upon-2"/>
+   <appContext helpID="Taba83851-1d98-4834-a505-5b6a242f6196"
+               path="class/care-process.html"/>
+   <appContext helpID="Ecare-process-2" path="class/care-process.html#Ecare-process-2"/>
+   <appContext helpID="Edocumented-in" path="class/care-process.html#Edocumented-in"/>
+   <appContext helpID="Eoutputs" path="class/care-process.html#Eoutputs"/>
+   <appContext helpID="Eperformed-for" path="class/care-process.html#Eperformed-for"/>
+   <appContext helpID="Eplanned-in" path="class/care-process.html#Eplanned-in"/>
+   <appContext helpID="Tcdbed706-d908-4659-a8ef-6337d54cdac3"
+               path="class/care-process-evaluation.html"/>
+   <appContext helpID="Econsiders"
+               path="class/care-process-evaluation.html#Econsiders"/>
+   <appContext helpID="Eevaluates"
+               path="class/care-process-evaluation.html#Eevaluates"/>
+   <appContext helpID="T6e2f91b1-d262-4aad-8de4-f07dc6ddcb99"
+               path="class/care-professional.html"/>
+   <appContext helpID="Econsiders-2" path="class/care-professional.html#Econsiders-2"/>
+   <appContext helpID="Edetermines-2"
+               path="class/care-professional.html#Edetermines-2"/>
+   <appContext helpID="Ehas" path="class/care-professional.html#Ehas"/>
+   <appContext helpID="Eidentifies-2"
+               path="class/care-professional.html#Eidentifies-2"/>
+   <appContext helpID="Eidentifies-1"
+               path="class/care-professional.html#Eidentifies-1"/>
+   <appContext helpID="Eissues" path="class/care-professional.html#Eissues"/>
+   <appContext helpID="Emaintains-2" path="class/care-professional.html#Emaintains-2"/>
+   <appContext helpID="Emanages-2" path="class/care-professional.html#Emanages-2"/>
+   <appContext helpID="Emanages-demand"
+               path="class/care-professional.html#Emanages-demand"/>
+   <appContext helpID="Eperforms-2" path="class/care-professional.html#Eperforms-2"/>
+   <appContext helpID="Eplays-2" path="class/care-professional.html#Eplays-2"/>
+   <appContext helpID="Eratifies" path="class/care-professional.html#Eratifies"/>
+   <appContext helpID="Erules-out" path="class/care-professional.html#Erules-out"/>
+   <appContext helpID="Tab80dbac-8522-45f7-853a-7905bd1c91d4"
+               path="class/care-professional-entitlement.html"/>
+   <appContext helpID="T35ad7fb0-4f44-4f94-8508-cd69dd0632c2"
+               path="class/care-provider.html"/>
+   <appContext helpID="Eable-to-be-assigned"
+               path="class/care-provider.html#Eable-to-be-assigned"/>
+   <appContext helpID="Eaccepts-or-declines"
+               path="class/care-provider.html#Eaccepts-or-declines"/>
+   <appContext helpID="Earranges" path="class/care-provider.html#Earranges"/>
+   <appContext helpID="Ecauses" path="class/care-provider.html#Ecauses"/>
+   <appContext helpID="Edelivers-3" path="class/care-provider.html#Edelivers-3"/>
+   <appContext helpID="Ehas-2" path="class/care-provider.html#Ehas-2"/>
+   <appContext helpID="Ehas-care-period-mandate-for"
+               path="class/care-provider.html#Ehas-care-period-mandate-for"/>
+   <appContext helpID="Emanages-3" path="class/care-provider.html#Emanages-3"/>
+   <appContext helpID="Eoffers" path="class/care-provider.html#Eoffers"/>
+   <appContext helpID="Ereceives-2" path="class/care-provider.html#Ereceives-2"/>
+   <appContext helpID="Estates" path="class/care-provider.html#Estates"/>
+   <appContext helpID="Tb4841bcb-0012-4f01-946e-5e1af6956084"
+               path="class/care-provider-activity.html"/>
+   <appContext helpID="Eaddresses-3"
+               path="class/care-provider-activity.html#Eaddresses-3"/>
+   <appContext helpID="Egenerates" path="class/care-provider-activity.html#Egenerates"/>
+   <appContext helpID="Erequires-4"
+               path="class/care-provider-activity.html#Erequires-4"/>
+   <appContext helpID="Tead47509-543a-4e1d-b17f-3d3e9c8fb3a5"
+               path="class/care-resource.html"/>
+   <appContext helpID="Tdb944af3-770b-4627-b13d-43be515ca6f6"
+               path="class/care-service-directory.html"/>
+   <appContext helpID="Te367269e-641c-43d3-8424-601205dff152"
+               path="class/care-service-offering.html"/>
+   <appContext helpID="Elisted-in" path="class/care-service-offering.html#Elisted-in"/>
+   <appContext helpID="T112d2d96-f09f-4c7b-beae-91f1f1f9abf7"
+               path="class/care-supporting-organization.html"/>
+   <appContext helpID="T6cdf58a5-986d-492c-96df-717a4d7daf91"
+               path="class/care-third-party.html"/>
+   <appContext helpID="Eplays-3" path="class/care-third-party.html#Eplays-3"/>
+   <appContext helpID="Esupports" path="class/care-third-party.html#Esupports"/>
+   <appContext helpID="T7e3c529e-a5fc-40b1-a146-efe047e977f8"
+               path="class/care-third-party-activity.html"/>
+   <appContext helpID="Egenerates-2"
+               path="class/care-third-party-activity.html#Egenerates-2"/>
+   <appContext helpID="Erequires-5"
+               path="class/care-third-party-activity.html#Erequires-5"/>
+   <appContext helpID="T4f4885e7-bb69-4a2b-85e6-e04270dac9fe"
+               path="class/care-treatment.html"/>
+   <appContext helpID="Einfluences" path="class/care-treatment.html#Einfluences"/>
+   <appContext helpID="Td3886b6b-3255-4cb7-a8dd-e2b9dbf6720b"
+               path="class/clinical-care.html"/>
+   <appContext helpID="T7c83aba3-84cb-41ac-8245-e2e0734471fb"
+               path="class/clinical-care-activity-mandate.html"/>
+   <appContext helpID="Td8f95456-5163-4d07-be21-2937a283b730"
+               path="class/clinical-care-plan.html"/>
+   <appContext helpID="T3b009b93-19aa-414b-bff4-a40feb00f77e"
+               path="class/clinical-issue.html"/>
+   <appContext helpID="Tc9c2f142-0f02-42f3-987f-65e9d65701cd"
+               path="class/clinical-matter.html"/>
+   <appContext helpID="Tc315d704-cefc-4fda-85af-32a3cfde88d7"
+               path="class/clinical-need.html"/>
+   <appContext helpID="Tf1908c1c-2bc0-43a1-ae43-f0d7abde1e5f"
+               path="class/commitment.html"/>
+   <appContext helpID="T89c4f328-13d6-4f4d-acc9-a9ed07a2c3c2"
+               path="class/composition.html"/>
+   <appContext helpID="Ecomposition" path="class/composition.html#Ecomposition"/>
+   <appContext helpID="Taf5e1451-fc3a-4671-b418-18b51f303494"
+               path="class/consent-competence.html"/>
+   <appContext helpID="Tf700be81-176c-46c6-a704-bbb248197e44"
+               path="class/considered-condition.html"/>
+   <appContext helpID="Ebased-on" path="class/considered-condition.html#Ebased-on"/>
+   <appContext helpID="T793a6366-fd5f-4acd-b314-2537a3122c75"
+               path="class/contact-period.html"/>
+   <appContext helpID="T8b81cc8c-acce-4ef1-942e-81583c336afc"
+               path="class/continuity-facilitator-mandate.html"/>
+   <appContext helpID="Eapplies-to"
+               path="class/continuity-facilitator-mandate.html#Eapplies-to"/>
+   <appContext helpID="Econcerns-2"
+               path="class/continuity-facilitator-mandate.html#Econcerns-2"/>
+   <appContext helpID="T28a977a7-26d2-4f5d-b5f6-614231e632ca"
+               path="class/continuity-of-care.html"/>
+   <appContext helpID="T85e33cbb-082b-465c-a759-fd823e8843b9"
+               path="class/continuity-of-care-process.html"/>
+   <appContext helpID="Eaddresses-4"
+               path="class/continuity-of-care-process.html#Eaddresses-4"/>
+   <appContext helpID="Eincludes-2"
+               path="class/continuity-of-care-process.html#Eincludes-2"/>
+   <appContext helpID="T3f087280-d538-4c73-a743-5c94196371f9"
+               path="class/core-care-plan.html"/>
+   <appContext helpID="Ta4d70b96-866c-4b00-aac1-b6f97bf553bf" path="class/data.html"/>
+   <appContext helpID="Tc54beb09-8e2e-4871-a3fe-19959b94f7e4"
+               path="class/data-repository.html"/>
+   <appContext helpID="Estores" path="class/data-repository.html#Estores"/>
+   <appContext helpID="T09c5fa74-d233-40ee-b2f2-389919d9311f"
+               path="class/discharge-report.html"/>
+   <appContext helpID="Econcerns-3" path="class/discharge-report.html#Econcerns-3"/>
+   <appContext helpID="T3438e46e-d41b-4501-a68e-23ffaf16ed00"
+               path="class/discharge-summary.html"/>
+   <appContext helpID="T8df99cae-ca37-43d6-a9ac-d5e15be72a12" path="class/entry.html"/>
+   <appContext helpID="Ecomposition-2" path="class/entry.html#Ecomposition-2"/>
+   <appContext helpID="T9b0aa9dd-1ab1-428d-8d39-62a046f77be2"
+               path="class/episode-of-care.html"/>
+   <appContext helpID="Ecentred-on-2" path="class/episode-of-care.html#Ecentred-on-2"/>
+   <appContext helpID="Eepisodes-of-care-bundle"
+               path="class/episode-of-care.html#Eepisodes-of-care-bundle"/>
+   <appContext helpID="T538fa95f-47fe-41d0-a61d-3029b1736db1"
+               path="class/episodes-of-care-bundle.html"/>
+   <appContext helpID="T4fb8d6e6-9dbe-4216-8230-db34618e9052" path="class/event.html"/>
+   <appContext helpID="Ta3b8eda7-d76f-4262-afcb-4e1a94660c6e"
+               path="class/excluded-condition.html"/>
+   <appContext helpID="Enot-consistent-with"
+               path="class/excluded-condition.html#Enot-consistent-with"/>
+   <appContext helpID="T6cbd9db6-f009-4071-ab3c-72cf446a5f09" path="class/folder.html"/>
+   <appContext helpID="Efolder" path="class/folder.html#Efolder"/>
+   <appContext helpID="Te3228f4e-090b-4620-abd4-bdbf1daa3912" path="class/health.html"/>
+   <appContext helpID="Tcd61b9e3-64bd-4986-9656-74abfac74a3c"
+               path="class/health-approach.html"/>
+   <appContext helpID="Eaddresses-5" path="class/health-approach.html#Eaddresses-5"/>
+   <appContext helpID="T454aff3d-2dac-423f-a7a3-7f51419c6633"
+               path="class/health-certificate.html"/>
+   <appContext helpID="Eattests" path="class/health-certificate.html#Eattests"/>
+   <appContext helpID="Eissued-by" path="class/health-certificate.html#Eissued-by"/>
+   <appContext helpID="T2ef348d2-dcbf-4f41-96b5-469819a2f210"
+               path="class/health-concern.html"/>
+   <appContext helpID="Tc7d287a0-fb7e-40aa-9893-d75944a15925"
+               path="class/health-condition.html"/>
+   <appContext helpID="Eobserved-during"
+               path="class/health-condition.html#Eobserved-during"/>
+   <appContext helpID="Td58d7cfd-6f75-4a35-a858-7ac8a31b71b6"
+               path="class/health-condition-assessment.html"/>
+   <appContext helpID="T91bfe09c-b8a5-4e5f-b2e7-1789e979544b"
+               path="class/health-condition-delay.html"/>
+   <appContext helpID="Tfb9badce-a5b0-4364-91d2-baac708af7b3"
+               path="class/health-condition-period.html"/>
+   <appContext helpID="T7c9ffd22-c613-4047-b4f8-3ff7944cb48a"
+               path="class/health-issue.html"/>
+   <appContext helpID="Tea7fda9b-001d-4ea4-a9fa-3f7ddbcab3e8"
+               path="class/health-matter.html"/>
+   <appContext helpID="Ehealth-state" path="class/health-matter.html#Ehealth-state"/>
+   <appContext helpID="Ehealth-thread" path="class/health-matter.html#Ehealth-thread"/>
+   <appContext helpID="Elabels" path="class/health-matter.html#Elabels"/>
+   <appContext helpID="T63183c6f-89fb-4f4d-8baf-c91933afde12"
+               path="class/health-need.html"/>
+   <appContext helpID="Ebackground-for" path="class/health-need.html#Ebackground-for"/>
+   <appContext helpID="Econsidered-during"
+               path="class/health-need.html#Econsidered-during"/>
+   <appContext helpID="Edeficit-in" path="class/health-need.html#Edeficit-in"/>
+   <appContext helpID="T77cc8828-fd90-41e2-bf6c-369878198ae4"
+               path="class/health-problem.html"/>
+   <appContext helpID="Eincluded-in" path="class/health-problem.html#Eincluded-in"/>
+   <appContext helpID="T653143ec-e071-446b-a373-de0107056c4e"
+               path="class/health-problem-list.html"/>
+   <appContext helpID="Tc278ce53-b11b-4926-9722-3fb680da75aa"
+               path="class/health-record.html"/>
+   <appContext helpID="Eaccessed-during"
+               path="class/health-record.html#Eaccessed-during"/>
+   <appContext helpID="Econcerns-4" path="class/health-record.html#Econcerns-4"/>
+   <appContext helpID="Ehealth-record-component"
+               path="class/health-record.html#Ehealth-record-component"/>
+   <appContext helpID="T3f846645-894e-4d9b-b730-373705caebf4"
+               path="class/health-record-component.html"/>
+   <appContext helpID="Econtains" path="class/health-record-component.html#Econtains"/>
+   <appContext helpID="Elink" path="class/health-record-component.html#Elink"/>
+   <appContext helpID="T094a2bf2-4a84-4dcc-8d99-51324cb57791"
+               path="class/health-record-extract.html"/>
+   <appContext helpID="Econtains-2"
+               path="class/health-record-extract.html#Econtains-2"/>
+   <appContext helpID="Eextracted-from"
+               path="class/health-record-extract.html#Eextracted-from"/>
+   <appContext helpID="Eimported-into-2"
+               path="class/health-record-extract.html#Eimported-into-2"/>
+   <appContext helpID="Tde7ec2b2-e96c-43b8-839c-d511f32bcc0e"
+               path="class/health-related-period.html"/>
+   <appContext helpID="Eepisode-for"
+               path="class/health-related-period.html#Eepisode-for"/>
+   <appContext helpID="Ehealth-related-period"
+               path="class/health-related-period.html#Ehealth-related-period"/>
+   <appContext helpID="Te3d50d4a-6367-42f1-96e3-55be23436e17"
+               path="class/health-report.html"/>
+   <appContext helpID="Ereceived-as" path="class/health-report.html#Ereceived-as"/>
+   <appContext helpID="T8dcfa7b1-75be-4297-bb6f-6aad0335f01d"
+               path="class/health-state.html"/>
+   <appContext helpID="Econcerns-5" path="class/health-state.html#Econcerns-5"/>
+   <appContext helpID="T19ac40c1-6710-4439-ada5-ee5fc3e6b3ab"
+               path="class/health-summary.html"/>
+   <appContext helpID="Esummarized-care-information-repository"
+               path="class/health-summary.html#Esummarized-care-information-repository"/>
+   <appContext helpID="T3ed9937d-d711-4b45-8e2f-24aff2fbb98e"
+               path="class/health-thread.html"/>
+   <appContext helpID="Edelineates" path="class/health-thread.html#Edelineates"/>
+   <appContext helpID="Edelineates-1" path="class/health-thread.html#Edelineates-1"/>
+   <appContext helpID="Elinks" path="class/health-thread.html#Elinks"/>
+   <appContext helpID="Tdb0b390f-48e4-4393-8b1c-03c4e07807c6"
+               path="class/indirect-care-activity-period.html"/>
+   <appContext helpID="Tafd4fd52-d30a-494f-bacb-1535ec193f1f"
+               path="class/information.html"/>
+   <appContext helpID="Eshared-during" path="class/information.html#Eshared-during"/>
+   <appContext helpID="Tfc82bf4b-676c-4ae3-b166-359d54a7236a"
+               path="class/information-model.html"/>
+   <appContext helpID="Tf2750a2a-a318-4723-b90a-981aa20879b9"
+               path="class/informed-consent.html"/>
+   <appContext helpID="Erequires-6" path="class/informed-consent.html#Erequires-6"/>
+   <appContext helpID="Td4482e7d-9caa-447c-843e-0ad469283fdd"
+               path="class/initial-contact.html"/>
+   <appContext helpID="Eestablishes" path="class/initial-contact.html#Eestablishes"/>
+   <appContext helpID="Tc7be98e2-1e86-4ddb-a301-3f4548137194"
+               path="class/initial-request-for-care.html"/>
+   <appContext helpID="Eresults-in-2"
+               path="class/initial-request-for-care.html#Eresults-in-2"/>
+   <appContext helpID="Ta9954d0f-3f32-4a6f-b54f-4840359b16bb"
+               path="class/input-health-state.html"/>
+   <appContext helpID="Einput-to" path="class/input-health-state.html#Einput-to"/>
+   <appContext helpID="T065e4066-2655-41fd-ab75-cdebefc6438e"
+               path="class/integrated-care-plan.html"/>
+   <appContext helpID="T9c7dff2e-4cb5-4905-acf5-1779a3dec1ff"
+               path="class/intended-outcome.html"/>
+   <appContext helpID="Eaddresses-6" path="class/intended-outcome.html#Eaddresses-6"/>
+   <appContext helpID="T0a17809e-be0d-4637-8a2f-0aae4d4bb7da"
+               path="class/knowledge.html"/>
+   <appContext helpID="Td9484351-8f6a-4cab-ad92-b844eee8ccd2"
+               path="class/mandate.html"/>
+   <appContext helpID="T89f28968-af6f-41e4-b5f4-9f375d03a9ba"
+               path="class/mandate-to-export-personal-information.html"/>
+   <appContext helpID="Econcerns-6"
+               path="class/mandate-to-export-personal-information.html#Econcerns-6"/>
+   <appContext helpID="Eimplies-the-right-to-communicate"
+               path="class/mandate-to-export-personal-information.html#Eimplies-the-right-to-communicate"/>
+   <appContext helpID="Tac4f39db-12c6-4473-a91f-b1cc130f8d6c"
+               path="class/mandated-period-of-care.html"/>
+   <appContext helpID="Ecare-activity-delay"
+               path="class/mandated-period-of-care.html#Ecare-activity-delay"/>
+   <appContext helpID="Edocumented-in-2"
+               path="class/mandated-period-of-care.html#Edocumented-in-2"/>
+   <appContext helpID="T4b9364b4-dbac-42dc-b8fe-264f1012135a"
+               path="class/medical-device.html"/>
+   <appContext helpID="Tc61ac522-1e38-4c08-a987-7e8e4d8fb987"
+               path="class/medicinal-product.html"/>
+   <appContext helpID="T0055ae2e-d390-4e2f-8581-0cc068fbdc47"
+               path="class/mental-object.html"/>
+   <appContext helpID="T7087a642-bce6-4afa-b543-619a7ee8a1b0"
+               path="class/needed-care-activity.html"/>
+   <appContext helpID="Eaddresses-7"
+               path="class/needed-care-activity.html#Eaddresses-7"/>
+   <appContext helpID="Tf256eb01-873d-48f2-b078-c6553f37fb69"
+               path="class/non-ratified-care-information.html"/>
+   <appContext helpID="Ebecomes"
+               path="class/non-ratified-care-information.html#Ebecomes"/>
+   <appContext helpID="Erecorded-in-4"
+               path="class/non-ratified-care-information.html#Erecorded-in-4"/>
+   <appContext helpID="T92b51f00-0b80-4169-98e8-148e43bd9bdc"
+               path="class/objection.html"/>
+   <appContext helpID="Elimits" path="class/objection.html#Elimits"/>
+   <appContext helpID="Erequires-7" path="class/objection.html#Erequires-7"/>
+   <appContext helpID="T2740e08e-94fe-4294-9400-985a7b65b25a"
+               path="class/observed-condition.html"/>
+   <appContext helpID="Eobserved-during-2"
+               path="class/observed-condition.html#Eobserved-during-2"/>
+   <appContext helpID="T1b1cdf95-24c6-41c7-ad1c-9f539601ac3c"
+               path="class/organization.html"/>
+   <appContext helpID="Eis" path="class/organization.html#Eis"/>
+   <appContext helpID="T537621a0-e4e5-4bec-9b48-5542f9db43e5"
+               path="class/other-carer.html"/>
+   <appContext helpID="T85a91499-8759-401d-a757-3ee66b0d7910"
+               path="class/output-health-state.html"/>
+   <appContext helpID="Eobserved-as"
+               path="class/output-health-state.html#Eobserved-as"/>
+   <appContext helpID="Tb8c01e96-ddc9-4181-9feb-f8695640c470" path="class/party.html"/>
+   <appContext helpID="Te6823209-6ca8-42e7-a619-a60ae5547bb9" path="class/person.html"/>
+   <appContext helpID="Ehas-3" path="class/person.html#Ehas-3"/>
+   <appContext helpID="Epart-of" path="class/person.html#Epart-of"/>
+   <appContext helpID="T313dbdc6-aeb0-4519-9027-ce5bc8002aec"
+               path="class/personal-health-record.html"/>
+   <appContext helpID="T9a5d43b3-4faa-4ee8-85df-04b87fd4896a"
+               path="class/physical-object.html"/>
+   <appContext helpID="Tf85fcb65-955a-4fae-a3ca-e9699df0066f"
+               path="class/point-of-care.html"/>
+   <appContext helpID="Elocation-of" path="class/point-of-care.html#Elocation-of"/>
+   <appContext helpID="T8d856f66-a8ae-4dbb-a150-158b6faab86e"
+               path="class/potential-health-condition.html"/>
+   <appContext helpID="T5ceb4260-3cb2-4e18-8fc9-fd33ea1d61a1"
+               path="class/prescribed-self-care.html"/>
+   <appContext helpID="Etakes-place-during-3"
+               path="class/prescribed-self-care.html#Etakes-place-during-3"/>
+   <appContext helpID="Ta7e86db3-aead-45ff-ada2-10b2f677755b"
+               path="class/prescribed-self-care-period.html"/>
+   <appContext helpID="Tfc8830d4-e9d7-4f72-b3b6-8dfd72ef7890"
+               path="class/prescribed-third-party-activity.html"/>
+   <appContext helpID="T78071a9f-369a-4901-ac44-654558c9729e"
+               path="class/prescriber.html"/>
+   <appContext helpID="Eprescribes" path="class/prescriber.html#Eprescribes"/>
+   <appContext helpID="Eprescribes-1" path="class/prescriber.html#Eprescribes-1"/>
+   <appContext helpID="Eprescribes-2" path="class/prescriber.html#Eprescribes-2"/>
+   <appContext helpID="T60ca54c8-f904-4b70-b59c-f1bcd5c8b475"
+               path="class/process.html"/>
+   <appContext helpID="T9c0566b8-6558-4423-b296-eba3e5288d2c"
+               path="class/process-model.html"/>
+   <appContext helpID="Tb6cf0d3a-561d-4163-89b3-8df519bb8aff"
+               path="class/professional-health-record.html"/>
+   <appContext helpID="Tb8e873a7-5a71-4597-b10e-b114c06cec1d"
+               path="class/professionally-assessed-condition.html"/>
+   <appContext helpID="T4e4f1f57-b731-4a0f-8d45-fa35d8d1fce1"
+               path="class/prognostic-condition.html"/>
+   <appContext helpID="Ebased-on-2" path="class/prognostic-condition.html#Ebased-on-2"/>
+   <appContext helpID="T178d5c51-1272-4886-9422-cb75c3ad42cd"
+               path="class/protocol.html"/>
+   <appContext helpID="T0aa436bf-12ec-4611-afad-78dfde13d17f"
+               path="class/proxy-mandate.html"/>
+   <appContext helpID="Eassigned-to-2" path="class/proxy-mandate.html#Eassigned-to-2"/>
+   <appContext helpID="Ta65d4e86-4712-4e85-8177-d075a7e28ec5"
+               path="class/reason-for-request-for-care.html"/>
+   <appContext helpID="Emotivates"
+               path="class/reason-for-request-for-care.html#Emotivates"/>
+   <appContext helpID="T871d989d-6e21-4d31-afc1-6cab8ade0ac0"
+               path="class/record-template.html"/>
+   <appContext helpID="T8f6f8e0a-f9e7-49d5-998b-44706ed199f4"
+               path="class/referral.html"/>
+   <appContext helpID="Easks-for" path="class/referral.html#Easks-for"/>
+   <appContext helpID="Einitiates" path="class/referral.html#Einitiates"/>
+   <appContext helpID="T161d6d94-732e-4524-9b7d-ad2abb6f740d"
+               path="class/request-for-care.html"/>
+   <appContext helpID="Easks-for-2" path="class/request-for-care.html#Easks-for-2"/>
+   <appContext helpID="Econcerns-7" path="class/request-for-care.html#Econcerns-7"/>
+   <appContext helpID="Ejustifies" path="class/request-for-care.html#Ejustifies"/>
+   <appContext helpID="Etriggers" path="class/request-for-care.html#Etriggers"/>
+   <appContext helpID="Td54dd9e1-f8bb-4b5f-be6b-75d7a0fdb788"
+               path="class/request-for-service.html"/>
+   <appContext helpID="Econcerns-8" path="class/request-for-service.html#Econcerns-8"/>
+   <appContext helpID="Tb8aa75c1-a052-4ad9-a844-315adfd47363"
+               path="class/request-mandate.html"/>
+   <appContext helpID="Egives-way-to" path="class/request-mandate.html#Egives-way-to"/>
+   <appContext helpID="Epermits" path="class/request-mandate.html#Epermits"/>
+   <appContext helpID="T72e2d618-17f5-41eb-ad97-39726338fccc"
+               path="class/resource.html"/>
+   <appContext helpID="Ecare-2" path="class/resource.html#Ecare-2"/>
+   <appContext helpID="Ta4eea000-cd03-49da-bac7-7923b7dcb3cb"
+               path="class/resource-delay.html"/>
+   <appContext helpID="T83b5b032-8ac3-4727-9a8f-4b9f7b21ff68"
+               path="class/resultant-condition.html"/>
+   <appContext helpID="T206eff73-8f27-48c2-8e1b-fb19dd13b3e7" path="class/risk.html"/>
+   <appContext helpID="T47ca592b-2b1f-4c1e-b733-a624a35d4f22"
+               path="class/risk-condition.html"/>
+   <appContext helpID="Tfaae5d89-dbed-4ce7-8312-cf44671ef8a9" path="class/role.html"/>
+   <appContext helpID="T38ab9ebf-413d-4d08-a41f-a449e9755c60"
+               path="class/self-care.html"/>
+   <appContext helpID="Egenerates-3" path="class/self-care.html#Egenerates-3"/>
+   <appContext helpID="T1454e668-dc11-43f0-97e7-2eae11bd40a2"
+               path="class/self-care-performer.html"/>
+   <appContext helpID="Edelivers-4" path="class/self-care-performer.html#Edelivers-4"/>
+   <appContext helpID="T7b47f4fa-bf30-4e6f-8ccf-07fc8e056062"
+               path="class/sharable-data-repository.html"/>
+   <appContext helpID="Tac79b332-ded2-4731-98f0-689cced14673"
+               path="class/social-care.html"/>
+   <appContext helpID="T100cc991-af33-442d-8d4a-589418a23ede"
+               path="class/social-care-activity-mandate.html"/>
+   <appContext helpID="T7343c179-5f19-43c3-8d96-dbc8721ee937"
+               path="class/social-care-plan.html"/>
+   <appContext helpID="T0a4abd91-9a9d-4690-b020-1908fbc86327"
+               path="class/social-care-report.html"/>
+   <appContext helpID="T0467c6c7-9fe2-41c3-b897-f64e88e59f80"
+               path="class/social-determinant-of-health.html"/>
+   <appContext helpID="Tb92af5f5-d15f-4121-911f-f652c506544b"
+               path="class/social-environment.html"/>
+   <appContext helpID="Tff173938-c30a-4dbd-8be4-5fed17c34e24"
+               path="class/social-issue.html"/>
+   <appContext helpID="T4dce15d7-5a7a-4754-b248-07d7bdbad7fc"
+               path="class/social-matter.html"/>
+   <appContext helpID="Einfluences-2" path="class/social-matter.html#Einfluences-2"/>
+   <appContext helpID="Tdd48858e-ef50-400e-a2d1-3dd44764d3d4"
+               path="class/social-need.html"/>
+   <appContext helpID="Erelate-to" path="class/social-need.html#Erelate-to"/>
+   <appContext helpID="Teefdc4e5-1f04-4d38-baea-bfc6cefb9d08"
+               path="class/social-record-extract.html"/>
+   <appContext helpID="T0ba67484-8ae5-4993-949a-440587955478" path="class/state.html"/>
+   <appContext helpID="Tb7c639b3-0bc3-4b59-b6ed-c4e971dc9a5c"
+               path="class/stative.html"/>
+   <appContext helpID="Ta41a1596-fa3c-4c2b-aa3a-a69119a2a5de"
+               path="class/subject-of-care.html"/>
+   <appContext helpID="Eexpresses-2" path="class/subject-of-care.html#Eexpresses-2"/>
+   <appContext helpID="Eexpresses-1" path="class/subject-of-care.html#Eexpresses-1"/>
+   <appContext helpID="Egives-2" path="class/subject-of-care.html#Egives-2"/>
+   <appContext helpID="Ehas-4" path="class/subject-of-care.html#Ehas-4"/>
+   <appContext helpID="Ehas-or-has-had"
+               path="class/subject-of-care.html#Ehas-or-has-had"/>
+   <appContext helpID="Emaintains-3" path="class/subject-of-care.html#Emaintains-3"/>
+   <appContext helpID="Eparticipates-in-2"
+               path="class/subject-of-care.html#Eparticipates-in-2"/>
+   <appContext helpID="Eplays-4" path="class/subject-of-care.html#Eplays-4"/>
+   <appContext helpID="Eseeks-to-receive-is-receiving-or-has-received"
+               path="class/subject-of-care.html#Eseeks-to-receive-is-receiving-or-has-received"/>
+   <appContext helpID="Estates-2" path="class/subject-of-care.html#Estates-2"/>
+   <appContext helpID="T174db6b0-8561-4c33-a5f6-18d0eee999d2"
+               path="class/subject-of-care-desire.html"/>
+   <appContext helpID="Econsidered-during-2"
+               path="class/subject-of-care-desire.html#Econsidered-during-2"/>
+   <appContext helpID="Einfluences-3"
+               path="class/subject-of-care-desire.html#Einfluences-3"/>
+   <appContext helpID="Erecorded-in-5"
+               path="class/subject-of-care-desire.html#Erecorded-in-5"/>
+   <appContext helpID="T10f193a8-a98b-48f0-af81-959e63c48862"
+               path="class/subject-of-care-preference-delay.html"/>
+   <appContext helpID="Ecaused-by"
+               path="class/subject-of-care-preference-delay.html#Ecaused-by"/>
+   <appContext helpID="T86fec362-02dc-4b26-85f3-e1c3243c1c09"
+               path="class/subject-of-care-proxy.html"/>
+   <appContext helpID="Eacts-for" path="class/subject-of-care-proxy.html#Eacts-for"/>
+   <appContext helpID="Eexercises" path="class/subject-of-care-proxy.html#Eexercises"/>
+   <appContext helpID="Eexpresses-3"
+               path="class/subject-of-care-proxy.html#Eexpresses-3"/>
+   <appContext helpID="Eexpresses-2"
+               path="class/subject-of-care-proxy.html#Eexpresses-2"/>
+   <appContext helpID="Egives-3" path="class/subject-of-care-proxy.html#Egives-3"/>
+   <appContext helpID="Ehas-5" path="class/subject-of-care-proxy.html#Ehas-5"/>
+   <appContext helpID="Emaintains-4"
+               path="class/subject-of-care-proxy.html#Emaintains-4"/>
+   <appContext helpID="Estates-3" path="class/subject-of-care-proxy.html#Estates-3"/>
+   <appContext helpID="T62cf6cea-277a-48f1-aa8e-850372273836"
+               path="class/summarized-care-information-repository.html"/>
+   <appContext helpID="Tb5d55090-7042-44bc-9d9f-c57bd9f54bae"
+               path="class/tangible-and-visible-entity.html"/>
+   <appContext helpID="Ta0316e9b-0f53-4bdf-8f3d-6eb6fa4bbee7"
+               path="class/target-condition.html"/>
+   <appContext helpID="Erepresents" path="class/target-condition.html#Erepresents"/>
+   <appContext helpID="T3d28e751-7284-4b5e-af15-70ddce9cbc39" path="class/thing.html"/>
+   <appContext helpID="T3e4137ce-d8f3-403b-bff2-78515aa7d6d0"
+               path="class/third-party-care-performer.html"/>
+   <appContext helpID="Edelivers-5"
+               path="class/third-party-care-performer.html#Edelivers-5"/>
+   <appContext helpID="T9961fe3d-6858-44db-86f9-b65ae6960c03"
+               path="class/time-interval.html"/>
+   <appContext helpID="T9e661cb5-c2d2-4981-97d8-581ea3617964"
+               path="class/unintended-event.html"/>
+   <appContext helpID="T36b9a142-6aaa-4bf7-a0b5-eb9831d8ffd7"
+               path="class/vulnerability.html"/>
+   <appContext helpID="Eresults-in-3" path="class/vulnerability.html#Eresults-in-3"/>
+   <appContext helpID="Tef2eea9f-9ff3-4802-bfaa-7f0b5372ed45"
+               path="class/working-diagnosis.html"/>
+   <appContext helpID="Econsistent-with"
+               path="class/working-diagnosis.html#Econsistent-with"/>
+</map>

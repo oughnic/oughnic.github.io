@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 397" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of care information for import</title><desc id="desc">Generated diagram of focal class care information for import and related classes.</desc><!-- Super types of care information for import -->
+<g><!-- care information -->
+<a xlink:href="./care-information.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>information about a person relevant to their care</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">care information</tspan></text>
+</g>
+<!-- Generalization care information for import -> care information -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association ratifies care professional -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">1..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">0..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">ratifies</tspan></text>
+</g>
+<g><!-- care professional -->
+<a xlink:href="./care-professional.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person holding a care professional entitlement</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care professional</tspan></text>
+</g>
+<g><!-- Association generates care provider activity -->
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="268">1..*</tspan></text>
+<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">0..*</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">generates</tspan></text>
+</g>
+<g><!-- care provider activity -->
+<a xlink:href="./care-provider-activity.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care activity performed by a care provider</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">care provider</tspan><tspan x="80" y="264">activity</tspan></text>
+</g>
+<g><!-- Association becomes non-ratified care information -->
+<line x1="155" y1="352" x2="525" y2="352" stroke="black" stroke-width="2" /><text x="175" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="348">1..*</tspan></text>
+<text x="505" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="348">0..*</tspan></text>
+<text x="340" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="368">becomes</tspan></text>
+</g>
+<g><!-- non-ratified care information -->
+<a xlink:href="./non-ratified-care-information.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care information the relevance of which has not been assessed and explicitly stated as valid by a care professional</title></rect></a><text x="80" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="328">non-ratified care</tspan><tspan x="80" y="344">information</tspan></text>
+</g>
+<g><!-- Association imported into professional health record -->
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">imported into</tspan></text>
+</g>
+<g><!-- professional health record -->
+<a xlink:href="./professional-health-record.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health record held under the responsibility of one care provider and maintained by care professionals</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">professional health</tspan><tspan x="1120" y="184">record</tspan></text>
+</g>
+<g><!-- Focal care information for import -->
+<a xlink:href="./care-information-for-import.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="240" fill="white" stroke="black" stroke-width="2"><title>care information that is a candidate for import into a professional health record after a care professional has confirmed its clinical relevance to that professional health record</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">care information</tspan><tspan x="600" y="184">for import</tspan></text>
+</g>
+</svg>

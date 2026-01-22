@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of care activity period</title><desc id="desc">Generated diagram of focal class care activity period and related classes.</desc><!-- Super types of care activity period -->
+<g><!-- health related period -->
+<a xlink:href="./health-related-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>time interval related to the health or care of a subject of care</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">health related</tspan><tspan x="600" y="34">period</tspan></text>
+</g>
+<!-- Generalization care activity period -> health related period -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association performed during care activity -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">1..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">1..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">performed during</tspan></text>
+</g>
+<g><!-- care activity -->
+<a xlink:href="./care-activity.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>activity intended to improve or maintain a health state </title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care activity</tspan></text>
+</g>
+<g><!-- Association manages care professional -->
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="268">1..*</tspan></text>
+<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">0..*</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">manages</tspan></text>
+</g>
+<g><!-- care professional -->
+<a xlink:href="./care-professional.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person holding a care professional entitlement</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">care professional</tspan></text>
+</g>
+<g><!-- Association takes place during care appointment -->
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">0..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">takes place during</tspan></text>
+</g>
+<g><!-- care appointment -->
+<a xlink:href="./care-appointment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>appointment for a contact</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">care appointment</tspan></text>
+</g>
+<g><!-- Association mandated period of care mandated period of care -->
+<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="268">1..*</tspan></text>
+<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="268">1..*</tspan></text>
+<g transform="translate(1029,272)"><polygon points="0,0 8,-6 16,0 8,6" fill="white" stroke="black" stroke-width="2" /></g></g>
+<g><!-- mandated period of care -->
+<a xlink:href="./mandated-period-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>set of care activity periods where a care provider is mandated to perform the care activities required to address specific health needs</title></rect></a><text x="1120" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="248">mandated period of</tspan><tspan x="1120" y="264">care</tspan></text>
+</g>
+<g><!-- Focal care activity period -->
+<a xlink:href="./care-activity-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>period during which care activities are performed for a subject of care</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">care activity</tspan><tspan x="600" y="184">period</tspan></text>
+</g>
+<g><!-- contact period -->
+<a xlink:href="./contact-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="125" y="357" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care activity period during which a contact occurs</title></rect></a><text x="200" y="370" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="200" y="370">contact period</tspan></text>
+</g>
+<g><!-- prescribed self-care period -->
+<a xlink:href="./prescribed-self-care-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="357" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care activity period where prescribed self-care activity is performed</title></rect></a><text x="600" y="370" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="370">prescribed</tspan><tspan x="600" y="386">self-care period</tspan></text>
+</g>
+<g><!-- indirect care activity period -->
+<a xlink:href="./indirect-care-activity-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="925" y="357" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care activity period without the involvement of the subject of care</title></rect></a><text x="1000" y="370" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1000" y="370">indirect care</tspan><tspan x="1000" y="386">activity period</tspan></text>
+</g>
+<!-- Subclass row bus -->
+<line x1="200" y1="337" x2="1000" y2="337" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->
+<line x1="600" y1="327" x2="600" y2="337" stroke="black" stroke-width="2" /><polygon points="600,317 595,327 605,327" fill="white" stroke="black" stroke-width="2" /><line x1="200" y1="337" x2="200" y2="357" stroke="black" stroke-width="2" /><line x1="600" y1="337" x2="600" y2="357" stroke="black" stroke-width="2" /><line x1="1000" y1="337" x2="1000" y2="357" stroke="black" stroke-width="2" /></svg>

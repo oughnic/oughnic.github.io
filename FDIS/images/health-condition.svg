@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 362" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of health condition</title><desc id="desc">Generated diagram of focal class health condition and related classes.</desc><g><!-- Association forms opinion about care assessment -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="175" y="38" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="38">1..*</tspan></text>
+<text x="505" y="38" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="58">forms opinion about</tspan></text>
+</g>
+<g><!-- care assessment -->
+<a xlink:href="./care-assessment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care activity where an opinion is formed about health conditions of a subject of care</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="18">care assessment</tspan></text>
+</g>
+<g><!-- Association reveals health condition care investigation -->
+<line x1="155" y1="122" x2="525" y2="122" stroke="black" stroke-width="2" /><text x="175" y="118" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="118">1..*</tspan></text>
+<text x="505" y="118" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="118">1..*</tspan></text>
+<text x="340" y="138" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="138">reveals health condition</tspan></text>
+</g>
+<g><!-- care investigation -->
+<a xlink:href="./care-investigation.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="85" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care activity with the intention to clarify one or more health conditions of a subject of care</title></rect></a><text x="80" y="98" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="98">care investigation</tspan></text>
+</g>
+<g><!-- Association observed during health condition period -->
+<line x1="675" y1="42" x2="1045" y2="42" stroke="black" stroke-width="2" /><text x="695" y="38" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="38">1</tspan></text>
+<text x="1023" y="38" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="38">1..*</tspan></text>
+<text x="860" y="58" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="58">observed during</tspan></text>
+</g>
+<g><!-- health condition period -->
+<a xlink:href="./health-condition-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health related period during which a health condition has been observed</title></rect></a><text x="1120" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="18">health condition</tspan><tspan x="1120" y="34">period</tspan></text>
+</g>
+<g><!-- Focal health condition -->
+<a xlink:href="./health-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>aspect of a health state</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">health condition</tspan></text>
+</g>
+<g><!-- subject of care desire -->
+<a xlink:href="./subject-of-care-desire.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="45" y="207" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>desire expressed by the subject of care or the subject of care proxy regarding the performance of certain care activities</title></rect></a><text x="120" y="220" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="120" y="220">subject of care</tspan><tspan x="120" y="236">desire</tspan></text>
+</g>
+<g><!-- observed condition -->
+<a xlink:href="./observed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="285" y="207" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health condition observed by a care actor</title></rect></a><text x="360" y="220" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="360" y="220">observed condition</tspan></text>
+</g>
+<g><!-- health issue -->
+<a xlink:href="./health-issue.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="207" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health condition motivating care</title></rect></a><text x="600" y="220" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="220">health issue</tspan></text>
+</g>
+<g><!-- resultant condition -->
+<a xlink:href="./resultant-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="765" y="207" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health condition representing an output health state</title></rect></a><text x="840" y="220" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="840" y="220">resultant condition</tspan></text>
+</g>
+<g><!-- potential health condition -->
+<a xlink:href="./potential-health-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1005" y="207" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>possible future or current health condition described by a care actor</title></rect></a><text x="1080" y="220" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1080" y="220">potential health</tspan><tspan x="1080" y="236">condition</tspan></text>
+</g>
+<!-- Subclass row bus -->
+<line x1="120" y1="187" x2="1080" y2="187" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->
+<line x1="600" y1="177" x2="600" y2="187" stroke="black" stroke-width="2" /><polygon points="600,167 595,177 605,177" fill="white" stroke="black" stroke-width="2" /><line x1="120" y1="187" x2="120" y2="207" stroke="black" stroke-width="2" /><line x1="360" y1="187" x2="360" y2="207" stroke="black" stroke-width="2" /><line x1="600" y1="187" x2="600" y2="207" stroke="black" stroke-width="2" /><line x1="840" y1="187" x2="840" y2="207" stroke="black" stroke-width="2" /><line x1="1080" y1="187" x2="1080" y2="207" stroke="black" stroke-width="2" /></svg>

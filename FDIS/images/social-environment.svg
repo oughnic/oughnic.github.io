@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 392" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of social environment</title><desc id="desc">Generated diagram of focal class social environment and related classes.</desc><!-- Super types of social environment -->
+<g><!-- stative -->
+<a xlink:href="./stative.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>a state or condition</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">stative</tspan></text>
+</g>
+<!-- Generalization social environment -> stative -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association has person -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">1</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">1</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">has</tspan></text>
+</g>
+<g><!-- Association part of person -->
+<line x1="155" y1="267" x2="525" y2="267" stroke="black" stroke-width="2" /><text x="175" y="263" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="263">0..*</tspan></text>
+<text x="505" y="263" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="263">0..*</tspan></text>
+<g transform="translate(509,267)"><polygon points="0,0 8,-6 16,0 8,6" fill="white" stroke="black" stroke-width="2" /></g><text x="340" y="283" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="283">part of</tspan></text>
+</g>
+<g><!-- person -->
+<a xlink:href="./person.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="150" fill="whitesmoke" stroke="black" stroke-width="2"><title>individual human being</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">person</tspan></text>
+</g>
+<g><!-- Association influences social matter -->
+<line x1="155" y1="347" x2="525" y2="347" stroke="black" stroke-width="2" /><text x="175" y="343" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="343">1</tspan></text>
+<text x="505" y="343" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="343">1</tspan></text>
+<text x="340" y="363" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="363">influences</tspan></text>
+</g>
+<g><!-- social matter -->
+<a xlink:href="./social-matter.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="310" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health matter concerning how a subject of care lives in their social environment</title></rect></a><text x="80" y="323" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="323">social matter</tspan></text>
+</g>
+<g><!-- Focal social environment -->
+<a xlink:href="./social-environment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="235" fill="white" stroke="black" stroke-width="2"><title>immediate physical and social setting in which a subject of care lives and interacts</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">social environment</tspan></text>
+</g>
+</svg>

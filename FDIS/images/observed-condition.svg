@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 902" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of observed condition</title><desc id="desc">Generated diagram of focal class observed condition and related classes.</desc><!-- Super types of observed condition -->
+<g><!-- health condition -->
+<a xlink:href="./health-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>aspect of a health state</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">health condition</tspan></text>
+</g>
+<!-- Generalization observed condition -> health condition -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association has observed care actor -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">0..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">1..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">has observed</tspan></text>
+</g>
+<g><!-- Association observed by care actor -->
+<line x1="155" y1="267" x2="525" y2="267" stroke="black" stroke-width="2" /><text x="175" y="263" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="263">1..*</tspan></text>
+<text x="505" y="263" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="263">1..*</tspan></text>
+<text x="340" y="283" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="283">observed by</tspan></text>
+</g>
+<g><!-- Association observes care actor -->
+<line x1="155" y1="342" x2="525" y2="342" stroke="black" stroke-width="2" /><text x="175" y="338" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="338">1..*</tspan></text>
+<text x="505" y="338" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="338">0..*</tspan></text>
+<text x="340" y="358" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="358">observes</tspan></text>
+</g>
+<g><!-- care actor -->
+<a xlink:href="./care-actor.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="225" fill="whitesmoke" stroke="black" stroke-width="2"><title>organization or person participating in care</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care actor</tspan></text>
+</g>
+<g><!-- Association reveals care investigation -->
+<line x1="155" y1="422" x2="525" y2="422" stroke="black" stroke-width="2" /><text x="175" y="418" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="418">1..*</tspan></text>
+<text x="505" y="418" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="418">0..*</tspan></text>
+<text x="340" y="438" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="438">reveals</tspan></text>
+</g>
+<g><!-- care investigation -->
+<a xlink:href="./care-investigation.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="385" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care activity with the intention to clarify one or more health conditions of a subject of care</title></rect></a><text x="80" y="398" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="398">care investigation</tspan></text>
+</g>
+<g><!-- Association based on considered condition -->
+<line x1="155" y1="502" x2="525" y2="502" stroke="black" stroke-width="2" /><text x="175" y="498" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="498">1..*</tspan></text>
+<text x="505" y="498" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="498">1..*</tspan></text>
+<text x="340" y="518" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="518">based on</tspan></text>
+</g>
+<g><!-- considered condition -->
+<a xlink:href="./considered-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="465" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition considered by a care actor on the basis of one or more observed conditions</title></rect></a><text x="80" y="478" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="478">considered</tspan><tspan x="80" y="494">condition</tspan></text>
+</g>
+<g><!-- Association not consistent with excluded condition -->
+<line x1="155" y1="582" x2="525" y2="582" stroke="black" stroke-width="2" /><text x="175" y="578" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="578">0..*</tspan></text>
+<text x="505" y="578" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="578">1..*</tspan></text>
+<text x="340" y="598" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="598">not consistent with</tspan></text>
+</g>
+<g><!-- excluded condition -->
+<a xlink:href="./excluded-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="545" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>considered condition that one or more care professionals have determined not to be consistent with the known observed conditions</title></rect></a><text x="80" y="558" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="558">excluded condition</tspan></text>
+</g>
+<g><!-- Association consistent with working diagnosis -->
+<line x1="155" y1="662" x2="525" y2="662" stroke="black" stroke-width="2" /><text x="175" y="658" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="658">0..*</tspan></text>
+<text x="505" y="658" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="658">1..*</tspan></text>
+<text x="340" y="678" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="678">consistent with</tspan></text>
+</g>
+<g><!-- working diagnosis -->
+<a xlink:href="./working-diagnosis.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="625" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>considered condition that one or more care professionals have determined to be the most consistent with observed conditions</title></rect></a><text x="80" y="638" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="638">working diagnosis</tspan></text>
+</g>
+<g><!-- Association observed during health condition period -->
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">observed during</tspan></text>
+</g>
+<g><!-- health condition period -->
+<a xlink:href="./health-condition-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health related period during which a health condition has been observed</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">health condition</tspan><tspan x="1120" y="184">period</tspan></text>
+</g>
+<g><!-- Focal observed condition -->
+<a xlink:href="./observed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="550" fill="white" stroke="black" stroke-width="2"><title>health condition observed by a care actor</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">observed condition</tspan></text>
+</g>
+<g><!-- professionally assessed condition -->
+<a xlink:href="./professionally-assessed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="747" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>observed condition assessed by a care professional</title></rect></a><text x="600" y="760" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="760">professionally</tspan><tspan x="600" y="776">assessed condition</tspan></text>
+</g>
+<!-- Subclass row bus -->
+<line x1="600" y1="727" x2="600" y2="727" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->
+<line x1="600" y1="717" x2="600" y2="727" stroke="black" stroke-width="2" /><polygon points="600,707 595,717 605,717" fill="white" stroke="black" stroke-width="2" /><line x1="600" y1="727" x2="600" y2="747" stroke="black" stroke-width="2" /></svg>

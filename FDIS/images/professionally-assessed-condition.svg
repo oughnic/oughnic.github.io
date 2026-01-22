@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of professionally assessed condition</title><desc id="desc">Generated diagram of focal class professionally assessed condition and related classes.</desc><!-- Super types of professionally assessed condition -->
+<g><!-- considered condition -->
+<a xlink:href="./considered-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>potential health condition considered by a care actor on the basis of one or more observed conditions</title></rect></a><text x="300" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="300" y="18">considered</tspan><tspan x="300" y="34">condition</tspan></text>
+</g>
+<!-- Generalization professionally assessed condition -> considered condition -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="300" y1="82" x2="300" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="300" y2="135" stroke="black" stroke-width="2" /><polygon points="300,82 295,92 305,92" fill="white" stroke="black" stroke-width="2" /><g><!-- observed condition -->
+<a xlink:href="./observed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health condition observed by a care actor</title></rect></a><text x="900" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="900" y="18">observed condition</tspan></text>
+</g>
+<!-- Generalization professionally assessed condition -> observed condition -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="900" y1="82" x2="900" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="900" y2="135" stroke="black" stroke-width="2" /><polygon points="900,82 895,92 905,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association identifies (1) care professional -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">0..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">identifies (1)</tspan></text>
+</g>
+<g><!-- care professional -->
+<a xlink:href="./care-professional.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person holding a care professional entitlement</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care professional</tspan></text>
+</g>
+<g><!-- Association based on prognostic condition -->
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="268">0..*</tspan></text>
+<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">1..*</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">based on</tspan></text>
+</g>
+<g><!-- prognostic condition -->
+<a xlink:href="./prognostic-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition representing the expected course of a health state as assessed by care professionals</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">prognostic</tspan><tspan x="80" y="264">condition</tspan></text>
+</g>
+<g><!-- Focal professionally assessed condition -->
+<a xlink:href="./professionally-assessed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>observed condition assessed by a care professional</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">professionally</tspan><tspan x="600" y="184">assessed condition</tspan></text>
+</g>
+<g><!-- vulnerability -->
+<a xlink:href="./vulnerability.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="357" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health condition that is an exposure to the risk of harm</title></rect></a><text x="300" y="370" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="300" y="370">vulnerability</tspan></text>
+</g>
+<g><!-- working diagnosis -->
+<a xlink:href="./working-diagnosis.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="357" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>considered condition that one or more care professionals have determined to be the most consistent with observed conditions</title></rect></a><text x="900" y="370" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="900" y="370">working diagnosis</tspan></text>
+</g>
+<!-- Subclass row bus -->
+<line x1="300" y1="337" x2="900" y2="337" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->
+<line x1="600" y1="327" x2="600" y2="337" stroke="black" stroke-width="2" /><polygon points="600,317 595,327 605,327" fill="white" stroke="black" stroke-width="2" /><line x1="300" y1="337" x2="300" y2="357" stroke="black" stroke-width="2" /><line x1="900" y1="337" x2="900" y2="357" stroke="black" stroke-width="2" /></svg>

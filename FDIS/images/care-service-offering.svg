@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 317" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of care service offering</title><desc id="desc">Generated diagram of focal class care service offering and related classes.</desc><!-- Super types of care service offering -->
+<g><!-- mental object -->
+<a xlink:href="./mental-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>thoughts, ideas, memories and concepts that exist within an individual’s mind</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">mental object</tspan></text>
+</g>
+<!-- Generalization care service offering -> mental object -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association offers care provider -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">1..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">1..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">offers</tspan></text>
+</g>
+<g><!-- care provider -->
+<a xlink:href="./care-provider.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care actor that is able to be assigned one or more care period mandates</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care provider</tspan></text>
+</g>
+<g><!-- Association concerns request for service -->
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">0..*</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">concerns</tspan></text>
+</g>
+<g><!-- request for service -->
+<a xlink:href="./request-for-service.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>request for care where a care professional asks a care provider to perform one or more care provider activities</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">request for service</tspan></text>
+</g>
+<g><!-- Association listed in care service directory -->
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">0..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">0..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">listed in</tspan></text>
+</g>
+<g><!-- care service directory -->
+<a xlink:href="./care-service-directory.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>directory of the types of care services offered by one or more care providers</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">care service</tspan><tspan x="1120" y="184">directory</tspan></text>
+</g>
+<g><!-- Focal care service offering -->
+<a xlink:href="./care-service-offering.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>set of care activities offered by care provider</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">care service</tspan><tspan x="600" y="184">offering</tspan></text>
+</g>
+</svg>

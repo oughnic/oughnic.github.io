@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 232" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of discharge summary</title><desc id="desc">Generated diagram of focal class discharge summary and related classes.</desc><!-- Super types of discharge summary -->
+<g><!-- discharge report -->
+<a xlink:href="./discharge-report.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health report concerning a completed, mandated period of care</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">discharge report</tspan></text>
+</g>
+<!-- Generalization discharge summary -> discharge report -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Focal discharge summary -->
+<a xlink:href="./discharge-summary.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>discharge report summarizing a mandated period of care</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">discharge summary</tspan></text>
+</g>
+</svg>

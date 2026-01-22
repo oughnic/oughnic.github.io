@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 432" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of discharge report</title><desc id="desc">Generated diagram of focal class discharge report and related classes.</desc><!-- Super types of discharge report -->
+<g><!-- health report -->
+<a xlink:href="./health-report.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health record extract conveying specifically focused care information in order to fulfil current information needs of the recipient</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">health report</tspan></text>
+</g>
+<!-- Generalization discharge report -> health report -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association concerns mandated period of care -->
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">0..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">concerns</tspan></text>
+</g>
+<g><!-- mandated period of care -->
+<a xlink:href="./mandated-period-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>set of care activity periods where a care provider is mandated to perform the care activities required to address specific health needs</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">mandated period of</tspan><tspan x="1120" y="184">care</tspan></text>
+</g>
+<g><!-- Focal discharge report -->
+<a xlink:href="./discharge-report.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="80" fill="white" stroke="black" stroke-width="2"><title>health report concerning a completed, mandated period of care</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">discharge report</tspan></text>
+</g>
+<g><!-- discharge summary -->
+<a xlink:href="./discharge-summary.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="277" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>discharge report summarizing a mandated period of care</title></rect></a><text x="600" y="290" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="290">discharge summary</tspan></text>
+</g>
+<!-- Subclass row bus -->
+<line x1="600" y1="257" x2="600" y2="257" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->
+<line x1="600" y1="247" x2="600" y2="257" stroke="black" stroke-width="2" /><polygon points="600,237 595,247 605,247" fill="white" stroke="black" stroke-width="2" /><line x1="600" y1="257" x2="600" y2="277" stroke="black" stroke-width="2" /></svg>

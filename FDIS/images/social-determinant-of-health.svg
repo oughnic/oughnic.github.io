@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 87" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of social determinant of health</title><desc id="desc">Generated diagram of focal class social determinant of health and related classes.</desc><g><!-- Association relate to social need -->
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="175" y="38" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="38">1..*</tspan></text>
+<text x="505" y="38" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="58">relate to</tspan></text>
+</g>
+<g><!-- social need -->
+<a xlink:href="./social-need.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health need related to social determinants of health</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="18">social need</tspan></text>
+</g>
+<g><!-- Focal social determinant of health -->
+<a xlink:href="./social-determinant-of-health.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="80" fill="white" stroke="black" stroke-width="2"><title>condition in which a subject of care is born, grows, lives, works and ages including their access to power, money and resources</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">social determinant</tspan><tspan x="600" y="34">of health</tspan></text>
+</g>
+</svg>

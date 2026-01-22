@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1112" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of care mandate</title><desc id="desc">Generated diagram of focal class care mandate and related classes.</desc><!-- Super types of care mandate -->
+<g><!-- mandate -->
+<a xlink:href="./mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>commission to act</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">mandate</tspan></text>
+</g>
+<!-- Generalization care mandate -> mandate -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><!-- Self associations (pig's ear) adjacent to focal class -->
+<g><!-- Self Association (adjacent) derives from -->
+<path d="M 677 174 L 752 174 L 752 210 L 677 210" fill="none" stroke="black" stroke-width="2" /><text x="681" y="170" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="681" y="170">0..*</tspan></text>
+<text x="681" y="206" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="681" y="206">0..*</tspan></text>
+<text x="756" y="192" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="756" y="192">derives</tspan><tspan x="756" y="208">from</tspan></text>
+</g>
+<g><!-- Association assigns care actor -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">1..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">0..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">assigns</tspan></text>
+</g>
+<g><!-- care actor -->
+<a xlink:href="./care-actor.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>organization or person participating in care</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care actor</tspan></text>
+</g>
+<g><!-- Association limits objection -->
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="268">1..*</tspan></text>
+<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">0..*</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">limits</tspan></text>
+</g>
+<g><!-- objection -->
+<a xlink:href="./objection.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>subject of care desire that specific care activities are not performed</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">objection</tspan></text>
+</g>
+<g><!-- Association influences subject of care desire -->
+<line x1="155" y1="352" x2="525" y2="352" stroke="black" stroke-width="2" /><text x="175" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="348">0..*</tspan></text>
+<text x="505" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="348">1..*</tspan></text>
+<text x="340" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="368">influences</tspan></text>
+</g>
+<g><!-- subject of care desire -->
+<a xlink:href="./subject-of-care-desire.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>desire expressed by the subject of care or the subject of care proxy regarding the performance of certain care activities</title></rect></a><text x="80" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="328">subject of care</tspan><tspan x="80" y="344">desire</tspan></text>
+</g>
+<g><!-- Association requires authorization by law -->
+<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="268">0..*</tspan></text>
+<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="268">1..*</tspan></text>
+<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="288">requires</tspan></text>
+</g>
+<g><!-- authorization by law -->
+<a xlink:href="./authorization-by-law.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>provision in legislation that in certain circumstances may overrule the need for informed consent</title></rect></a><text x="1120" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="248">authorization by</tspan><tspan x="1120" y="264">law</tspan></text>
+</g>
+<g><!-- Association assigned to care actor -->
+<line x1="675" y1="352" x2="1045" y2="352" stroke="black" stroke-width="2" /><text x="695" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="348">1</tspan></text>
+<text x="1023" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="348">1..*</tspan></text>
+<text x="860" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="368">assigned to</tspan></text>
+</g>
+<g><!-- care actor -->
+<a xlink:href="./care-actor.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>organization or person participating in care</title></rect></a><text x="1120" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="328">care actor</tspan></text>
+</g>
+<g><!-- Association requires care commitment care commitment -->
+<line x1="675" y1="432" x2="1045" y2="432" stroke="black" stroke-width="2" /><text x="695" y="428" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="428">1</tspan></text>
+<text x="1023" y="428" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="428">1..*</tspan></text>
+<text x="860" y="448" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="448">requires care commitment</tspan></text>
+</g>
+<g><!-- care commitment -->
+<a xlink:href="./care-commitment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="395" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>acceptance of a care request including commitment by the care actor to perform requested care activities</title></rect></a><text x="1120" y="408" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="408">care commitment</tspan></text>
+</g>
+<g><!-- Association regulates care process -->
+<line x1="675" y1="512" x2="1045" y2="512" stroke="black" stroke-width="2" /><text x="695" y="508" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="508">1..*</tspan></text>
+<text x="1023" y="508" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="508">0..*</tspan></text>
+<text x="860" y="528" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="528">regulates</tspan></text>
+</g>
+<g><!-- care process -->
+<a xlink:href="./care-process.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="475" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>set of interrelated or interacting care activities which transforms inputs into outputs</title></rect></a><text x="1120" y="488" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="488">care process</tspan></text>
+</g>
+<g><!-- Association recorded in health record -->
+<line x1="675" y1="592" x2="1045" y2="592" stroke="black" stroke-width="2" /><text x="695" y="588" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="588">0..*</tspan></text>
+<text x="1023" y="588" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="588">0..*</tspan></text>
+<text x="860" y="608" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="608">recorded in</tspan></text>
+</g>
+<g><!-- Association implies access to health record -->
+<line x1="675" y1="667" x2="1045" y2="667" stroke="black" stroke-width="2" /><text x="695" y="663" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="663">1..*</tspan></text>
+<text x="1023" y="663" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="663">1..*</tspan></text>
+<text x="860" y="683" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="683">implies access to</tspan></text>
+</g>
+<g><!-- health record -->
+<a xlink:href="./health-record.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="555" width="150" height="150" fill="whitesmoke" stroke="black" stroke-width="2"><title>data repository regarding the health and care of a subject of care</title></rect></a><text x="1120" y="568" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="568">health record</tspan></text>
+</g>
+<g><!-- Association concerns subject of care -->
+<line x1="675" y1="747" x2="1045" y2="747" stroke="black" stroke-width="2" /><text x="695" y="743" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="743">1</tspan></text>
+<text x="1023" y="743" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="743">1..*</tspan></text>
+<text x="860" y="763" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="763">concerns</tspan></text>
+</g>
+<g><!-- subject of care -->
+<a xlink:href="./subject-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="710" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person seeking to receive, receiving, or having received care</title></rect></a><text x="1120" y="723" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="723">subject of care</tspan></text>
+</g>
+<g><!-- Focal care mandate -->
+<a xlink:href="./care-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="635" fill="white" stroke="black" stroke-width="2"><title>mandate based on a commitment and either an informed consent or an authorization by law defining the rights and obligations of one care actor with regard to their involvement in care processes performed for a specific subject of care</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">care mandate</tspan></text>
+</g>
+<g><!-- proxy mandate -->
+<a xlink:href="./proxy-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="25" y="832" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care mandate to take decisions on behalf of a subject of care</title></rect></a><text x="100" y="845" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="100" y="845">proxy mandate</tspan></text>
+</g>
+<g><!-- care period mandate -->
+<a xlink:href="./care-period-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="832" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care mandate commissioning a mandated period of care</title></rect></a><text x="300" y="845" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="300" y="845">care period mandate</tspan></text>
+</g>
+<g><!-- mandate to export personal information -->
+<a xlink:href="./mandate-to-export-personal-information.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="425" y="832" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care mandate implying the right to communicate health record extracts</title></rect></a><text x="500" y="845" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="500" y="845">mandate to export</tspan><tspan x="500" y="861">personal</tspan><tspan x="500" y="877">information</tspan></text>
+</g>
+<g><!-- continuity facilitator mandate -->
+<a xlink:href="./continuity-facilitator-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="625" y="832" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care mandate assigning the right and obligation to monitor and coordinate the delivery of care to one subject of care including the right to retrieve relevant information and obligation to document all activities based on this mandate</title></rect></a><text x="700" y="845" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="700" y="845">continuity</tspan><tspan x="700" y="861">facilitator mandate</tspan></text>
+</g>
+<g><!-- care professional entitlement -->
+<a xlink:href="./care-professional-entitlement.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="832" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>professional care mandate held by a person concerning specific roles in care</title></rect></a><text x="900" y="845" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="900" y="845">care professional</tspan><tspan x="900" y="861">entitlement</tspan></text>
+</g>
+<g><!-- request mandate -->
+<a xlink:href="./request-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1025" y="832" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care mandate implying the right and obligation to request care activities</title></rect></a><text x="1100" y="845" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1100" y="845">request mandate</tspan></text>
+</g>
+<!-- Subclass row bus -->
+<line x1="100" y1="812" x2="1100" y2="812" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->
+<line x1="600" y1="802" x2="600" y2="812" stroke="black" stroke-width="2" /><polygon points="600,792 595,802 605,802" fill="white" stroke="black" stroke-width="2" /><line x1="100" y1="812" x2="100" y2="832" stroke="black" stroke-width="2" /><line x1="300" y1="812" x2="300" y2="832" stroke="black" stroke-width="2" /><line x1="500" y1="812" x2="500" y2="832" stroke="black" stroke-width="2" /><line x1="700" y1="812" x2="700" y2="832" stroke="black" stroke-width="2" /><line x1="900" y1="812" x2="900" y2="832" stroke="black" stroke-width="2" /><line x1="1100" y1="812" x2="1100" y2="832" stroke="black" stroke-width="2" /><g><!-- care activity mandate -->
+<a xlink:href="./care-activity-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="957" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care mandate assigning the right and obligation to perform specific care activities</title></rect></a><text x="300" y="970" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="300" y="970">care activity</tspan><tspan x="300" y="986">mandate</tspan></text>
+</g>
+<g><!-- informed consent -->
+<a xlink:href="./informed-consent.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="957" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>permission to perform care activities, voluntarily given by a subject of care with consent competence or by a subject of care proxy with consent competence after having been informed about the purpose and the possible results of the care activities</title></rect></a><text x="900" y="970" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="900" y="970">informed consent</tspan></text>
+</g>
+<!-- Subclass row bus -->
+<line x1="300" y1="937" x2="900" y2="937" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->
+<line x1="600" y1="802" x2="600" y2="937" stroke="black" stroke-width="2" /><line x1="300" y1="937" x2="300" y2="957" stroke="black" stroke-width="2" /><line x1="900" y1="937" x2="900" y2="957" stroke="black" stroke-width="2" /></svg>

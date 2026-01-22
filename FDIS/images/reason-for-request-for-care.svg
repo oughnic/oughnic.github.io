@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 397" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of reason for request for care</title><desc id="desc">Generated diagram of focal class reason for request for care and related classes.</desc><!-- Super types of reason for request for care -->
+<g><!-- health matter -->
+<a xlink:href="./health-matter.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>circumstance contributing to the health state of a person</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">health matter</tspan></text>
+</g>
+<!-- Generalization reason for request for care -> health matter -->
+<line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association background for health need -->
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">0..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">0..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">background for</tspan></text>
+</g>
+<g><!-- health need -->
+<a xlink:href="./health-need.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health matter causing a deficit in the current health state compared to aspects of a desired future health state</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">health need</tspan></text>
+</g>
+<g><!-- Association expresses (1) subject of care -->
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="268">0..*</tspan></text>
+<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">0..1</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">expresses (1)</tspan></text>
+</g>
+<g><!-- subject of care -->
+<a xlink:href="./subject-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person seeking to receive, receiving, or having received care</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">subject of care</tspan></text>
+</g>
+<g><!-- Association expresses (2) subject of care proxy -->
+<line x1="155" y1="352" x2="525" y2="352" stroke="black" stroke-width="2" /><text x="175" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="348">0..*</tspan></text>
+<text x="505" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="348">0..1</tspan></text>
+<text x="340" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="368">expresses (2)</tspan></text>
+</g>
+<g><!-- subject of care proxy -->
+<a xlink:href="./subject-of-care-proxy.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care actor exercising a proxy mandate</title></rect></a><text x="80" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="328">subject of care</tspan><tspan x="80" y="344">proxy</tspan></text>
+</g>
+<g><!-- Association motivates request for care -->
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">motivates</tspan></text>
+</g>
+<g><!-- request for care -->
+<a xlink:href="./request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>request for care provider activities</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">request for care</tspan></text>
+</g>
+<g><!-- Focal reason for request for care -->
+<a xlink:href="./reason-for-request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="240" fill="white" stroke="black" stroke-width="2"><title>motive for a request for care</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">reason for request</tspan><tspan x="600" y="184">for care</tspan></text>
+</g>
+</svg>
