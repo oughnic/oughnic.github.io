@@ -1,53 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 672" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of care guideline</title><desc id="desc">Generated diagram of focal class care guideline and related classes.</desc><!-- Super types of care guideline -->
 <g><!-- knowledge -->
-<a xlink:href="./knowledge.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>maintained, processed, and interpreted information</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">knowledge</tspan></text>
+<a xlink:href="./knowledge.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>maintained, processed, and interpreted information</title></rect></a><text x="600" y="35" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="35">knowledge</tspan></text>
 </g>
 <!-- Generalization care guideline -> knowledge -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association makes decisions assisted by care actor -->
-<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">1..*</tspan></text>
-<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">0..*</tspan></text>
-<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">makes decisions assisted by</tspan></text>
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="188">0..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="188">1..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="208">makes decisions assisted by</tspan></text>
 </g>
 <g><!-- care actor -->
-<a xlink:href="./care-actor.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>organization or person participating in care</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care actor</tspan></text>
+<a xlink:href="./care-actor.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>organization or person participating in care</title></rect></a><text x="80" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="80" y="184">care</tspan><tspan x="80" y="212">actor</tspan></text>
 </g>
 <g><!-- Association refers to care pathway -->
-<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="268">0..*</tspan></text>
-<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">0..*</tspan></text>
-<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">refers to</tspan></text>
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="268">0..*</tspan></text>
+<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="268">0..*</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="288">refers to</tspan></text>
 </g>
 <g><!-- care pathway -->
-<a xlink:href="./care-pathway.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>detailed guidance for each stage in the interdisciplinary management of a subject of care</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">care pathway</tspan></text>
+<a xlink:href="./care-pathway.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>detailed guidance for each stage in the interdisciplinary management of a subject of care</title></rect></a><text x="80" y="264" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="80" y="264">care</tspan><tspan x="80" y="292">pathway</tspan></text>
 </g>
 <g><!-- Association conforms to care plan -->
-<line x1="155" y1="352" x2="525" y2="352" stroke="black" stroke-width="2" /><text x="175" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="348">1..*</tspan></text>
-<text x="505" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="348">0..*</tspan></text>
-<text x="340" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="368">conforms to</tspan></text>
+<line x1="155" y1="352" x2="525" y2="352" stroke="black" stroke-width="2" /><text x="175" y="348" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="348">0..*</tspan></text>
+<text x="505" y="348" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="348">1..*</tspan></text>
+<text x="340" y="368" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="368">conforms to</tspan></text>
 </g>
 <g><!-- care plan -->
-<a xlink:href="./care-plan.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>dynamic, personalized plan including identified needed care activity, health objectives and care goals, relating to one or more specified health needs in a care process</title></rect></a><text x="80" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="328">care plan</tspan></text>
+<a xlink:href="./care-plan.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>dynamic, personalized plan including identified needed care activity, health objectives and care goals, relating to one or more specified health needs in a care process</title></rect></a><text x="80" y="345" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="80" y="345">care plan</tspan></text>
 </g>
 <g><!-- Association based upon care planning -->
-<line x1="155" y1="432" x2="525" y2="432" stroke="black" stroke-width="2" /><text x="175" y="428" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="428">0..*</tspan></text>
-<text x="505" y="428" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="428">0..*</tspan></text>
-<text x="340" y="448" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="448">based upon</tspan></text>
+<line x1="155" y1="432" x2="525" y2="432" stroke="black" stroke-width="2" /><text x="175" y="428" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="428">0..*</tspan></text>
+<text x="505" y="428" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="428">0..*</tspan></text>
+<text x="340" y="448" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="448">based upon</tspan></text>
 </g>
 <g><!-- care planning -->
-<a xlink:href="./care-planning.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="395" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care activity management where a care plan is managed</title></rect></a><text x="80" y="408" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="408">care planning</tspan></text>
+<a xlink:href="./care-planning.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="395" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care activity management where a care plan is managed</title></rect></a><text x="80" y="424" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="80" y="424">care</tspan><tspan x="80" y="452">planning</tspan></text>
 </g>
 <g><!-- Association centred on health issue -->
-<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1..*</tspan></text>
-<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
-<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">centred on</tspan></text>
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="188">1..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="208">centred on</tspan></text>
 </g>
 <g><!-- health issue -->
-<a xlink:href="./health-issue.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health condition motivating care</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">health issue</tspan></text>
+<a xlink:href="./health-issue.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health condition motivating care</title></rect></a><text x="1120" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="184">health</tspan><tspan x="1120" y="212">issue</tspan></text>
 </g>
 <g><!-- Focal care guideline -->
-<a xlink:href="./care-guideline.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="320" fill="white" stroke="black" stroke-width="2"><title>set of systematically developed statements based on knowledge to assist the decisions made by care actors about care activities to be performed with regard to specified health issues</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">care guideline</tspan></text>
+<a xlink:href="./care-guideline.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="320" fill="white" stroke="black" stroke-width="2"><title>set of systematically developed statements based on knowledge to assist the decisions made by care actors about care activities to be performed with regard to specified health issues</title></rect></a><text x="600" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="185">care</tspan><tspan x="600" y="215">guideline</tspan></text>
 </g>
 <g><!-- protocol -->
-<a xlink:href="./protocol.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="517" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>customized care guideline</title></rect></a><text x="600" y="530" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="530">protocol</tspan></text>
+<a xlink:href="./protocol.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="517" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>customized care guideline</title></rect></a><text x="600" y="547" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="547">protocol</tspan></text>
 </g>
 <!-- Subclass row bus -->
 <line x1="600" y1="497" x2="600" y2="497" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->

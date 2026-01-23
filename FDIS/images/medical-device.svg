@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 427" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of medical device</title><desc id="desc">Generated diagram of focal class medical device and related classes.</desc><!-- Super types of medical device -->
 <g><!-- care resource -->
-<a xlink:href="./care-resource.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>resource needed to perform care activities</title></rect></a><text x="300" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="300" y="18">care resource</tspan></text>
+<a xlink:href="./care-resource.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>resource needed to perform care activities</title></rect></a><text x="300" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="300" y="34">care</tspan><tspan x="300" y="62">resource</tspan></text>
 </g>
 <!-- Generalization medical device -> care resource -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="300" y1="82" x2="300" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="300" y2="135" stroke="black" stroke-width="2" /><polygon points="300,82 295,92 305,92" fill="white" stroke="black" stroke-width="2" /><g><!-- physical object -->
-<a xlink:href="./physical-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="900" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="900" y="18">physical object</tspan></text>
+<a xlink:href="./physical-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="900" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="900" y="34">physical</tspan><tspan x="900" y="62">object</tspan></text>
 </g>
 <!-- Generalization medical device -> physical object -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="900" y1="82" x2="900" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="900" y2="135" stroke="black" stroke-width="2" /><polygon points="900,82 895,92 905,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Focal medical device -->
@@ -15,10 +15,10 @@
 — supporting or sustaining life,
 — control of conception,
 — disinfection of medical devices,
-— providing information by means of in vitro examination of specimens derived from the human body, and which does not achieve its primary intended action by pharmacological, immunological or metabolic means, in or on the human body, but which can be assisted in its intended function by such means</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">medical device</tspan></text>
+— providing information by means of in vitro examination of specimens derived from the human body, and which does not achieve its primary intended action by pharmacological, immunological or metabolic means, in or on the human body, but which can be assisted in its intended function by such means</title></rect></a><text x="600" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="600" y="184">medical</tspan><tspan x="600" y="212">device</tspan></text>
 </g>
 <g><!-- automatic medical device -->
-<a xlink:href="./automatic-medical-device.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="272" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>medical device capable of performing care activities by itself or under human supervision</title></rect></a><text x="600" y="285" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="285">automatic medical</tspan><tspan x="600" y="301">device</tspan></text>
+<a xlink:href="./automatic-medical-device.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="272" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>medical device capable of performing care activities by itself or under human supervision</title></rect></a><text x="600" y="293" text-anchor="middle" font-family="Cambria" font-size="16.5625" fill="black"><tspan x="600" y="293">automatic</tspan><tspan x="600" y="312">medical device</tspan></text>
 </g>
 <!-- Subclass row bus -->
 <line x1="600" y1="252" x2="600" y2="252" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->

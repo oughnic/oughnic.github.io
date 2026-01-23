@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 397" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of care investigation</title><desc id="desc">Generated diagram of focal class care investigation and related classes.</desc><!-- Super types of care investigation -->
 <g><!-- care activity -->
-<a xlink:href="./care-activity.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>activity intended to improve or maintain a health state </title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">care activity</tspan></text>
+<a xlink:href="./care-activity.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>activity intended to improve or maintain a health state </title></rect></a><text x="600" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="600" y="34">care</tspan><tspan x="600" y="62">activity</tspan></text>
 </g>
 <!-- Generalization care investigation -> care activity -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association reveals health condition health condition -->
-<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1..*</tspan></text>
-<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
-<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">reveals health condition</tspan></text>
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="188">1..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="208">reveals health condition</tspan></text>
 </g>
 <g><!-- health condition -->
-<a xlink:href="./health-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>aspect of a health state</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">health condition</tspan></text>
+<a xlink:href="./health-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>aspect of a health state</title></rect></a><text x="1120" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="184">health</tspan><tspan x="1120" y="212">condition</tspan></text>
 </g>
 <g><!-- Association clarifies health state -->
-<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="268">1</tspan></text>
-<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="268">1</tspan></text>
-<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="288">clarifies</tspan></text>
+<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="268">1</tspan></text>
+<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="268">1</tspan></text>
+<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="288">clarifies</tspan></text>
 </g>
 <g><!-- health state -->
-<a xlink:href="./health-state.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>overall level of health of a subject of care</title></rect></a><text x="1120" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="248">health state</tspan></text>
+<a xlink:href="./health-state.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>overall level of health of a subject of care</title></rect></a><text x="1120" y="264" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="264">health</tspan><tspan x="1120" y="292">state</tspan></text>
 </g>
 <g><!-- Association reveals observed condition -->
-<line x1="675" y1="352" x2="1045" y2="352" stroke="black" stroke-width="2" /><text x="695" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="348">1..*</tspan></text>
-<text x="1023" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="348">0..*</tspan></text>
-<text x="860" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="368">reveals</tspan></text>
+<line x1="675" y1="352" x2="1045" y2="352" stroke="black" stroke-width="2" /><text x="695" y="348" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="348">0..*</tspan></text>
+<text x="1023" y="348" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="348">1..*</tspan></text>
+<text x="860" y="368" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="368">reveals</tspan></text>
 </g>
 <g><!-- observed condition -->
-<a xlink:href="./observed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health condition observed by a care actor</title></rect></a><text x="1120" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="328">observed condition</tspan></text>
+<a xlink:href="./observed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health condition observed by a care actor</title></rect></a><text x="1120" y="344" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="344">observed</tspan><tspan x="1120" y="372">condition</tspan></text>
 </g>
 <g><!-- Focal care investigation -->
-<a xlink:href="./care-investigation.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="240" fill="white" stroke="black" stroke-width="2"><title>care activity with the intention to clarify one or more health conditions of a subject of care</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">care investigation</tspan></text>
+<a xlink:href="./care-investigation.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="240" fill="white" stroke="black" stroke-width="2"><title>care activity with the intention to clarify one or more health conditions of a subject of care</title></rect></a><text x="600" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="185">care</tspan><tspan x="600" y="215">investigation</tspan></text>
 </g>
 </svg>

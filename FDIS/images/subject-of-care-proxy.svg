@@ -1,73 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 797" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of subject of care proxy</title><desc id="desc">Generated diagram of focal class subject of care proxy and related classes.</desc><!-- Super types of subject of care proxy -->
 <g><!-- care third party -->
-<a xlink:href="./care-third-party.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care actor other than a care provider or the subject of care</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">care third party</tspan></text>
+<a xlink:href="./care-third-party.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>care actor other than a care provider or the subject of care</title></rect></a><text x="600" y="33" text-anchor="middle" font-family="Cambria" font-size="23.125" fill="black"><tspan x="600" y="33">care third</tspan><tspan x="600" y="60">party</tspan></text>
 </g>
 <!-- Generalization subject of care proxy -> care third party -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association has consent competence -->
-<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">0..1</tspan></text>
-<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">0..*</tspan></text>
-<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">has</tspan></text>
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="188">0..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="188">0..1</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="208">has</tspan></text>
 </g>
 <g><!-- consent competence -->
-<a xlink:href="./consent-competence.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>capability of the subject of care and/or the subject of care proxy to give or withhold informed consent</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">consent competence</tspan></text>
+<a xlink:href="./consent-competence.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>capability of the subject of care and/or the subject of care proxy to give or withhold informed consent</title></rect></a><text x="1120" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="184">consent</tspan><tspan x="1120" y="212">competence</tspan></text>
 </g>
 <g><!-- Association gives informed consent -->
-<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="268">0..*</tspan></text>
-<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="268">0..*</tspan></text>
-<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="288">gives</tspan></text>
+<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="268">0..*</tspan></text>
+<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="268">0..*</tspan></text>
+<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="288">gives</tspan></text>
 </g>
 <g><!-- informed consent -->
-<a xlink:href="./informed-consent.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>permission to perform care activities, voluntarily given by a subject of care with consent competence or by a subject of care proxy with consent competence after having been informed about the purpose and the possible results of the care activities</title></rect></a><text x="1120" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="248">informed consent</tspan></text>
+<a xlink:href="./informed-consent.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>permission to perform care activities, voluntarily given by a subject of care with consent competence or by a subject of care proxy with consent competence after having been informed about the purpose and the possible results of the care activities</title></rect></a><text x="1120" y="264" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="264">informed</tspan><tspan x="1120" y="292">consent</tspan></text>
 </g>
 <g><!-- Association states objection -->
-<line x1="675" y1="352" x2="1045" y2="352" stroke="black" stroke-width="2" /><text x="695" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="348">0..*</tspan></text>
-<text x="1023" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="348">0..1</tspan></text>
-<text x="860" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="368">states</tspan></text>
+<line x1="675" y1="352" x2="1045" y2="352" stroke="black" stroke-width="2" /><text x="695" y="348" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="348">0..1</tspan></text>
+<text x="1023" y="348" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="348">0..*</tspan></text>
+<text x="860" y="368" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="368">states</tspan></text>
 </g>
 <g><!-- objection -->
-<a xlink:href="./objection.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>subject of care desire that specific care activities are not performed</title></rect></a><text x="1120" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="328">objection</tspan></text>
+<a xlink:href="./objection.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>subject of care desire that specific care activities are not performed</title></rect></a><text x="1120" y="345" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="1120" y="345">objection</tspan></text>
 </g>
 <g><!-- Association maintains personal health record -->
-<line x1="675" y1="432" x2="1045" y2="432" stroke="black" stroke-width="2" /><text x="695" y="428" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="428">0..*</tspan></text>
-<text x="1023" y="428" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="428">0..*</tspan></text>
-<text x="860" y="448" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="448">maintains</tspan></text>
+<line x1="675" y1="432" x2="1045" y2="432" stroke="black" stroke-width="2" /><text x="695" y="428" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="428">0..*</tspan></text>
+<text x="1023" y="428" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="428">0..*</tspan></text>
+<text x="860" y="448" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="448">maintains</tspan></text>
 </g>
 <g><!-- personal health record -->
-<a xlink:href="./personal-health-record.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="395" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health record held and maintained by the subject of care or a subject of care proxy</title></rect></a><text x="1120" y="408" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="408">personal health</tspan><tspan x="1120" y="424">record</tspan></text>
+<a xlink:href="./personal-health-record.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="395" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health record held and maintained by the subject of care or a subject of care proxy</title></rect></a><text x="1120" y="417" text-anchor="middle" font-family="Cambria" font-size="17.8125" fill="black"><tspan x="1120" y="417">personal</tspan><tspan x="1120" y="438">health record</tspan></text>
 </g>
 <g><!-- Association exercises proxy mandate -->
-<line x1="675" y1="512" x2="1045" y2="512" stroke="black" stroke-width="2" /><text x="695" y="508" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="508">1..*</tspan></text>
-<text x="1023" y="508" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="508">0..*</tspan></text>
-<text x="860" y="528" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="528">exercises</tspan></text>
+<line x1="675" y1="512" x2="1045" y2="512" stroke="black" stroke-width="2" /><text x="695" y="508" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="508">0..*</tspan></text>
+<text x="1023" y="508" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="508">1..*</tspan></text>
+<text x="860" y="528" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="528">exercises</tspan></text>
 </g>
 <g><!-- proxy mandate -->
-<a xlink:href="./proxy-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="475" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care mandate to take decisions on behalf of a subject of care</title></rect></a><text x="1120" y="488" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="488">proxy mandate</tspan></text>
+<a xlink:href="./proxy-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="475" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care mandate to take decisions on behalf of a subject of care</title></rect></a><text x="1120" y="504" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="504">proxy</tspan><tspan x="1120" y="532">mandate</tspan></text>
 </g>
 <g><!-- Association expresses (2) reason for request for care -->
-<line x1="675" y1="592" x2="1045" y2="592" stroke="black" stroke-width="2" /><text x="695" y="588" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="588">0..*</tspan></text>
-<text x="1023" y="588" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="588">0..1</tspan></text>
-<text x="860" y="608" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="608">expresses (2)</tspan></text>
+<line x1="675" y1="592" x2="1045" y2="592" stroke="black" stroke-width="2" /><text x="695" y="588" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="588">0..1</tspan></text>
+<text x="1023" y="588" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="588">0..*</tspan></text>
+<text x="860" y="608" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="608">expresses (2)</tspan></text>
 </g>
 <g><!-- reason for request for care -->
-<a xlink:href="./reason-for-request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="555" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>motive for a request for care</title></rect></a><text x="1120" y="568" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="568">reason for request</tspan><tspan x="1120" y="584">for care</tspan></text>
+<a xlink:href="./reason-for-request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="555" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>motive for a request for care</title></rect></a><text x="1120" y="576" text-anchor="middle" font-family="Cambria" font-size="16.5625" fill="black"><tspan x="1120" y="576">reason for</tspan><tspan x="1120" y="595">request for</tspan><tspan x="1120" y="614">care</tspan></text>
 </g>
 <g><!-- Association acts for subject of care -->
-<line x1="675" y1="672" x2="1045" y2="672" stroke="black" stroke-width="2" /><text x="695" y="668" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="668">0..*</tspan></text>
-<text x="1023" y="668" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="668">1</tspan></text>
-<text x="860" y="688" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="688">acts for</tspan></text>
+<line x1="675" y1="672" x2="1045" y2="672" stroke="black" stroke-width="2" /><text x="695" y="668" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="668">1</tspan></text>
+<text x="1023" y="668" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="668">0..*</tspan></text>
+<text x="860" y="688" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="688">acts for</tspan></text>
 </g>
 <g><!-- subject of care -->
-<a xlink:href="./subject-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="635" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person seeking to receive, receiving, or having received care</title></rect></a><text x="1120" y="648" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="648">subject of care</tspan></text>
+<a xlink:href="./subject-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="635" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person seeking to receive, receiving, or having received care</title></rect></a><text x="1120" y="664" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="664">subject</tspan><tspan x="1120" y="692">of care</tspan></text>
 </g>
 <g><!-- Association expresses subject of care desire -->
-<line x1="675" y1="752" x2="1045" y2="752" stroke="black" stroke-width="2" /><text x="695" y="748" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="748">0..*</tspan></text>
-<text x="1023" y="748" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="748">0..*</tspan></text>
-<text x="860" y="768" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="768">expresses</tspan></text>
+<line x1="675" y1="752" x2="1045" y2="752" stroke="black" stroke-width="2" /><text x="695" y="748" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="748">0..*</tspan></text>
+<text x="1023" y="748" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="748">0..*</tspan></text>
+<text x="860" y="768" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="768">expresses</tspan></text>
 </g>
 <g><!-- subject of care desire -->
-<a xlink:href="./subject-of-care-desire.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="715" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>desire expressed by the subject of care or the subject of care proxy regarding the performance of certain care activities</title></rect></a><text x="1120" y="728" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="728">subject of care</tspan><tspan x="1120" y="744">desire</tspan></text>
+<a xlink:href="./subject-of-care-desire.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="715" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>desire expressed by the subject of care or the subject of care proxy regarding the performance of certain care activities</title></rect></a><text x="1120" y="740" text-anchor="middle" font-family="Cambria" font-size="20.9375" fill="black"><tspan x="1120" y="740">subject of</tspan><tspan x="1120" y="765">care desire</tspan></text>
 </g>
 <g><!-- Focal subject of care proxy -->
-<a xlink:href="./subject-of-care-proxy.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="640" fill="white" stroke="black" stroke-width="2"><title>care actor exercising a proxy mandate</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">subject of care</tspan><tspan x="600" y="184">proxy</tspan></text>
+<a xlink:href="./subject-of-care-proxy.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="640" fill="white" stroke="black" stroke-width="2"><title>care actor exercising a proxy mandate</title></rect></a><text x="600" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="185">subject</tspan><tspan x="600" y="215">of care</tspan><tspan x="600" y="245">proxy</tspan></text>
 </g>
 </svg>

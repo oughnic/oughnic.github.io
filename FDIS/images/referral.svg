@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 317" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of referral</title><desc id="desc">Generated diagram of focal class referral and related classes.</desc><!-- Super types of referral -->
 <g><!-- request for care -->
-<a xlink:href="./request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>request for care provider activities</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">request for care</tspan></text>
+<a xlink:href="./request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>request for care provider activities</title></rect></a><text x="600" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="600" y="34">request</tspan><tspan x="600" y="62">for care</tspan></text>
 </g>
 <!-- Generalization referral -> request for care -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association issues care professional -->
-<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">1..*</tspan></text>
-<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">0..*</tspan></text>
-<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">issues</tspan></text>
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="188">0..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="188">1..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="208">issues</tspan></text>
 </g>
 <g><!-- care professional -->
-<a xlink:href="./care-professional.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person holding a care professional entitlement</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care professional</tspan></text>
+<a xlink:href="./care-professional.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>person holding a care professional entitlement</title></rect></a><text x="80" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="80" y="184">care</tspan><tspan x="80" y="212">professional</tspan></text>
 </g>
 <g><!-- Association asks for care commitment -->
-<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1</tspan></text>
-<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1</tspan></text>
-<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">asks for</tspan></text>
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="188">1</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="188">1</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="208">asks for</tspan></text>
 </g>
 <g><!-- care commitment -->
-<a xlink:href="./care-commitment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>acceptance of a care request including commitment by the care actor to perform requested care activities</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">care commitment</tspan></text>
+<a xlink:href="./care-commitment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>acceptance of a care request including commitment by the care actor to perform requested care activities</title></rect></a><text x="1120" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="184">care</tspan><tspan x="1120" y="212">commitment</tspan></text>
 </g>
 <g><!-- Association initiates care contact -->
-<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="268">1</tspan></text>
-<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="268">1..*</tspan></text>
-<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="288">initiates</tspan></text>
+<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="268">1..*</tspan></text>
+<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="268">1</tspan></text>
+<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="288">initiates</tspan></text>
 </g>
 <g><!-- care contact -->
-<a xlink:href="./care-contact.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>interaction between one or more subject of care and one or more care personnel</title></rect></a><text x="1120" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="248">care contact</tspan></text>
+<a xlink:href="./care-contact.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>interaction between one or more subject of care and one or more care personnel</title></rect></a><text x="1120" y="264" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="264">care</tspan><tspan x="1120" y="292">contact</tspan></text>
 </g>
 <g><!-- Focal referral -->
-<a xlink:href="./referral.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>request for care where a care professional asks a care provider to make a care commitment for a care period mandate</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">referral</tspan></text>
+<a xlink:href="./referral.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>request for care where a care professional asks a care provider to make a care commitment for a care period mandate</title></rect></a><text x="600" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="185">referral</tspan></text>
 </g>
 </svg>

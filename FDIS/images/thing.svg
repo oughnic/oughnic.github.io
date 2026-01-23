@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 277" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of thing</title><desc id="desc">Generated diagram of focal class thing and related classes.</desc><g><!-- Focal thing -->
-<a xlink:href="./thing.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">thing</tspan></text>
+<a xlink:href="./thing.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="600" y="35" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="35">thing</tspan></text>
 </g>
 <g><!-- mental object -->
-<a xlink:href="./mental-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="25" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>thoughts, ideas, memories and concepts that exist within an individual’s mind</title></rect></a><text x="100" y="135" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="100" y="135">mental object</tspan></text>
+<a xlink:href="./mental-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="25" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>thoughts, ideas, memories and concepts that exist within an individual’s mind</title></rect></a><text x="100" y="151" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="100" y="151">mental</tspan><tspan x="100" y="179">object</tspan></text>
 </g>
 <g><!-- event -->
-<a xlink:href="./event.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>situation considered to occur at a time point</title></rect></a><text x="300" y="135" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="300" y="135">event</tspan></text>
+<a xlink:href="./event.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="225" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>situation considered to occur at a time point</title></rect></a><text x="300" y="152" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="300" y="152">event</tspan></text>
 </g>
 <g><!-- time interval -->
-<a xlink:href="./time-interval.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="425" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="500" y="135" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="500" y="135">time interval</tspan></text>
+<a xlink:href="./time-interval.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="425" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="500" y="151" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="500" y="151">time</tspan><tspan x="500" y="179">interval</tspan></text>
 </g>
 <g><!-- physical object -->
-<a xlink:href="./physical-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="625" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="700" y="135" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="700" y="135">physical object</tspan></text>
+<a xlink:href="./physical-object.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="625" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title></title></rect></a><text x="700" y="151" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="700" y="151">physical</tspan><tspan x="700" y="179">object</tspan></text>
 </g>
 <g><!-- stative -->
-<a xlink:href="./stative.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>a state or condition</title></rect></a><text x="900" y="135" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="900" y="135">stative</tspan></text>
+<a xlink:href="./stative.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="825" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>a state or condition</title></rect></a><text x="900" y="152" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="900" y="152">stative</tspan></text>
 </g>
 <g><!-- role -->
-<a xlink:href="./role.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1025" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>set of competencies or performances that are associated with a task</title></rect></a><text x="1100" y="135" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1100" y="135">role</tspan></text>
+<a xlink:href="./role.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1025" y="122" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>set of competencies or performances that are associated with a task</title></rect></a><text x="1100" y="152" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="1100" y="152">role</tspan></text>
 </g>
 <!-- Subclass row bus -->
 <line x1="100" y1="102" x2="1100" y2="102" stroke="black" stroke-width="2" /><!-- Subclass row vertical to focal -->

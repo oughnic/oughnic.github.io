@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 237" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of health approach</title><desc id="desc">Generated diagram of focal class health approach and related classes.</desc><!-- Super types of health approach -->
 <g><!-- episode of care -->
-<a xlink:href="./episode-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health related period during which care activities are performed to address one health issue as identified by one care professional</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">episode of care</tspan></text>
+<a xlink:href="./episode-of-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>health related period during which care activities are performed to address one health issue as identified by one care professional</title></rect></a><text x="600" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="600" y="34">episode</tspan><tspan x="600" y="62">of care</tspan></text>
 </g>
 <!-- Generalization health approach -> episode of care -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association addresses care goal -->
-<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1</tspan></text>
-<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
-<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">addresses</tspan></text>
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="188">1..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="188">1</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="208">addresses</tspan></text>
 </g>
 <g><!-- care goal -->
-<a xlink:href="./care-goal.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>desired achievement of one or more care activities</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">care goal</tspan></text>
+<a xlink:href="./care-goal.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>desired achievement of one or more care activities</title></rect></a><text x="1120" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="1120" y="185">care goal</tspan></text>
 </g>
 <g><!-- Focal health approach -->
-<a xlink:href="./health-approach.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="80" fill="white" stroke="black" stroke-width="2"><title>episode of care during which the care activities performed address one specific care goal</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">health approach</tspan></text>
+<a xlink:href="./health-approach.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="80" fill="white" stroke="black" stroke-width="2"><title>episode of care during which the care activities performed address one specific care goal</title></rect></a><text x="600" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="185">health</tspan><tspan x="600" y="215">approach</tspan></text>
 </g>
 </svg>

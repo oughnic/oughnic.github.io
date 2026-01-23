@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 87" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of authorization by law</title><desc id="desc">Generated diagram of focal class authorization by law and related classes.</desc><g><!-- Association requires care mandate -->
-<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="175" y="38" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="38">0..*</tspan></text>
-<text x="505" y="38" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="38">1..*</tspan></text>
-<text x="340" y="58" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="58">requires</tspan></text>
+<line x1="155" y1="42" x2="525" y2="42" stroke="black" stroke-width="2" /><text x="175" y="38" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="38">1..*</tspan></text>
+<text x="505" y="38" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="38">0..*</tspan></text>
+<text x="340" y="58" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="58">requires</tspan></text>
 </g>
 <g><!-- care mandate -->
-<a xlink:href="./care-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>mandate based on a commitment and either an informed consent or an authorization by law defining the rights and obligations of one care actor with regard to their involvement in care processes performed for a specific subject of care</title></rect></a><text x="80" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="18">care mandate</tspan></text>
+<a xlink:href="./care-mandate.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="5" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>mandate based on a commitment and either an informed consent or an authorization by law defining the rights and obligations of one care actor with regard to their involvement in care processes performed for a specific subject of care</title></rect></a><text x="80" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="80" y="34">care</tspan><tspan x="80" y="62">mandate</tspan></text>
 </g>
 <g><!-- Focal authorization by law -->
-<a xlink:href="./authorization-by-law.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="80" fill="white" stroke="black" stroke-width="2"><title>provision in legislation that in certain circumstances may overrule the need for informed consent</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">authorization by</tspan><tspan x="600" y="34">law</tspan></text>
+<a xlink:href="./authorization-by-law.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="80" fill="white" stroke="black" stroke-width="2"><title>provision in legislation that in certain circumstances may overrule the need for informed consent</title></rect></a><text x="600" y="35" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="35">authorization</tspan><tspan x="600" y="65">by law</tspan></text>
 </g>
 </svg>

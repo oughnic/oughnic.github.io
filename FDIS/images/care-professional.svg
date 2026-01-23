@@ -1,112 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1197" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of care professional</title><desc id="desc">Generated diagram of focal class care professional and related classes.</desc><!-- Super types of care professional -->
 <g><!-- care actor -->
-<a xlink:href="./care-actor.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>organization or person participating in care</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">care actor</tspan></text>
+<a xlink:href="./care-actor.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>organization or person participating in care</title></rect></a><text x="600" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="600" y="34">care</tspan><tspan x="600" y="62">actor</tspan></text>
 </g>
 <!-- Generalization care professional -> care actor -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association manages care activity period -->
-<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">1..*</tspan></text>
-<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">0..*</tspan></text>
-<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">manages</tspan></text>
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="188">0..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="208">manages</tspan></text>
 </g>
 <g><!-- care activity period -->
-<a xlink:href="./care-activity-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>period during which care activities are performed for a subject of care</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">care activity</tspan><tspan x="1120" y="184">period</tspan></text>
+<a xlink:href="./care-activity-period.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>period during which care activities are performed for a subject of care</title></rect></a><text x="1120" y="177" text-anchor="middle" font-family="Cambria" font-size="17.8125" fill="black"><tspan x="1120" y="177">care activity</tspan><tspan x="1120" y="198">period</tspan></text>
 </g>
 <g><!-- Association ratifies care information for import -->
-<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="268">1..*</tspan></text>
-<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="268">0..*</tspan></text>
-<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="288">ratifies</tspan></text>
+<line x1="675" y1="272" x2="1045" y2="272" stroke="black" stroke-width="2" /><text x="695" y="268" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="268">0..*</tspan></text>
+<text x="1023" y="268" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="268">1..*</tspan></text>
+<text x="860" y="288" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="288">ratifies</tspan></text>
 </g>
 <g><!-- care information for import -->
-<a xlink:href="./care-information-for-import.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care information that is a candidate for import into a professional health record after a care professional has confirmed its clinical relevance to that professional health record</title></rect></a><text x="1120" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="248">care information</tspan><tspan x="1120" y="264">for import</tspan></text>
+<a xlink:href="./care-information-for-import.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care information that is a candidate for import into a professional health record after a care professional has confirmed its clinical relevance to that professional health record</title></rect></a><text x="1120" y="256" text-anchor="middle" font-family="Cambria" font-size="16.5625" fill="black"><tspan x="1120" y="256">care</tspan><tspan x="1120" y="275">information</tspan><tspan x="1120" y="294">for import</tspan></text>
 </g>
 <g><!-- Association performs care needs assessment -->
-<line x1="675" y1="352" x2="1045" y2="352" stroke="black" stroke-width="2" /><text x="695" y="348" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="348">0..*</tspan></text>
-<text x="1023" y="348" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="348">0..*</tspan></text>
-<text x="860" y="368" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="368">performs</tspan></text>
+<line x1="675" y1="352" x2="1045" y2="352" stroke="black" stroke-width="2" /><text x="695" y="348" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="348">0..*</tspan></text>
+<text x="1023" y="348" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="348">0..*</tspan></text>
+<text x="860" y="368" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="368">performs</tspan></text>
 </g>
 <g><!-- care needs assessment -->
-<a xlink:href="./care-needs-assessment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care assessment during which a care professional considers a subject of care’s health needs and determines needed care activities</title></rect></a><text x="1120" y="328" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="328">care needs</tspan><tspan x="1120" y="344">assessment</tspan></text>
+<a xlink:href="./care-needs-assessment.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="315" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>care assessment during which a care professional considers a subject of care’s health needs and determines needed care activities</title></rect></a><text x="1120" y="343" text-anchor="middle" font-family="Cambria" font-size="23.125" fill="black"><tspan x="1120" y="343">care needs</tspan><tspan x="1120" y="370">assessment</tspan></text>
 </g>
 <g><!-- Association has care professional entitlement -->
-<line x1="675" y1="432" x2="1045" y2="432" stroke="black" stroke-width="2" /><text x="695" y="428" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="428">1..*</tspan></text>
-<text x="1023" y="428" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="428">1</tspan></text>
-<text x="860" y="448" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="448">has</tspan></text>
+<line x1="675" y1="432" x2="1045" y2="432" stroke="black" stroke-width="2" /><text x="695" y="428" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="428">1</tspan></text>
+<text x="1023" y="428" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="428">1..*</tspan></text>
+<text x="860" y="448" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="448">has</tspan></text>
 </g>
 <g><!-- care professional entitlement -->
-<a xlink:href="./care-professional-entitlement.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="395" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>professional care mandate held by a person concerning specific roles in care</title></rect></a><text x="1120" y="408" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="408">care professional</tspan><tspan x="1120" y="424">entitlement</tspan></text>
+<a xlink:href="./care-professional-entitlement.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="395" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>professional care mandate held by a person concerning specific roles in care</title></rect></a><text x="1120" y="416" text-anchor="middle" font-family="Cambria" font-size="16.5625" fill="black"><tspan x="1120" y="416">care</tspan><tspan x="1120" y="435">professional</tspan><tspan x="1120" y="454">entitlement</tspan></text>
 </g>
 <g><!-- Association considers considered condition -->
-<line x1="675" y1="512" x2="1045" y2="512" stroke="black" stroke-width="2" /><text x="695" y="508" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="508">1..*</tspan></text>
-<text x="1023" y="508" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="508">0..*</tspan></text>
-<text x="860" y="528" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="528">considers</tspan></text>
+<line x1="675" y1="512" x2="1045" y2="512" stroke="black" stroke-width="2" /><text x="695" y="508" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="508">0..*</tspan></text>
+<text x="1023" y="508" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="508">1..*</tspan></text>
+<text x="860" y="528" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="528">considers</tspan></text>
 </g>
 <g><!-- considered condition -->
-<a xlink:href="./considered-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="475" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition considered by a care actor on the basis of one or more observed conditions</title></rect></a><text x="1120" y="488" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="488">considered</tspan><tspan x="1120" y="504">condition</tspan></text>
+<a xlink:href="./considered-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="475" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition considered by a care actor on the basis of one or more observed conditions</title></rect></a><text x="1120" y="504" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="504">considered</tspan><tspan x="1120" y="532">condition</tspan></text>
 </g>
 <g><!-- Association rules out excluded condition -->
-<line x1="675" y1="592" x2="1045" y2="592" stroke="black" stroke-width="2" /><text x="695" y="588" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="588">1..*</tspan></text>
-<text x="1023" y="588" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="588">0..*</tspan></text>
-<text x="860" y="608" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="608">rules out</tspan></text>
+<line x1="675" y1="592" x2="1045" y2="592" stroke="black" stroke-width="2" /><text x="695" y="588" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="588">0..*</tspan></text>
+<text x="1023" y="588" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="588">1..*</tspan></text>
+<text x="860" y="608" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="608">rules out</tspan></text>
 </g>
 <g><!-- excluded condition -->
-<a xlink:href="./excluded-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="555" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>considered condition that one or more care professionals have determined not to be consistent with the known observed conditions</title></rect></a><text x="1120" y="568" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="568">excluded condition</tspan></text>
+<a xlink:href="./excluded-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="555" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>considered condition that one or more care professionals have determined not to be consistent with the known observed conditions</title></rect></a><text x="1120" y="584" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="584">excluded</tspan><tspan x="1120" y="612">condition</tspan></text>
 </g>
 <g><!-- Association plays prescriber -->
-<line x1="675" y1="672" x2="1045" y2="672" stroke="black" stroke-width="2" /><text x="695" y="668" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="668">1..*</tspan></text>
-<text x="1023" y="668" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="668">0..1</tspan></text>
-<text x="860" y="688" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="688">plays</tspan></text>
+<line x1="675" y1="672" x2="1045" y2="672" stroke="black" stroke-width="2" /><text x="695" y="668" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="668">0..1</tspan></text>
+<text x="1023" y="668" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="668">1..*</tspan></text>
+<text x="860" y="688" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="688">plays</tspan></text>
 </g>
 <g><!-- prescriber -->
-<a xlink:href="./prescriber.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="635" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>role performed by a care professional when recommending or authorising a care activity</title></rect></a><text x="1120" y="648" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="648">prescriber</tspan></text>
+<a xlink:href="./prescriber.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="635" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>role performed by a care professional when recommending or authorising a care activity</title></rect></a><text x="1120" y="665" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="1120" y="665">prescriber</tspan></text>
 </g>
 <g><!-- Association maintains professional health record -->
-<line x1="675" y1="752" x2="1045" y2="752" stroke="black" stroke-width="2" /><text x="695" y="748" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="748">1..*</tspan></text>
-<text x="1023" y="748" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="748">0..*</tspan></text>
-<text x="860" y="768" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="768">maintains</tspan></text>
+<line x1="675" y1="752" x2="1045" y2="752" stroke="black" stroke-width="2" /><text x="695" y="748" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="748">0..*</tspan></text>
+<text x="1023" y="748" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="748">1..*</tspan></text>
+<text x="860" y="768" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="768">maintains</tspan></text>
 </g>
 <g><!-- professional health record -->
-<a xlink:href="./professional-health-record.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="715" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health record held under the responsibility of one care provider and maintained by care professionals</title></rect></a><text x="1120" y="728" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="728">professional health</tspan><tspan x="1120" y="744">record</tspan></text>
+<a xlink:href="./professional-health-record.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="715" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health record held under the responsibility of one care provider and maintained by care professionals</title></rect></a><text x="1120" y="737" text-anchor="middle" font-family="Cambria" font-size="17.8125" fill="black"><tspan x="1120" y="737">professional</tspan><tspan x="1120" y="758">health record</tspan></text>
 </g>
 <g><!-- Association identifies (1) professionally assessed condition -->
-<line x1="675" y1="832" x2="1045" y2="832" stroke="black" stroke-width="2" /><text x="1023" y="828" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="828">0..*</tspan></text>
-<text x="860" y="848" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="848">identifies (1)</tspan></text>
+<line x1="675" y1="832" x2="1045" y2="832" stroke="black" stroke-width="2" /><text x="695" y="828" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="828">0..*</tspan></text>
+<text x="860" y="848" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="848">identifies (1)</tspan></text>
 </g>
 <g><!-- professionally assessed condition -->
-<a xlink:href="./professionally-assessed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="795" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>observed condition assessed by a care professional</title></rect></a><text x="1120" y="808" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="808">professionally</tspan><tspan x="1120" y="824">assessed condition</tspan></text>
+<a xlink:href="./professionally-assessed-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="795" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>observed condition assessed by a care professional</title></rect></a><text x="1120" y="816" text-anchor="middle" font-family="Cambria" font-size="16.5625" fill="black"><tspan x="1120" y="816">professionally</tspan><tspan x="1120" y="835">assessed</tspan><tspan x="1120" y="854">condition</tspan></text>
 </g>
 <g><!-- Association identifies prognostic condition -->
-<line x1="675" y1="912" x2="1045" y2="912" stroke="black" stroke-width="2" /><text x="695" y="908" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="908">1..*</tspan></text>
-<text x="1023" y="908" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="908">0..*</tspan></text>
-<text x="860" y="928" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="928">identifies</tspan></text>
+<line x1="675" y1="912" x2="1045" y2="912" stroke="black" stroke-width="2" /><text x="695" y="908" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="908">0..*</tspan></text>
+<text x="1023" y="908" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="908">1..*</tspan></text>
+<text x="860" y="928" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="928">identifies</tspan></text>
 </g>
 <g><!-- prognostic condition -->
-<a xlink:href="./prognostic-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="875" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition representing the expected course of a health state as assessed by care professionals</title></rect></a><text x="1120" y="888" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="888">prognostic</tspan><tspan x="1120" y="904">condition</tspan></text>
+<a xlink:href="./prognostic-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="875" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition representing the expected course of a health state as assessed by care professionals</title></rect></a><text x="1120" y="904" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="904">prognostic</tspan><tspan x="1120" y="932">condition</tspan></text>
 </g>
 <g><!-- Association issues referral -->
-<line x1="675" y1="992" x2="1045" y2="992" stroke="black" stroke-width="2" /><text x="695" y="988" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="988">1..*</tspan></text>
-<text x="1023" y="988" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="988">0..*</tspan></text>
-<text x="860" y="1008" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="1008">issues</tspan></text>
+<line x1="675" y1="992" x2="1045" y2="992" stroke="black" stroke-width="2" /><text x="695" y="988" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="988">0..*</tspan></text>
+<text x="1023" y="988" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="988">1..*</tspan></text>
+<text x="860" y="1008" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="1008">issues</tspan></text>
 </g>
 <g><!-- referral -->
-<a xlink:href="./referral.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="955" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>request for care where a care professional asks a care provider to make a care commitment for a care period mandate</title></rect></a><text x="1120" y="968" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="968">referral</tspan></text>
+<a xlink:href="./referral.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="955" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>request for care where a care professional asks a care provider to make a care commitment for a care period mandate</title></rect></a><text x="1120" y="985" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="1120" y="985">referral</tspan></text>
 </g>
 <g><!-- Association manages demand request for care -->
-<line x1="675" y1="1072" x2="1045" y2="1072" stroke="black" stroke-width="2" /><text x="695" y="1068" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="1068">1..*</tspan></text>
-<text x="1023" y="1068" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="1068">0..*</tspan></text>
-<text x="860" y="1088" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="1088">manages demand</tspan></text>
+<line x1="675" y1="1072" x2="1045" y2="1072" stroke="black" stroke-width="2" /><text x="695" y="1068" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="1068">0..*</tspan></text>
+<text x="1023" y="1068" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="1068">1..*</tspan></text>
+<text x="860" y="1088" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="1088">manages demand</tspan></text>
 </g>
 <g><!-- request for care -->
-<a xlink:href="./request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="1035" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>request for care provider activities</title></rect></a><text x="1120" y="1048" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="1048">request for care</tspan></text>
+<a xlink:href="./request-for-care.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="1035" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>request for care provider activities</title></rect></a><text x="1120" y="1064" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="1064">request</tspan><tspan x="1120" y="1092">for care</tspan></text>
 </g>
 <g><!-- Association determines working diagnosis -->
-<line x1="675" y1="1152" x2="1045" y2="1152" stroke="black" stroke-width="2" /><text x="695" y="1148" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="1148">1..*</tspan></text>
-<text x="1023" y="1148" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="1148">0..*</tspan></text>
-<text x="860" y="1168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="1168">determines</tspan></text>
+<line x1="675" y1="1152" x2="1045" y2="1152" stroke="black" stroke-width="2" /><text x="695" y="1148" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="1148">0..*</tspan></text>
+<text x="1023" y="1148" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="1148">1..*</tspan></text>
+<text x="860" y="1168" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="1168">determines</tspan></text>
 </g>
 <g><!-- working diagnosis -->
-<a xlink:href="./working-diagnosis.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="1115" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>considered condition that one or more care professionals have determined to be the most consistent with observed conditions</title></rect></a><text x="1120" y="1128" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="1128">working diagnosis</tspan></text>
+<a xlink:href="./working-diagnosis.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="1115" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>considered condition that one or more care professionals have determined to be the most consistent with observed conditions</title></rect></a><text x="1120" y="1144" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="1144">working</tspan><tspan x="1120" y="1172">diagnosis</tspan></text>
 </g>
 <g><!-- Focal care professional -->
-<a xlink:href="./care-professional.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="1040" fill="white" stroke="black" stroke-width="2"><title>person holding a care professional entitlement</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">care professional</tspan></text>
+<a xlink:href="./care-professional.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="1040" fill="white" stroke="black" stroke-width="2"><title>person holding a care professional entitlement</title></rect></a><text x="600" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="185">care</tspan><tspan x="600" y="215">professional</tspan></text>
 </g>
 </svg>

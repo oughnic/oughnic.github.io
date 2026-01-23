@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 317" role="img" aria-labelledby="title desc"><title id="title">Class Diagram of intended outcome</title><desc id="desc">Generated diagram of focal class intended outcome and related classes.</desc><!-- Super types of intended outcome -->
 <g><!-- health matter -->
-<a xlink:href="./health-matter.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>circumstance contributing to the health state of a person</title></rect></a><text x="600" y="18" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="18">health matter</tspan></text>
+<a xlink:href="./health-matter.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="5" width="150" height="75" fill="white" stroke="black" stroke-width="2"><title>circumstance contributing to the health state of a person</title></rect></a><text x="600" y="34" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="600" y="34">health</tspan><tspan x="600" y="62">matter</tspan></text>
 </g>
 <!-- Generalization intended outcome -> health matter -->
 <line x1="600" y1="155" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="82" x2="600" y2="135" stroke="black" stroke-width="2" /><line x1="600" y1="135" x2="600" y2="135" stroke="black" stroke-width="2" /><polygon points="600,82 595,92 605,92" fill="white" stroke="black" stroke-width="2" /><g><!-- Association contributes to achievement of care goal -->
-<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="188">0..*</tspan></text>
-<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="188">1..*</tspan></text>
-<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="208">contributes to achievement of</tspan></text>
+<line x1="155" y1="192" x2="525" y2="192" stroke="black" stroke-width="2" /><text x="175" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="188">1..*</tspan></text>
+<text x="505" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="188">0..*</tspan></text>
+<text x="340" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="208">contributes to achievement</tspan><tspan x="340" y="234">of</tspan></text>
 </g>
 <g><!-- care goal -->
-<a xlink:href="./care-goal.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>desired achievement of one or more care activities</title></rect></a><text x="80" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="168">care goal</tspan></text>
+<a xlink:href="./care-goal.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>desired achievement of one or more care activities</title></rect></a><text x="80" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="80" y="185">care goal</tspan></text>
 </g>
 <g><!-- Association represents target condition -->
-<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="175" y="268">1..*</tspan></text>
-<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="505" y="268">1..*</tspan></text>
-<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="340" y="288">represents</tspan></text>
+<line x1="155" y1="272" x2="525" y2="272" stroke="black" stroke-width="2" /><text x="175" y="268" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="175" y="268">1..*</tspan></text>
+<text x="505" y="268" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="505" y="268">1..*</tspan></text>
+<text x="340" y="288" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="340" y="288">represents</tspan></text>
 </g>
 <g><!-- target condition -->
-<a xlink:href="./target-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition representing either health objectives or care goals</title></rect></a><text x="80" y="248" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="80" y="248">target condition</tspan></text>
+<a xlink:href="./target-condition.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="5" y="235" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>potential health condition representing either health objectives or care goals</title></rect></a><text x="80" y="264" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="80" y="264">target</tspan><tspan x="80" y="292">condition</tspan></text>
 </g>
 <g><!-- Association addresses health need -->
-<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="12" fill="black"><tspan x="695" y="188">0..*</tspan></text>
-<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="12" fill="black"><tspan x="1023" y="188">1..*</tspan></text>
-<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="860" y="208">addresses</tspan></text>
+<line x1="675" y1="192" x2="1045" y2="192" stroke="black" stroke-width="2" /><text x="695" y="188" text-anchor="start" font-family="Cambria" font-size="22" fill="black"><tspan x="695" y="188">1..*</tspan></text>
+<text x="1023" y="188" text-anchor="end" font-family="Cambria" font-size="22" fill="black"><tspan x="1023" y="188">0..*</tspan></text>
+<text x="860" y="208" text-anchor="middle" font-family="Cambria" font-size="22" fill="black"><tspan x="860" y="208">addresses</tspan></text>
 </g>
 <g><!-- health need -->
-<a xlink:href="./health-need.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health matter causing a deficit in the current health state compared to aspects of a desired future health state</title></rect></a><text x="1120" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="1120" y="168">health need</tspan></text>
+<a xlink:href="./health-need.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="1045" y="155" width="150" height="75" fill="whitesmoke" stroke="black" stroke-width="2"><title>health matter causing a deficit in the current health state compared to aspects of a desired future health state</title></rect></a><text x="1120" y="184" text-anchor="middle" font-family="Cambria" font-size="24.0625" fill="black"><tspan x="1120" y="184">health</tspan><tspan x="1120" y="212">need</tspan></text>
 </g>
 <g><!-- Focal intended outcome -->
-<a xlink:href="./intended-outcome.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>desired achievement of a care process addressing health needs</title></rect></a><text x="600" y="168" text-anchor="middle" font-family="Cambria" font-size="12" fill="black"><tspan x="600" y="168">intended outcome</tspan></text>
+<a xlink:href="./intended-outcome.html" target="_top" xmlns:xlink="http://www.w3.org/1999/xlink"><rect x="525" y="155" width="150" height="160" fill="white" stroke="black" stroke-width="2"><title>desired achievement of a care process addressing health needs</title></rect></a><text x="600" y="185" text-anchor="middle" font-family="Cambria" font-size="25" fill="black"><tspan x="600" y="185">intended</tspan><tspan x="600" y="215">outcome</tspan></text>
 </g>
 </svg>
